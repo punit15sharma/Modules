@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env /Users/zschillaci/Software/miniconda3/envs/pyenv/bin/python
 import csv
 import collections
 import numpy as np
@@ -26,39 +26,56 @@ def setPlotStyle():
     plt.rcParams['patch.edgecolor'] = 'none'
     plt.rcParams.update({'figure.max_open_warning': 0})
 
-directory = '/Users/TheUniverse/BNL/Working/modules/BNL_Test_Data/DATA/results/'
+recption_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/bnl_reception_test/'
+recption_files = [
+'ABC130_M4_H2_HCC2_RC_0_0.txt',
+'ABC130_M4_H5_HCC5_RC_0_0.txt',
+'ABC130_M5_H3_HCC3_RC_0_0.txt',
+'ABC130_M5_H7_HCC6_RC_0_0.txt',
+'ABC130_M6_H0_HCC6_RC_0_0.txt',
+'ABC130_M6_H6_HCC12_RC_0_0.txt',
+'ABC130_M6_Hyb1_RC_0_0.txt',
+'ABC130_M6_Hyb4_RC_0_0.txt',
+'ABC130_M7_H1_HCC7_RC_0_0.txt',
+'ABC130_M7_H5_HCC11_RC_0_0.txt',
+'ABC130_M7_Hyb2_RC_0_0.txt',
+'ABC130_M7_Hyb4_RC_0_0.txt',
+'ABC130_M9_Hyb0_RC_0_0.txt',
+'ABC130_M9_Hyb6_RC_0_0.txt',
+'ABC130_M10_H1_HCC13_RC_0_0.txt',
+'ABC130_M10_H7_HCC6_RC_0_0.txt',
+'ABC130_M10_Hyb0_RC_0_0.txt',
+'ABC130_M10_Hyb7_RC_0_0.txt',
+'ABC130_M11_H3_HCC15_RC_0_0.txt',
+'ABC130_M11_H4_HCC14_RC_0_0.txt',
+'ABC130_M11_Hyb1_RC_0_0.txt',
+'ABC130_M11_Hyb7_RC_0_0.txt',
+'ABC130_M12_Hyb2_RC_0_0.txt',
+'ABC130_M12_Hyb6_RC_0_0.txt']
 
-BNL_Results = ['ABC130_M1_BNL_RC_32828_23.txt', 'ABC130_M1_BNL_RC_32836_4.txt', 'ABC130_M1_BNL_RC_32870_3.txt',
-               'ABC130_M1_BNL_RC_32832_10.txt', 'ABC130_M1_BNL_RC_32866_7.txt', 'ABC130_M1_BNL_RC_32870_30.txt',
-               'ABC130_M1_BNL_RC_32832_5.txt',  'ABC130_M1_BNL_RC_32869_7.txt', 'ABC130_M1_BNL_RC_32870_40.txt',
-               'ABC130_M1_BNL_RC_32835_6.txt',  'ABC130_M1_BNL_RC_32870_27.txt',
-
-               'ABC130_M2_BNL_RC_32828_23.txt', 'ABC130_M2_BNL_RC_32836_4.txt',  'ABC130_M2_BNL_RC_32870_3.txt',
-               'ABC130_M2_BNL_RC_32832_10.txt', 'ABC130_M2_BNL_RC_32867_5.txt',  'ABC130_M2_BNL_RC_32870_30.txt',
-               'ABC130_M2_BNL_RC_32832_5.txt',  'ABC130_M2_BNL_RC_32869_7.txt',  'ABC130_M2_BNL_RC_32870_40.txt',
-               'ABC130_M2_BNL_RC_32835_6.txt',  'ABC130_M2_BNL_RC_32870_27.txt']
-
-LBNL_Results = ['ABC130_M1_LBNL_RC_32909_3.txt', 'ABC130_M1_LBNL_RC_32912_3.txt', 'ABC130_M1_LBNL_RC_32913_4.txt',
-                'ABC130_M1_LBNL_RC_32910_3.txt', 'ABC130_M1_LBNL_RC_32912_8.txt', 'ABC130_M1_LBNL_RC_32925_3.txt',
-
-                'ABC130_M2_LBNL_RC_32909_3.txt', 'ABC130_M2_LBNL_RC_32912_3.txt', 'ABC130_M2_LBNL_RC_32913_4.txt',
-                'ABC130_M2_LBNL_RC_32910_3.txt', 'ABC130_M2_LBNL_RC_32912_8.txt', 'ABC130_M2_LBNL_RC_32925_3.txt']
-
-SCIPP_Results = ['ABC130_SCIPP01_PXH3_RC_32878_31.txt',
-                 'ABC130_SCIPP01_PXH3_RC_32878_34.txt',
-                 'ABC130_SCIPP01_PXH3_RC_32878_44.txt',
-                 'ABC130_SCIPP01_PXH3_RC_32878_7.txt',
-
-                 'ABC130_SCIPP01_PXH4_RC_32878_31.txt',
-                 'ABC130_SCIPP01_PXH4_RC_32878_34.txt',
-                 'ABC130_SCIPP01_PXH4_RC_32878_44.txt',
-                 'ABC130_SCIPP01_PXH4_RC_32878_7.txt',
-
-                 'ABC130_SCIPP_M7_Hyb2_RC_32929_3.txt',
-                 'ABC130_SCIPP_M7_Hyb2_RC_32929_8.txt',
-                 'ABC130_SCIPP_M7_Hyb4_RC_32929_8.txt',
-                 'ABC130_SCIPP_M7_Hyb4_RC_32929_3.txt']
-
-print(BNL_Results)
-print(LBNL_Results)
-print(SCIPP_Results)
+production_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/production_site_results/'
+production_files = [
+'ABC130_M4_H2_HCC2_RC_2_40.txt',
+'ABC130_M4_H5_HCC5_RC_2_40.txt',
+'ABC130_M5_H3_HCC3_RC_2_40.txt',
+'ABC130_M5_H7_HCC6_RC_2_40.txt',
+'ABC130_M6_H0_HCC6_RC_2_40.txt',
+'ABC130_M6_H6_HCC12_RC_2_40.txt',
+'ABC130_M6_Hyb1_RC_2_40.txt',
+'ABC130_M6_Hyb4_RC_2_40.txt',
+'ABC130_M7_H1_HCC7_RC_2_40.txt',
+'ABC130_M7_H5_HCC11_RC_2_40.txt',
+'ABC130_M7_Hyb2_RC_2_40.txt',
+'ABC130_M7_Hyb4_RC_2_40.txt',
+'ABC130_M9_Hyb0_RC_2_40.txt',
+'ABC130_M9_Hyb6_RC_2_40.txt',
+'ABC130_M10_H1_HCC13_RC_2_40.txt',
+'ABC130_M10_H7_HCC6_RC_2_40.txt',
+'ABC130_M10_Hyb0_RC_2_40.txt',
+'ABC130_M10_Hyb7_RC_2_40.txt',
+'ABC130_M11_H3_HCC15_RC_2_40.txt',
+'ABC130_M11_H4_HCC14_RC_2_40.txt',
+'ABC130_M11_Hyb1_RC_2_40.txt',
+'ABC130_M11_Hyb7_RC_2_40.txt',
+'ABC130_M12_Hyb2_RC_2_40.txt',
+'ABC130_M12_Hyb6_RC_2_40.txt']
