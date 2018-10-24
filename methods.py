@@ -128,10 +128,10 @@ class ABC130_Site_Results(ABC130_Single_Result):
                 self.outnse.append(getOutputNoise(gain, innse))
                 self.comm.append(row[5])
 
-def plotMultiple(allResults, selections = [], unselections = []):
+def plotMultiple(allResults, extension, selections = [], unselections = []):
     fig = plt.figure("Summary", (12, 8))
 
-    dictOfSeries = {}
+    dictOfSeries = collections.OrderedDict()
 
     ax1 = fig.add_subplot(221)
     plt.grid(False)
@@ -182,14 +182,14 @@ def plotMultiple(allResults, selections = [], unselections = []):
     plt.legend(loc=1)
 
 
-    fname = 'ABC130_Results_SiteComparison'
-    if ((selections == []) and (unselections == [])):
-        fname += '-all'
-    else:
-        for selection in selections:
-            fname += '-' + selection
-        for unselection in unselections:
-            fname += '-!' + unselection
+    fname = 'ABC130_Results_Comparison-' + extension
+    # if ((selections == []) and (unselections == [])):
+    #     fname += '-all'
+    # else:
+    #     for selection in selections:
+    #         fname += '-' + selection
+    #     for unselection in unselections:
+    #         fname += '-!' + unselection
 
     plt.savefig(fname + '.pdf')
     plt.close()
