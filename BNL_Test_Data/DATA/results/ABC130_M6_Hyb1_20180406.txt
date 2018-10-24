@@ -1,0 +1,123 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M6_Hyb1
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33040-2
+TEST_DATE      : 06/04/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"09:06:26"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+16 20 21 23 20 19 19 18 24 19 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+16 20 21 24 19 19 19 19 24 19 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M16 Low Rise: 1.2 - using falling edge
+#
+%Comment
+COMMENT        : S17 Low Rise: 4.7 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 4.7 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.6 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 3.8 - using falling edge
+#
+%Comment
+COMMENT        : M16 Low Rise: 1.0 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 4.4 - using falling edge
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M6_Hyb1
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33057-2
+TEST_DATE      : 06/04/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"15:29:09"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+16 20 21 24 20 19 19 18 24 19 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+16 20 21 24 20 19 19 19 24 19 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M16 Low Rise: 1.8 - using falling edge
+#
+%Comment
+COMMENT        : M16 Low Rise: 1.6 - using falling edge
+#

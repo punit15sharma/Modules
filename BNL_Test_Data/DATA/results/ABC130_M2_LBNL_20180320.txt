@@ -1,0 +1,405 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M2_LBNL
+TEST MADE BY   : hh
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32925-2
+TEST_DATE      : 20/03/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"18:21:14"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+18 22 20 23 22 19 23 21 22 21 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+18 22 20 23 22 19 23 20 22 21 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M2_LBNL
+TEST MADE BY   : hh
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32925-3
+TEST_DATE      : 20/03/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"18:33:36"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+1.01 	2.00 	3.01 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	76.91 	85.30 	0.00
+#S17
+	4 	75.72 	87.37 	0.00
+#S18
+	4 	82.61 	82.30 	0.00
+#S19
+	4 	86.12 	77.78 	0.00
+#S20
+	4 	77.29 	86.13 	0.00
+#S21
+	4 	83.24 	81.24 	0.00
+#S22
+	4 	76.45 	88.33 	0.00
+#S23
+	4 	78.73 	85.45 	0.00
+#S24
+	4 	83.65 	82.08 	0.00
+#E25
+	4 	88.88 	78.96 	0.00
+#M16
+	4 	76.01 	85.74 	0.00
+#S17
+	4 	76.07 	86.81 	0.00
+#S18
+	4 	82.77 	82.04 	0.00
+#S19
+	4 	85.80 	78.34 	0.00
+#S20
+	4 	78.74 	84.99 	0.00
+#S21
+	4 	83.55 	81.12 	0.00
+#S22
+	4 	76.09 	88.32 	0.00
+#S23
+	4 	78.31 	85.97 	0.00
+#S24
+	4 	83.81 	81.89 	0.00
+#E25
+	4 	87.14 	79.51 	0.00
+#
+#Loop B - Gain, Offset, Noise at 2.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	250.2 	 3.94 	85.1 	4.42 	 85.1 	 4.42 	9.76 	  712 	  79
+#S17
+	253.6 	 2.59 	87.2 	3.68 	 87.2 	 3.68 	9.87 	  703 	  68
+#S18
+	249.8 	 3.37 	82.1 	3.96 	 82.1 	 3.96 	9.82 	  748 	  30
+#S19
+	243.4 	 2.93 	77.7 	3.38 	 77.7 	 3.38 	9.70 	  781 	  28
+#S20
+	252.2 	 3.04 	85.5 	3.54 	 85.5 	 3.54 	10.50 	  773 	 113
+#S21
+	248.8 	 3.58 	81.1 	3.79 	 78.5 	14.70 	10.14 	  747 	 168
+#S22
+	256.4 	 3.40 	88.1 	4.04 	 88.1 	 4.04 	10.87 	  772 	  32
+#S23
+	253.5 	 3.86 	85.6 	4.18 	 85.6 	 4.18 	9.69 	  714 	  96
+#S24
+	250.1 	 3.19 	82.0 	3.91 	 82.0 	 3.91 	9.51 	  726 	  27
+#E25
+	249.4 	 2.95 	79.2 	3.62 	 77.9 	10.49 	9.86 	  765 	 126
+#M16
+	250.2 	 3.77 	85.2 	4.39 	 85.2 	 4.39 	9.12 	  671 	  82
+#S17
+	253.2 	 2.96 	86.9 	4.14 	 86.9 	 4.14 	8.99 	  643 	  63
+#S18
+	249.5 	 3.76 	81.8 	4.50 	 81.8 	 4.50 	8.77 	  672 	  33
+#S19
+	244.2 	 2.85 	78.3 	3.33 	 78.3 	 3.33 	8.86 	  708 	  29
+#S20
+	252.0 	 3.10 	85.1 	3.96 	 85.1 	 3.96 	9.27 	  679 	  68
+#S21
+	248.3 	 3.52 	80.6 	3.52 	 80.6 	 3.52 	9.15 	  705 	  68
+#S22
+	255.9 	 3.06 	88.1 	3.83 	 88.1 	 3.83 	9.39 	  667 	  24
+#S23
+	253.5 	 3.87 	85.7 	3.98 	 85.7 	 3.98 	8.95 	  653 	  27
+#S24
+	249.9 	 3.13 	81.8 	3.73 	 81.8 	 3.73 	9.07 	  694 	  26
+#E25
+	249.2 	 2.96 	79.1 	3.70 	 78.5 	 7.83 	9.28 	  734 	  29
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 2.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  3	  0	  1	  0	  0	  3	  1	  0	  1	  0	  0	  0
+#Chip S17:	  1	  0	  1	  0	  0	  1	  1	  0	  1	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  1	  2	  0	  0	  0	  1	  1	  0	  1	  0	  0	  2
+#Chip S21:	  6	  1	  3	  0	  0	  6	  6	  0	  2	  0	  0	  1
+#Chip S22:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S23:	  1	  4	  0	  0	  0	  1	  1	  0	  1	  0	  0	  4
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  3	  4	  2	  0	  0	  3	  3	  0	  1	  0	  0	  4
+#Chip M16:	  1	  2	  0	  0	  0	  1	  1	  0	  1	  0	  0	  2
+#Chip S17:	  1	  0	  0	  0	  0	  1	  1	  0	  1	  0	  0	  0
+#Chip S18:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  1	  2	  0	  0	  0	  1	  1	  0	  1	  0	  0	  2
+#Chip S21:	  1	  0	  0	  0	  0	  1	  1	  0	  1	  0	  0	  0
+#Chip S22:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  1
+#Link 0:	 15	 12	  7	  0	  0	 15	 13	  0	  7	  0	  0	 12
+#Link 1:	  4	  7	  0	  0	  0	  4	  5	  0	  4	  0	  0	  7
+#Link 2:	 19	 19	  7	  0	  0	 19	 18	  0	 11	  0	  0	 19
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 45
+LAST CHANNEL   : 45
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 82
+LAST CHANNEL   : 82
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 111
+LAST CHANNEL   : 111
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 209
+LAST CHANNEL   : 209
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 595
+LAST CHANNEL   : 595
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 596
+LAST CHANNEL   : 596
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 597
+LAST CHANNEL   : 597
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 673
+LAST CHANNEL   : 673
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 701
+LAST CHANNEL   : 701
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 706
+LAST CHANNEL   : 706
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 719
+LAST CHANNEL   : 719
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 721
+LAST CHANNEL   : 721
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 739
+LAST CHANNEL   : 739
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 762
+LAST CHANNEL   : 762
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 861
+LAST CHANNEL   : 861
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 900
+LAST CHANNEL   : 900
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 902
+LAST CHANNEL   : 902
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 960
+LAST CHANNEL   : 960
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 961
+LAST CHANNEL   : 961
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 962
+LAST CHANNEL   : 962
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1212
+LAST CHANNEL   : 1213
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1214
+LAST CHANNEL   : 1214
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1215
+LAST CHANNEL   : 1216
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 1273
+LAST CHANNEL   : 1273
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 1276
+LAST CHANNEL   : 1276
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1301
+LAST CHANNEL   : 1301
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1302
+LAST CHANNEL   : 1302
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1303
+LAST CHANNEL   : 1303
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1448
+LAST CHANNEL   : 1448
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1538
+LAST CHANNEL   : 1538
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1873
+LAST CHANNEL   : 1873
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1874
+LAST CHANNEL   : 1874
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1875
+LAST CHANNEL   : 1875
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1960
+LAST CHANNEL   : 1960
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2092
+LAST CHANNEL   : 2092
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 2492
+LAST CHANNEL   : 2492
+#
+#36 defects found affecting 38 strips
+#5 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : FAIL due to 38 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/grosin/Desktop/itsdaq-sw/DATA/results/ABC130_M2_LBNL_RC_32925_3.txt
+#

@@ -1,0 +1,300 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M6_Hyb4
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32996-2
+TEST_DATE      : 04/04/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"12:39:06"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 20 20 21 18 16 21 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 20 20 21 18 16 21 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: 2.4 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 2.1 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 5.0 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 4.7 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 4.2 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 2.1 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 1.9 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 4.4 - using falling edge
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M6_Hyb4
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33010-2
+TEST_DATE      : 04/04/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"19:00:45"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 19 20 21 17 16 20 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 19 20 21 17 16 21 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: 0.5 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 1.3 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.3 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 3.1 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.7 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 0.2 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 1.2 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.7 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 3.0 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.8 - using falling edge
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M6_Hyb4
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33014-2
+TEST_DATE      : 04/04/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"20:24:10"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 20 20 21 18 16 21 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 20 20 21 18 16 21 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: 2.6 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 2.3 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 5.1 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 4.8 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 4.3 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 2.3 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 2.1 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 4.4 - using falling edge
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M6_Hyb4
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33016-2
+TEST_DATE      : 04/04/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"20:26:40"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 20 20 21 17 16 20 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 20 20 21 17 16 21 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: 0.5 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 1.2 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.0 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 3.1 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.5 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 0.0 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 0.9 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.5 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 2.9 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.6 - using falling edge
+#

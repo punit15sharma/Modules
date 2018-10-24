@@ -1,0 +1,148 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M6_Hyb4
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33040-2
+TEST_DATE      : 06/04/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"09:06:26"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 20 20 21 19 16 20 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 20 20 21 19 16 20 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2560
+LAST CHANNEL   : 2687
+#
+#2 defects found
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: -0.3 - using fall and mean width
+#
+%Comment
+COMMENT        : S21 Low Rise: 0.7 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 3.5 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 2.5 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.3 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: -0.8 - using fall and mean width
+#
+%Comment
+COMMENT        : S21 Low Rise: 0.4 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.1 - using falling edge
+#
+%Comment
+COMMENT        : S23 Low Rise: 2.4 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.3 - using falling edge
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M6_Hyb4
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33057-2
+TEST_DATE      : 06/04/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"15:29:09"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 20 20 21 18 16 21 19 19 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 20 20 21 18 16 21 19 20 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: 3.1 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 2.8 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 2.8 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 2.7 - using falling edge
+#

@@ -1,0 +1,288 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32810-2
+TEST_DATE      : 12/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"12:54:43"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 21 20 22 19 25 18 24 18 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 21 20 22 19 25 18 24 18 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32811-2
+TEST_DATE      : 12/02/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"17:54:48"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21 20 19 21 18 24 17 23 17 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21 20 19 21 18 24 17 23 17 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M16 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S17 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S18 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S19 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S20 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S21 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S22 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S23 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S24 has 1 Empty Bins
+#
+%Comment
+COMMENT        : E25 has 1 Empty Bins
+#
+%Comment
+COMMENT        : M16 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S17 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S18 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S19 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S20 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S21 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S22 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S23 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S24 has 1 Empty Bins
+#
+%Comment
+COMMENT        : E25 has 1 Empty Bins
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32811-4
+TEST_DATE      : 12/02/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"17:57:35"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21 21 20 21 19 24 18 23 18 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21 21 20 21 19 23 18 23 18 18 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S21 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S23 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S21 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S23 has 1 Empty Bins
+#
+%Comment
+COMMENT        : E25 has 3 Empty Bins
+#
+%Comment
+COMMENT        : E25 High SD width: 28.8 (module average 21.8)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32813-2
+TEST_DATE      : 12/02/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"18:06:48"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21 20 19 21 18 24 17 23 18 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21 20 19 21 18 24 17 23 18 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: 2.9 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 2.9 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.3 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 3.3 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 2.8 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.1 - using falling edge
+#

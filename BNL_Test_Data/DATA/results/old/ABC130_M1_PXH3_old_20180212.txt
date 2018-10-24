@@ -1,0 +1,327 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH3_old
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32810-2
+TEST_DATE      : 12/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"12:54:43"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+20 21 24 18 19 24 20 21 18 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+20 21 24 18 20 25 20 21 18 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH3_old
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32811-2
+TEST_DATE      : 12/02/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"17:54:48"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 21 31 17 19 35 19 20 18 19 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 34 23 18 19 33 19 21 18 19 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M16 has 1 Empty Bins
+#
+%Comment
+COMMENT        : M16 High SD width: 24.5 (module average 1.9)
+#
+%Comment
+COMMENT        : S17 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S17 High SD width: 23.5 (module average 1.9)
+#
+%Comment
+COMMENT        : S18 High SD width: 6.3 (module average 1.9)
+#
+%Comment
+COMMENT        : S19 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S19 High SD width: 22.4 (module average 1.9)
+#
+%Comment
+COMMENT        : S20 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S20 High SD width: 25.5 (module average 1.9)
+#
+%Comment
+COMMENT        : S21 High SD width: 3.2 (module average 1.9)
+#
+%Comment
+COMMENT        : S22 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S22 High SD width: 23.5 (module average 1.9)
+#
+%Comment
+COMMENT        : S23 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S23 High SD width: 24.4 (module average 1.9)
+#
+%Comment
+COMMENT        : S24 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.1 - using falling edge
+#
+%Comment
+COMMENT        : S24 High SD width: 25.7 (module average 1.9)
+#
+%Comment
+COMMENT        : E25 has 1 Empty Bins
+#
+%Comment
+COMMENT        : E25 High SD width: 23.7 (module average 1.9)
+#
+%Comment
+COMMENT        : M16 has 1 Empty Bins
+#
+%Comment
+COMMENT        : M16 High SD width: 24.4 (module average 1.9)
+#
+%Comment
+COMMENT        : S17 Low SD width: -7.8 (module average 1.9)
+#
+%Comment
+COMMENT        : S18 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S18 High SD width: 26.3 (module average 1.9)
+#
+%Comment
+COMMENT        : S19 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S19 High SD width: 22.1 (module average 1.9)
+#
+%Comment
+COMMENT        : S20 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S20 Low Rise: 4.3 - using falling edge
+#
+%Comment
+COMMENT        : S20 High SD width: 25.6 (module average 1.9)
+#
+%Comment
+COMMENT        : S21 High SD width: 5.8 (module average 1.9)
+#
+%Comment
+COMMENT        : S22 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S22 High SD width: 23.5 (module average 1.9)
+#
+%Comment
+COMMENT        : S23 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S23 High SD width: 23.9 (module average 1.9)
+#
+%Comment
+COMMENT        : S24 has 1 Empty Bins
+#
+%Comment
+COMMENT        : S24 Low Rise: 2.6 - using falling edge
+#
+%Comment
+COMMENT        : S24 High SD width: 26.3 (module average 1.9)
+#
+%Comment
+COMMENT        : E25 has 1 Empty Bins
+#
+%Comment
+COMMENT        : E25 High SD width: 23.2 (module average 1.9)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH3_old
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32811-4
+TEST_DATE      : 12/02/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"17:57:35"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+20 21 22 18 19 20 20 21 19 19 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+20 21 22 18 20 24 20 21 18 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S21 has 2 Empty Bins
+#
+%Comment
+COMMENT        : S21 High SD width: 31.8 (module average 22.4)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH3_old
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32813-2
+TEST_DATE      : 12/02/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"18:06:48"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 21 23 18 19 24 20 21 18 19 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 21 23 18 19 24 20 21 18 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: 4.3 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.5 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 4.3 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.0 - using falling edge
+#

@@ -1,0 +1,6086 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32769-2
+TEST_DATE      : 08/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"16:34:57"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+24 23 22 24 21 26 20 26 21 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 23 22 24 21 26 20 26 21 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32769-4
+TEST_DATE      : 08/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"16:38:42"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 18 17 19 16 22 16 21 17 18 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 18 17 19 16 22 16 21 17 18 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.40
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32769-5
+TEST_DATE      : 08/02/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"16:48:23"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	83.55 	81.62 	0.00
+#S17
+	4 	88.07 	82.82 	0.00
+#S18
+	4 	86.91 	73.11 	0.00
+#S19
+	4 	86.38 	74.48 	0.00
+#S20
+	4 	89.43 	67.29 	0.00
+#S21
+	4 	87.52 	71.94 	0.00
+#S22
+	4 	86.36 	69.38 	0.00
+#S23
+	4 	87.33 	80.26 	0.00
+#S24
+	4 	86.54 	68.95 	0.00
+#E25
+	4 	85.10 	75.72 	0.00
+#M16
+	4 	84.10 	83.82 	0.00
+#S17
+	4 	84.90 	84.10 	0.00
+#S18
+	4 	86.67 	75.68 	0.00
+#S19
+	4 	87.77 	76.49 	0.00
+#S20
+	4 	87.15 	67.46 	0.00
+#S21
+	4 	85.94 	73.32 	0.00
+#S22
+	4 	84.92 	70.67 	0.00
+#S23
+	4 	87.89 	78.84 	0.00
+#S24
+	4 	85.79 	68.61 	0.00
+#E25
+	4 	87.09 	76.14 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	###    Too many defects in this chip!    ###
+#S17
+	###    Too many defects in this chip!    ###
+#S18
+	###    Too many defects in this chip!    ###
+#S19
+	###    Too many defects in this chip!    ###
+#S20
+	###    Too many defects in this chip!    ###
+#S21
+	###    Too many defects in this chip!    ###
+#S22
+	157.6 	13.94 	67.5 	8.74 	 67.5 	 8.74 	10.83 	 1021 	 128
+#S23
+	###    Too many defects in this chip!    ###
+#S24
+	###    Too many defects in this chip!    ###
+#E25
+	###    Too many defects in this chip!    ###
+#M16
+	###    Too many defects in this chip!    ###
+#S17
+	###    Too many defects in this chip!    ###
+#S18
+	###    Too many defects in this chip!    ###
+#S19
+	###    Too many defects in this chip!    ###
+#S20
+	###    Too many defects in this chip!    ###
+#S21
+	###    Too many defects in this chip!    ###
+#S22
+	157.3 	12.75 	69.0 	7.90 	 69.0 	 7.90 	9.70 	  889 	  98
+#S23
+	###    Too many defects in this chip!    ###
+#S24
+	156.9 	13.65 	66.7 	8.13 	 66.7 	 8.13 	9.78 	  930 	 107
+#E25
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"high noise" 	"high noise" 	"high noise" 	"high noise" 	"high noise" 	"high noise" 	"high noise" 	"high noise" 	"high noise" 	"high noise" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"high noise" 	"OK" 	"high noise" 	"high noise" 	"high noise" 	"OK" 	"high noise" 	"high noise" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  0	 17	  0	  0	  0	  0	  1	  0	  0	  0	  0	 17
+#Chip S17:	  0	 22	  0	  0	  0	  0	  9	  0	  0	  0	  0	 22
+#Chip S18:	  0	 22	  0	  0	  0	  0	  1	  0	  0	  0	  0	 22
+#Chip S19:	  0	 18	  0	  0	  0	  0	  1	  0	  0	  0	  0	 18
+#Chip S20:	  0	 20	  0	  0	  0	  0	  1	  0	  0	  0	  0	 20
+#Chip S21:	  0	 23	  0	  0	  0	  0	  3	  0	  0	  0	  0	 23
+#Chip S22:	  0	 10	  0	  0	  0	  0	  1	  0	  0	  0	  0	 10
+#Chip S23:	  6	 27	  0	  0	  0	  6	  3	  0	  0	  0	  0	 27
+#Chip S24:	  0	 13	  0	  0	  0	  0	  0	  0	  0	  0	  0	 13
+#Chip E25:	  0	 20	  0	  0	  0	  0	  5	  0	  0	  0	  0	 20
+#Chip M16:	  0	 20	  0	  0	  0	  0	  1	  0	  0	  0	  0	 20
+#Chip S17:	  0	 18	  0	  0	  0	  0	  3	  0	  0	  0	  0	 18
+#Chip S18:	  0	 18	  0	  0	  0	  0	  2	  0	  0	  0	  0	 18
+#Chip S19:	  0	 20	  0	  0	  0	  0	  2	  0	  0	  0	  0	 20
+#Chip S20:	  0	 16	  0	  0	  0	  0	  3	  0	  0	  0	  0	 16
+#Chip S21:	  0	 18	  0	  0	  0	  0	  0	  0	  0	  0	  0	 18
+#Chip S22:	  0	 10	  0	  0	  0	  0	  1	  0	  0	  0	  0	 10
+#Chip S23:	  1	 19	  0	  0	  0	  1	  1	  0	  0	  0	  0	 19
+#Chip S24:	  0	 12	  0	  0	  0	  0	  0	  0	  0	  0	  0	 12
+#Chip E25:	  0	 18	  0	  0	  0	  0	  1	  0	  0	  0	  0	 18
+#Link 0:	  6	192	  0	  0	  0	  6	 25	  0	  0	  0	  0	192
+#Link 1:	  1	169	  0	  0	  0	  1	 14	  0	  0	  0	  0	169
+#Link 2:	  7	361	  0	  0	  0	  7	 39	  0	  0	  0	  0	361
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 19
+LAST CHANNEL   : 19
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 26
+LAST CHANNEL   : 26
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 31
+LAST CHANNEL   : 32
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 44
+LAST CHANNEL   : 44
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 54
+LAST CHANNEL   : 54
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 56
+LAST CHANNEL   : 56
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 71
+LAST CHANNEL   : 71
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 74
+LAST CHANNEL   : 74
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 76
+LAST CHANNEL   : 76
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 83
+LAST CHANNEL   : 83
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 85
+LAST CHANNEL   : 85
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 90
+LAST CHANNEL   : 90
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 93
+LAST CHANNEL   : 93
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 106
+LAST CHANNEL   : 106
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 111
+LAST CHANNEL   : 111
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 129
+LAST CHANNEL   : 129
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 138
+LAST CHANNEL   : 138
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 149
+LAST CHANNEL   : 149
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 152
+LAST CHANNEL   : 152
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 154
+LAST CHANNEL   : 154
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 155
+LAST CHANNEL   : 155
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 157
+LAST CHANNEL   : 157
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 162
+LAST CHANNEL   : 162
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 163
+LAST CHANNEL   : 163
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 175
+LAST CHANNEL   : 175
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 181
+LAST CHANNEL   : 181
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 182
+LAST CHANNEL   : 182
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 185
+LAST CHANNEL   : 185
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 196
+LAST CHANNEL   : 196
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 203
+LAST CHANNEL   : 203
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 205
+LAST CHANNEL   : 206
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 211
+LAST CHANNEL   : 211
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 218
+LAST CHANNEL   : 218
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 226
+LAST CHANNEL   : 226
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 231
+LAST CHANNEL   : 231
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 241
+LAST CHANNEL   : 241
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 265
+LAST CHANNEL   : 266
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 281
+LAST CHANNEL   : 281
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 283
+LAST CHANNEL   : 283
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 286
+LAST CHANNEL   : 286
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 290
+LAST CHANNEL   : 290
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 300
+LAST CHANNEL   : 302
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 306
+LAST CHANNEL   : 306
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 307
+LAST CHANNEL   : 307
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 308
+LAST CHANNEL   : 311
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 314
+LAST CHANNEL   : 315
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 317
+LAST CHANNEL   : 317
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 319
+LAST CHANNEL   : 319
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 325
+LAST CHANNEL   : 325
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 352
+LAST CHANNEL   : 352
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 355
+LAST CHANNEL   : 355
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 384
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 387
+LAST CHANNEL   : 387
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 389
+LAST CHANNEL   : 389
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 391
+LAST CHANNEL   : 391
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 400
+LAST CHANNEL   : 400
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 402
+LAST CHANNEL   : 402
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 413
+LAST CHANNEL   : 413
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 416
+LAST CHANNEL   : 416
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 437
+LAST CHANNEL   : 437
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 450
+LAST CHANNEL   : 450
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 455
+LAST CHANNEL   : 456
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 475
+LAST CHANNEL   : 475
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 477
+LAST CHANNEL   : 477
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 484
+LAST CHANNEL   : 484
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 497
+LAST CHANNEL   : 497
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 501
+LAST CHANNEL   : 501
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 506
+LAST CHANNEL   : 506
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 514
+LAST CHANNEL   : 514
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 524
+LAST CHANNEL   : 524
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 544
+LAST CHANNEL   : 544
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 546
+LAST CHANNEL   : 546
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 548
+LAST CHANNEL   : 548
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 550
+LAST CHANNEL   : 551
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 554
+LAST CHANNEL   : 554
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 559
+LAST CHANNEL   : 559
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 563
+LAST CHANNEL   : 563
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 566
+LAST CHANNEL   : 566
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 569
+LAST CHANNEL   : 569
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 571
+LAST CHANNEL   : 571
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 576
+LAST CHANNEL   : 576
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 580
+LAST CHANNEL   : 580
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 582
+LAST CHANNEL   : 582
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 591
+LAST CHANNEL   : 591
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 597
+LAST CHANNEL   : 597
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 609
+LAST CHANNEL   : 609
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 613
+LAST CHANNEL   : 613
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 678
+LAST CHANNEL   : 678
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 687
+LAST CHANNEL   : 687
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 699
+LAST CHANNEL   : 700
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 703
+LAST CHANNEL   : 703
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 704
+LAST CHANNEL   : 704
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 707
+LAST CHANNEL   : 707
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 713
+LAST CHANNEL   : 713
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 716
+LAST CHANNEL   : 716
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 718
+LAST CHANNEL   : 718
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 720
+LAST CHANNEL   : 720
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 722
+LAST CHANNEL   : 722
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 726
+LAST CHANNEL   : 726
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 733
+LAST CHANNEL   : 734
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 736
+LAST CHANNEL   : 736
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 739
+LAST CHANNEL   : 739
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 742
+LAST CHANNEL   : 742
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 744
+LAST CHANNEL   : 744
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 747
+LAST CHANNEL   : 747
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 749
+LAST CHANNEL   : 749
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 755
+LAST CHANNEL   : 755
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 760
+LAST CHANNEL   : 760
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 772
+LAST CHANNEL   : 772
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 774
+LAST CHANNEL   : 774
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 782
+LAST CHANNEL   : 783
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 785
+LAST CHANNEL   : 785
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 788
+LAST CHANNEL   : 789
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 795
+LAST CHANNEL   : 795
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 808
+LAST CHANNEL   : 808
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 823
+LAST CHANNEL   : 823
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 900
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 902
+LAST CHANNEL   : 902
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 910
+LAST CHANNEL   : 910
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 913
+LAST CHANNEL   : 914
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 922
+LAST CHANNEL   : 922
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 927
+LAST CHANNEL   : 927
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 930
+LAST CHANNEL   : 930
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 939
+LAST CHANNEL   : 939
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 942
+LAST CHANNEL   : 942
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 949
+LAST CHANNEL   : 949
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 956
+LAST CHANNEL   : 956
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 970
+LAST CHANNEL   : 972
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 977
+LAST CHANNEL   : 978
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 980
+LAST CHANNEL   : 980
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 981
+LAST CHANNEL   : 981
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 984
+LAST CHANNEL   : 985
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 989
+LAST CHANNEL   : 989
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 993
+LAST CHANNEL   : 993
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 995
+LAST CHANNEL   : 996
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1001
+LAST CHANNEL   : 1002
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1009
+LAST CHANNEL   : 1009
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1013
+LAST CHANNEL   : 1013
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1031
+LAST CHANNEL   : 1031
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1037
+LAST CHANNEL   : 1037
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1043
+LAST CHANNEL   : 1043
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1082
+LAST CHANNEL   : 1082
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1093
+LAST CHANNEL   : 1093
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1101
+LAST CHANNEL   : 1101
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1105
+LAST CHANNEL   : 1105
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1109
+LAST CHANNEL   : 1109
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1112
+LAST CHANNEL   : 1112
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1114
+LAST CHANNEL   : 1114
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1117
+LAST CHANNEL   : 1117
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1137
+LAST CHANNEL   : 1137
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1140
+LAST CHANNEL   : 1140
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1155
+LAST CHANNEL   : 1155
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1159
+LAST CHANNEL   : 1159
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1165
+LAST CHANNEL   : 1165
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1169
+LAST CHANNEL   : 1169
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1173
+LAST CHANNEL   : 1173
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1181
+LAST CHANNEL   : 1181
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1193
+LAST CHANNEL   : 1193
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1195
+LAST CHANNEL   : 1196
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1199
+LAST CHANNEL   : 1201
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1203
+LAST CHANNEL   : 1203
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1209
+LAST CHANNEL   : 1209
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1211
+LAST CHANNEL   : 1211
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1215
+LAST CHANNEL   : 1215
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1225
+LAST CHANNEL   : 1225
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1232
+LAST CHANNEL   : 1232
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1240
+LAST CHANNEL   : 1240
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1265
+LAST CHANNEL   : 1265
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1304
+LAST CHANNEL   : 1304
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1308
+LAST CHANNEL   : 1308
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1312
+LAST CHANNEL   : 1312
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1314
+LAST CHANNEL   : 1314
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1316
+LAST CHANNEL   : 1316
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1335
+LAST CHANNEL   : 1335
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1337
+LAST CHANNEL   : 1337
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1340
+LAST CHANNEL   : 1340
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1347
+LAST CHANNEL   : 1347
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1350
+LAST CHANNEL   : 1350
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1353
+LAST CHANNEL   : 1353
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1357
+LAST CHANNEL   : 1357
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1360
+LAST CHANNEL   : 1360
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1365
+LAST CHANNEL   : 1365
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1376
+LAST CHANNEL   : 1376
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1382
+LAST CHANNEL   : 1382
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1386
+LAST CHANNEL   : 1386
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1391
+LAST CHANNEL   : 1391
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1400
+LAST CHANNEL   : 1400
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1405
+LAST CHANNEL   : 1405
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1410
+LAST CHANNEL   : 1410
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1421
+LAST CHANNEL   : 1421
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1431
+LAST CHANNEL   : 1431
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1441
+LAST CHANNEL   : 1441
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1443
+LAST CHANNEL   : 1443
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1450
+LAST CHANNEL   : 1450
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1466
+LAST CHANNEL   : 1466
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1469
+LAST CHANNEL   : 1469
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1482
+LAST CHANNEL   : 1482
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1500
+LAST CHANNEL   : 1500
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1508
+LAST CHANNEL   : 1508
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1510
+LAST CHANNEL   : 1510
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1512
+LAST CHANNEL   : 1513
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1519
+LAST CHANNEL   : 1519
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1526
+LAST CHANNEL   : 1526
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1529
+LAST CHANNEL   : 1530
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1537
+LAST CHANNEL   : 1537
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1539
+LAST CHANNEL   : 1539
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1547
+LAST CHANNEL   : 1548
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1553
+LAST CHANNEL   : 1553
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1556
+LAST CHANNEL   : 1558
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1559
+LAST CHANNEL   : 1559
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1586
+LAST CHANNEL   : 1586
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1596
+LAST CHANNEL   : 1596
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1597
+LAST CHANNEL   : 1597
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1612
+LAST CHANNEL   : 1612
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1621
+LAST CHANNEL   : 1621
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1626
+LAST CHANNEL   : 1626
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1639
+LAST CHANNEL   : 1639
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1654
+LAST CHANNEL   : 1654
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1661
+LAST CHANNEL   : 1661
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1665
+LAST CHANNEL   : 1665
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1672
+LAST CHANNEL   : 1672
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1678
+LAST CHANNEL   : 1678
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1691
+LAST CHANNEL   : 1692
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1694
+LAST CHANNEL   : 1694
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1703
+LAST CHANNEL   : 1703
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1707
+LAST CHANNEL   : 1708
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1719
+LAST CHANNEL   : 1719
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1723
+LAST CHANNEL   : 1723
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1732
+LAST CHANNEL   : 1732
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1741
+LAST CHANNEL   : 1741
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1751
+LAST CHANNEL   : 1752
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1767
+LAST CHANNEL   : 1767
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1776
+LAST CHANNEL   : 1776
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1781
+LAST CHANNEL   : 1781
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1784
+LAST CHANNEL   : 1784
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1790
+LAST CHANNEL   : 1790
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1793
+LAST CHANNEL   : 1793
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1811
+LAST CHANNEL   : 1811
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1820
+LAST CHANNEL   : 1821
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1827
+LAST CHANNEL   : 1827
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1830
+LAST CHANNEL   : 1830
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1839
+LAST CHANNEL   : 1839
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1847
+LAST CHANNEL   : 1847
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1849
+LAST CHANNEL   : 1849
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1857
+LAST CHANNEL   : 1857
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1862
+LAST CHANNEL   : 1862
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1868
+LAST CHANNEL   : 1868
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1876
+LAST CHANNEL   : 1876
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1887
+LAST CHANNEL   : 1887
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1897
+LAST CHANNEL   : 1897
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1918
+LAST CHANNEL   : 1918
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1922
+LAST CHANNEL   : 1922
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1937
+LAST CHANNEL   : 1937
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1940
+LAST CHANNEL   : 1940
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1955
+LAST CHANNEL   : 1955
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1958
+LAST CHANNEL   : 1958
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1964
+LAST CHANNEL   : 1964
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1974
+LAST CHANNEL   : 1974
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1988
+LAST CHANNEL   : 1988
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1990
+LAST CHANNEL   : 1991
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1996
+LAST CHANNEL   : 1996
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2004
+LAST CHANNEL   : 2004
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2009
+LAST CHANNEL   : 2009
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2014
+LAST CHANNEL   : 2014
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2021
+LAST CHANNEL   : 2021
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2033
+LAST CHANNEL   : 2034
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2039
+LAST CHANNEL   : 2039
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2097
+LAST CHANNEL   : 2097
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2107
+LAST CHANNEL   : 2107
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 2117
+LAST CHANNEL   : 2117
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2120
+LAST CHANNEL   : 2120
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2130
+LAST CHANNEL   : 2131
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2135
+LAST CHANNEL   : 2135
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2144
+LAST CHANNEL   : 2144
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2146
+LAST CHANNEL   : 2146
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2150
+LAST CHANNEL   : 2150
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2176
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2179
+LAST CHANNEL   : 2179
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2181
+LAST CHANNEL   : 2181
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2185
+LAST CHANNEL   : 2185
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2193
+LAST CHANNEL   : 2194
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2208
+LAST CHANNEL   : 2208
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2219
+LAST CHANNEL   : 2219
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2231
+LAST CHANNEL   : 2231
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2234
+LAST CHANNEL   : 2234
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2258
+LAST CHANNEL   : 2258
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2265
+LAST CHANNEL   : 2265
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2268
+LAST CHANNEL   : 2268
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2276
+LAST CHANNEL   : 2277
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2281
+LAST CHANNEL   : 2281
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2285
+LAST CHANNEL   : 2285
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2293
+LAST CHANNEL   : 2294
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 2296
+LAST CHANNEL   : 2296
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2326
+LAST CHANNEL   : 2326
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2337
+LAST CHANNEL   : 2337
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2342
+LAST CHANNEL   : 2342
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2345
+LAST CHANNEL   : 2345
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2347
+LAST CHANNEL   : 2347
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2351
+LAST CHANNEL   : 2351
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2381
+LAST CHANNEL   : 2381
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2384
+LAST CHANNEL   : 2386
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2388
+LAST CHANNEL   : 2388
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2406
+LAST CHANNEL   : 2406
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2435
+LAST CHANNEL   : 2435
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2439
+LAST CHANNEL   : 2439
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2460
+LAST CHANNEL   : 2461
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2466
+LAST CHANNEL   : 2466
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2471
+LAST CHANNEL   : 2471
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2478
+LAST CHANNEL   : 2478
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2494
+LAST CHANNEL   : 2494
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2505
+LAST CHANNEL   : 2505
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2507
+LAST CHANNEL   : 2508
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2510
+LAST CHANNEL   : 2510
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2516
+LAST CHANNEL   : 2516
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2535
+LAST CHANNEL   : 2535
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 2538
+LAST CHANNEL   : 2538
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2548
+LAST CHANNEL   : 2548
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2558
+LAST CHANNEL   : 2559
+#
+#319 defects found affecting 368 strips
+#6 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : FAIL due to 368 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/grosin/DAQs/NewInstall/DATA/results/ABC130_M1_PXH4_old2_RC_32769_5.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : ss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32772-2
+TEST_DATE      : 08/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"18:26:14"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+24 23 22 24 21 26 20 26 21 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 23 22 24 21 26 20 26 21 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32773-2
+TEST_DATE      : 08/02/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"18:44:09"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 22 21 23 20 26 20 25 21 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 23 21 23 21 26 20 25 21 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S18 Low Rise: 4.3 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 3.6 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.2 - using falling edge
+#
+%Comment
+COMMENT        : S18 Low Rise: 4.3 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 4.2 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.4 - using falling edge
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32773-3
+TEST_DATE      : 08/02/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"18:55:39"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	41.38 	118.47 	0.00
+#S17
+	4 	68.97 	105.16 	0.00
+#S18
+	4 	57.21 	105.78 	0.00
+#S19
+	4 	57.19 	103.29 	0.00
+#S20
+	4 	54.44 	104.34 	0.00
+#S21
+	4 	36.19 	112.90 	0.00
+#S22
+	4 	48.07 	107.14 	0.00
+#S23
+	4 	68.95 	99.39 	0.00
+#S24
+	4 	59.66 	99.12 	0.00
+#E25
+	4 	59.25 	103.37 	0.00
+#M16
+	4 	63.99 	105.73 	0.00
+#S17
+	4 	71.56 	101.65 	0.00
+#S18
+	4 	64.63 	100.93 	0.00
+#S19
+	4 	74.65 	93.27 	0.00
+#S20
+	4 	63.78 	97.83 	0.00
+#S21
+	4 	67.07 	95.75 	0.00
+#S22
+	4 	47.85 	107.53 	0.00
+#S23
+	4 	72.74 	97.17 	0.00
+#S24
+	4 	57.24 	100.63 	0.00
+#E25
+	4 	68.73 	98.35 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	###    Too many defects in this chip!    ###
+#S17
+	178.6 	13.97 	94.0 	4.45 	106.9 	25.54 	12.32 	  753 	 137
+#S18
+	###    Too many defects in this chip!    ###
+#S19
+	###    Too many defects in this chip!    ###
+#S20
+	###    Too many defects in this chip!    ###
+#S21
+	###    Too many defects in this chip!    ###
+#S22
+	###    Too many defects in this chip!    ###
+#S23
+	###    Too many defects in this chip!    ###
+#S24
+	###    Too many defects in this chip!    ###
+#E25
+	###    Too many defects in this chip!    ###
+#M16
+	174.6 	12.36 	93.1 	4.09 	107.6 	26.11 	11.16 	  680 	 128
+#S17
+	176.6 	12.83 	94.5 	3.35 	103.2 	21.30 	11.17 	  698 	 104
+#S18
+	###    Too many defects in this chip!    ###
+#S19
+	171.1 	13.99 	86.1 	3.51 	 94.7 	20.52 	10.79 	  736 	 117
+#S20
+	###    Too many defects in this chip!    ###
+#S21
+	168.2 	13.92 	83.9 	3.41 	 97.7 	25.06 	10.42 	  703 	 139
+#S22
+	###    Too many defects in this chip!    ###
+#S23
+	173.9 	12.89 	87.9 	3.55 	 99.3 	24.00 	10.93 	  718 	 130
+#S24
+	###    Too many defects in this chip!    ###
+#E25
+	171.5 	13.47 	87.6 	3.77 	100.3 	24.51 	10.96 	  716 	 136
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	 44	 53	  0	  0	  0	 44	  0	  0	  0	  0	  0	 53
+#Chip S17:	 27	  8	  0	  0	  0	 27	  0	  0	  0	  0	  0	  8
+#Chip S18:	 26	 33	  0	  0	  0	 26	  0	  0	  0	  0	  0	 33
+#Chip S19:	 31	 29	  0	  0	  0	 31	  0	  0	  0	  0	  0	 29
+#Chip S20:	 28	 40	  0	  0	  0	 28	  0	  0	  0	  0	  0	 40
+#Chip S21:	 42	 64	  0	  0	  0	 42	  0	  0	  0	  0	  1	 63
+#Chip S22:	 31	 46	  0	  0	  0	 31	  0	  0	  0	  0	  0	 46
+#Chip S23:	 30	 14	  0	  0	  0	 30	  0	  0	  0	  0	  0	 14
+#Chip S24:	 33	 24	  0	  0	  0	 33	  0	  0	  0	  0	  0	 24
+#Chip E25:	 33	 27	  0	  0	  0	 33	  0	  0	  0	  0	  0	 27
+#Chip M16:	 31	 10	  0	  0	  0	 31	  0	  0	  0	  0	  0	 10
+#Chip S17:	 19	  0	  0	  0	  0	 19	  0	  0	  0	  0	  0	  0
+#Chip S18:	 31	 15	  0	  0	  0	 31	  0	  0	  0	  0	  1	 14
+#Chip S19:	 20	  1	  0	  0	  0	 20	  0	  0	  0	  0	  0	  1
+#Chip S20:	 32	 23	  0	  0	  0	 32	  0	  0	  0	  0	  0	 23
+#Chip S21:	 30	 11	  0	  0	  0	 30	  0	  0	  0	  0	  0	 11
+#Chip S22:	 42	 51	  0	  0	  0	 42	  0	  0	  0	  0	  0	 51
+#Chip S23:	 25	  4	  0	  0	  0	 25	  0	  0	  0	  0	  0	  4
+#Chip S24:	 37	 28	  0	  0	  0	 37	  0	  0	  0	  0	  0	 28
+#Chip E25:	 28	  7	  0	  0	  0	 28	  0	  0	  0	  0	  0	  7
+#Link 0:	325	338	  0	  0	  0	325	  0	  0	  0	  0	  1	337
+#Link 1:	295	150	  0	  0	  0	295	  0	  0	  0	  0	  1	149
+#Link 2:	620	488	  0	  0	  0	620	  0	  0	  0	  0	  2	486
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 6
+LAST CHANNEL   : 6
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 9
+LAST CHANNEL   : 9
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 12
+LAST CHANNEL   : 12
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 15
+LAST CHANNEL   : 15
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 17
+LAST CHANNEL   : 18
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 19
+LAST CHANNEL   : 19
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 20
+LAST CHANNEL   : 21
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 23
+LAST CHANNEL   : 23
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 26
+LAST CHANNEL   : 28
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 31
+LAST CHANNEL   : 32
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 33
+LAST CHANNEL   : 33
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 35
+LAST CHANNEL   : 36
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 37
+LAST CHANNEL   : 37
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 39
+LAST CHANNEL   : 40
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 41
+LAST CHANNEL   : 41
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 42
+LAST CHANNEL   : 43
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 44
+LAST CHANNEL   : 44
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 45
+LAST CHANNEL   : 46
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 47
+LAST CHANNEL   : 47
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 48
+LAST CHANNEL   : 50
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 51
+LAST CHANNEL   : 51
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 52
+LAST CHANNEL   : 55
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 56
+LAST CHANNEL   : 56
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 57
+LAST CHANNEL   : 57
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 59
+LAST CHANNEL   : 61
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 63
+LAST CHANNEL   : 63
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 64
+LAST CHANNEL   : 64
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 66
+LAST CHANNEL   : 66
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 67
+LAST CHANNEL   : 67
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 69
+LAST CHANNEL   : 73
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 74
+LAST CHANNEL   : 74
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 75
+LAST CHANNEL   : 75
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 76
+LAST CHANNEL   : 76
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 78
+LAST CHANNEL   : 79
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 81
+LAST CHANNEL   : 81
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 83
+LAST CHANNEL   : 83
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 84
+LAST CHANNEL   : 84
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 85
+LAST CHANNEL   : 85
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 86
+LAST CHANNEL   : 86
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 87
+LAST CHANNEL   : 87
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 88
+LAST CHANNEL   : 89
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 90
+LAST CHANNEL   : 91
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 92
+LAST CHANNEL   : 92
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 93
+LAST CHANNEL   : 94
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 95
+LAST CHANNEL   : 95
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 96
+LAST CHANNEL   : 96
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 97
+LAST CHANNEL   : 97
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 99
+LAST CHANNEL   : 101
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 102
+LAST CHANNEL   : 102
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 103
+LAST CHANNEL   : 103
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 105
+LAST CHANNEL   : 105
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 106
+LAST CHANNEL   : 106
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 107
+LAST CHANNEL   : 108
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 109
+LAST CHANNEL   : 109
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 110
+LAST CHANNEL   : 110
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 111
+LAST CHANNEL   : 111
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 113
+LAST CHANNEL   : 114
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 116
+LAST CHANNEL   : 116
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 117
+LAST CHANNEL   : 119
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 120
+LAST CHANNEL   : 122
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 123
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 129
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 131
+LAST CHANNEL   : 131
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 138
+LAST CHANNEL   : 138
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 143
+LAST CHANNEL   : 143
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 149
+LAST CHANNEL   : 149
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 152
+LAST CHANNEL   : 154
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 155
+LAST CHANNEL   : 155
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 157
+LAST CHANNEL   : 157
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 160
+LAST CHANNEL   : 160
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 162
+LAST CHANNEL   : 162
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 171
+LAST CHANNEL   : 171
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 175
+LAST CHANNEL   : 175
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 179
+LAST CHANNEL   : 179
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 181
+LAST CHANNEL   : 181
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 182
+LAST CHANNEL   : 184
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 189
+LAST CHANNEL   : 189
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 194
+LAST CHANNEL   : 194
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 196
+LAST CHANNEL   : 196
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 201
+LAST CHANNEL   : 201
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 203
+LAST CHANNEL   : 203
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 204
+LAST CHANNEL   : 205
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 211
+LAST CHANNEL   : 211
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 218
+LAST CHANNEL   : 218
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 223
+LAST CHANNEL   : 223
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 234
+LAST CHANNEL   : 234
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 239
+LAST CHANNEL   : 239
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 243
+LAST CHANNEL   : 243
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 247
+LAST CHANNEL   : 247
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 250
+LAST CHANNEL   : 250
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 257
+LAST CHANNEL   : 258
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 263
+LAST CHANNEL   : 263
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 265
+LAST CHANNEL   : 267
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 269
+LAST CHANNEL   : 269
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 274
+LAST CHANNEL   : 274
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 275
+LAST CHANNEL   : 275
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 277
+LAST CHANNEL   : 277
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 281
+LAST CHANNEL   : 281
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 282
+LAST CHANNEL   : 282
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 286
+LAST CHANNEL   : 286
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 289
+LAST CHANNEL   : 291
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 292
+LAST CHANNEL   : 292
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 293
+LAST CHANNEL   : 294
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 295
+LAST CHANNEL   : 295
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 296
+LAST CHANNEL   : 297
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 299
+LAST CHANNEL   : 300
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 306
+LAST CHANNEL   : 306
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 308
+LAST CHANNEL   : 308
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 309
+LAST CHANNEL   : 312
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 314
+LAST CHANNEL   : 315
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 317
+LAST CHANNEL   : 317
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 318
+LAST CHANNEL   : 318
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 323
+LAST CHANNEL   : 323
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 324
+LAST CHANNEL   : 324
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 327
+LAST CHANNEL   : 327
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 332
+LAST CHANNEL   : 332
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 336
+LAST CHANNEL   : 336
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 339
+LAST CHANNEL   : 339
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 342
+LAST CHANNEL   : 342
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 343
+LAST CHANNEL   : 343
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 347
+LAST CHANNEL   : 347
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 349
+LAST CHANNEL   : 350
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 352
+LAST CHANNEL   : 352
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 356
+LAST CHANNEL   : 358
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 359
+LAST CHANNEL   : 359
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 362
+LAST CHANNEL   : 362
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 368
+LAST CHANNEL   : 368
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 369
+LAST CHANNEL   : 369
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 371
+LAST CHANNEL   : 371
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 374
+LAST CHANNEL   : 374
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 376
+LAST CHANNEL   : 376
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 377
+LAST CHANNEL   : 379
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 385
+LAST CHANNEL   : 387
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 390
+LAST CHANNEL   : 390
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 391
+LAST CHANNEL   : 391
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 392
+LAST CHANNEL   : 392
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 394
+LAST CHANNEL   : 395
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 397
+LAST CHANNEL   : 397
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 399
+LAST CHANNEL   : 399
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 402
+LAST CHANNEL   : 404
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 407
+LAST CHANNEL   : 408
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 413
+LAST CHANNEL   : 415
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 417
+LAST CHANNEL   : 417
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 421
+LAST CHANNEL   : 421
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 426
+LAST CHANNEL   : 426
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 427
+LAST CHANNEL   : 428
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 429
+LAST CHANNEL   : 429
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 432
+LAST CHANNEL   : 432
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 434
+LAST CHANNEL   : 434
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 437
+LAST CHANNEL   : 437
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 442
+LAST CHANNEL   : 442
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 450
+LAST CHANNEL   : 450
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 452
+LAST CHANNEL   : 452
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 456
+LAST CHANNEL   : 457
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 458
+LAST CHANNEL   : 458
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 459
+LAST CHANNEL   : 459
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 461
+LAST CHANNEL   : 461
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 466
+LAST CHANNEL   : 467
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 470
+LAST CHANNEL   : 471
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 473
+LAST CHANNEL   : 473
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 475
+LAST CHANNEL   : 476
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 477
+LAST CHANNEL   : 477
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 483
+LAST CHANNEL   : 486
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 487
+LAST CHANNEL   : 487
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 493
+LAST CHANNEL   : 493
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 495
+LAST CHANNEL   : 495
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 496
+LAST CHANNEL   : 497
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 498
+LAST CHANNEL   : 498
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 501
+LAST CHANNEL   : 503
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 507
+LAST CHANNEL   : 507
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 508
+LAST CHANNEL   : 508
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 509
+LAST CHANNEL   : 509
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 510
+LAST CHANNEL   : 510
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 513
+LAST CHANNEL   : 513
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 517
+LAST CHANNEL   : 517
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 520
+LAST CHANNEL   : 520
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 522
+LAST CHANNEL   : 522
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 524
+LAST CHANNEL   : 524
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 525
+LAST CHANNEL   : 525
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 528
+LAST CHANNEL   : 528
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 529
+LAST CHANNEL   : 529
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 531
+LAST CHANNEL   : 532
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 533
+LAST CHANNEL   : 535
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 537
+LAST CHANNEL   : 537
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 539
+LAST CHANNEL   : 540
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 541
+LAST CHANNEL   : 541
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 542
+LAST CHANNEL   : 542
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 543
+LAST CHANNEL   : 544
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 545
+LAST CHANNEL   : 546
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 548
+LAST CHANNEL   : 548
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 549
+LAST CHANNEL   : 549
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 550
+LAST CHANNEL   : 552
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 553
+LAST CHANNEL   : 553
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 554
+LAST CHANNEL   : 555
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 557
+LAST CHANNEL   : 557
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 562
+LAST CHANNEL   : 563
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 565
+LAST CHANNEL   : 565
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 566
+LAST CHANNEL   : 566
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 570
+LAST CHANNEL   : 570
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 571
+LAST CHANNEL   : 579
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 580
+LAST CHANNEL   : 580
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 581
+LAST CHANNEL   : 581
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 583
+LAST CHANNEL   : 583
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 584
+LAST CHANNEL   : 584
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 586
+LAST CHANNEL   : 586
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 587
+LAST CHANNEL   : 587
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 588
+LAST CHANNEL   : 588
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 592
+LAST CHANNEL   : 594
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 595
+LAST CHANNEL   : 595
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 598
+LAST CHANNEL   : 598
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 600
+LAST CHANNEL   : 600
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 605
+LAST CHANNEL   : 605
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 607
+LAST CHANNEL   : 607
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 609
+LAST CHANNEL   : 609
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 612
+LAST CHANNEL   : 612
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 616
+LAST CHANNEL   : 617
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 626
+LAST CHANNEL   : 626
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 629
+LAST CHANNEL   : 629
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 630
+LAST CHANNEL   : 630
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 634
+LAST CHANNEL   : 634
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 640
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 644
+LAST CHANNEL   : 644
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 649
+LAST CHANNEL   : 649
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 650
+LAST CHANNEL   : 651
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 652
+LAST CHANNEL   : 652
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 654
+LAST CHANNEL   : 654
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 655
+LAST CHANNEL   : 655
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 656
+LAST CHANNEL   : 656
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 657
+LAST CHANNEL   : 657
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 659
+LAST CHANNEL   : 659
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 660
+LAST CHANNEL   : 662
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 663
+LAST CHANNEL   : 664
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 665
+LAST CHANNEL   : 665
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 667
+LAST CHANNEL   : 667
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 669
+LAST CHANNEL   : 672
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 673
+LAST CHANNEL   : 673
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 675
+LAST CHANNEL   : 676
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 678
+LAST CHANNEL   : 678
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 679
+LAST CHANNEL   : 682
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 684
+LAST CHANNEL   : 684
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 685
+LAST CHANNEL   : 686
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 687
+LAST CHANNEL   : 687
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 688
+LAST CHANNEL   : 692
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 694
+LAST CHANNEL   : 694
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 695
+LAST CHANNEL   : 695
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 696
+LAST CHANNEL   : 697
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 698
+LAST CHANNEL   : 698
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 699
+LAST CHANNEL   : 699
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 701
+LAST CHANNEL   : 701
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 702
+LAST CHANNEL   : 703
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 704
+LAST CHANNEL   : 704
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 705
+LAST CHANNEL   : 705
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 707
+LAST CHANNEL   : 710
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 711
+LAST CHANNEL   : 711
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 712
+LAST CHANNEL   : 713
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 714
+LAST CHANNEL   : 714
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 715
+LAST CHANNEL   : 715
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 716
+LAST CHANNEL   : 716
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 717
+LAST CHANNEL   : 717
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 718
+LAST CHANNEL   : 718
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 719
+LAST CHANNEL   : 721
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 722
+LAST CHANNEL   : 722
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 723
+LAST CHANNEL   : 724
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 725
+LAST CHANNEL   : 725
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 727
+LAST CHANNEL   : 727
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 728
+LAST CHANNEL   : 728
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 730
+LAST CHANNEL   : 732
+#
+%Defect
+DEFECT NAME    : PARTBONDED
+FIRST CHANNEL  : 733
+LAST CHANNEL   : 733
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 735
+LAST CHANNEL   : 737
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 738
+LAST CHANNEL   : 738
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 739
+LAST CHANNEL   : 742
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 744
+LAST CHANNEL   : 748
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 750
+LAST CHANNEL   : 750
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 751
+LAST CHANNEL   : 751
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 752
+LAST CHANNEL   : 752
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 753
+LAST CHANNEL   : 755
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 756
+LAST CHANNEL   : 758
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 759
+LAST CHANNEL   : 759
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 760
+LAST CHANNEL   : 762
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 763
+LAST CHANNEL   : 764
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 765
+LAST CHANNEL   : 765
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 766
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 769
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 772
+LAST CHANNEL   : 772
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 773
+LAST CHANNEL   : 773
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 774
+LAST CHANNEL   : 774
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 775
+LAST CHANNEL   : 775
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 776
+LAST CHANNEL   : 777
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 778
+LAST CHANNEL   : 778
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 780
+LAST CHANNEL   : 780
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 781
+LAST CHANNEL   : 781
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 782
+LAST CHANNEL   : 782
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 784
+LAST CHANNEL   : 784
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 785
+LAST CHANNEL   : 786
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 787
+LAST CHANNEL   : 788
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 790
+LAST CHANNEL   : 792
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 793
+LAST CHANNEL   : 794
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 795
+LAST CHANNEL   : 796
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 797
+LAST CHANNEL   : 801
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 803
+LAST CHANNEL   : 806
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 809
+LAST CHANNEL   : 809
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 810
+LAST CHANNEL   : 810
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 811
+LAST CHANNEL   : 811
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 812
+LAST CHANNEL   : 813
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 814
+LAST CHANNEL   : 816
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 818
+LAST CHANNEL   : 818
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 819
+LAST CHANNEL   : 819
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 822
+LAST CHANNEL   : 823
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 824
+LAST CHANNEL   : 824
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 826
+LAST CHANNEL   : 826
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 829
+LAST CHANNEL   : 829
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 830
+LAST CHANNEL   : 830
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 832
+LAST CHANNEL   : 835
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 836
+LAST CHANNEL   : 836
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 844
+LAST CHANNEL   : 844
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 846
+LAST CHANNEL   : 846
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 847
+LAST CHANNEL   : 847
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 855
+LAST CHANNEL   : 857
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 860
+LAST CHANNEL   : 860
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 863
+LAST CHANNEL   : 864
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 867
+LAST CHANNEL   : 867
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 868
+LAST CHANNEL   : 868
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 870
+LAST CHANNEL   : 870
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 873
+LAST CHANNEL   : 874
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 876
+LAST CHANNEL   : 878
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 880
+LAST CHANNEL   : 880
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 881
+LAST CHANNEL   : 881
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 885
+LAST CHANNEL   : 885
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 890
+LAST CHANNEL   : 890
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 892
+LAST CHANNEL   : 892
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 893
+LAST CHANNEL   : 893
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 900
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 902
+LAST CHANNEL   : 902
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 903
+LAST CHANNEL   : 904
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 906
+LAST CHANNEL   : 906
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 910
+LAST CHANNEL   : 910
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 911
+LAST CHANNEL   : 912
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 913
+LAST CHANNEL   : 914
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 915
+LAST CHANNEL   : 915
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 920
+LAST CHANNEL   : 920
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 922
+LAST CHANNEL   : 922
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 926
+LAST CHANNEL   : 926
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 931
+LAST CHANNEL   : 931
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 937
+LAST CHANNEL   : 937
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 938
+LAST CHANNEL   : 938
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 941
+LAST CHANNEL   : 941
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 948
+LAST CHANNEL   : 948
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 953
+LAST CHANNEL   : 953
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 959
+LAST CHANNEL   : 960
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 965
+LAST CHANNEL   : 965
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 969
+LAST CHANNEL   : 969
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 970
+LAST CHANNEL   : 970
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 972
+LAST CHANNEL   : 972
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 974
+LAST CHANNEL   : 974
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 978
+LAST CHANNEL   : 979
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 981
+LAST CHANNEL   : 981
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 982
+LAST CHANNEL   : 982
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 984
+LAST CHANNEL   : 984
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 987
+LAST CHANNEL   : 987
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 995
+LAST CHANNEL   : 995
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 997
+LAST CHANNEL   : 997
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1001
+LAST CHANNEL   : 1001
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1011
+LAST CHANNEL   : 1011
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1013
+LAST CHANNEL   : 1013
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1015
+LAST CHANNEL   : 1015
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1019
+LAST CHANNEL   : 1019
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1025
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1028
+LAST CHANNEL   : 1029
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1031
+LAST CHANNEL   : 1031
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1032
+LAST CHANNEL   : 1032
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1033
+LAST CHANNEL   : 1033
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1035
+LAST CHANNEL   : 1037
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1040
+LAST CHANNEL   : 1040
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1043
+LAST CHANNEL   : 1044
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1046
+LAST CHANNEL   : 1046
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1052
+LAST CHANNEL   : 1056
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1060
+LAST CHANNEL   : 1060
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1072
+LAST CHANNEL   : 1072
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1078
+LAST CHANNEL   : 1078
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1085
+LAST CHANNEL   : 1085
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1086
+LAST CHANNEL   : 1086
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1087
+LAST CHANNEL   : 1087
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1088
+LAST CHANNEL   : 1088
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1092
+LAST CHANNEL   : 1092
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1095
+LAST CHANNEL   : 1095
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1100
+LAST CHANNEL   : 1100
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1103
+LAST CHANNEL   : 1104
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1105
+LAST CHANNEL   : 1105
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1107
+LAST CHANNEL   : 1108
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1110
+LAST CHANNEL   : 1110
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1112
+LAST CHANNEL   : 1113
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1115
+LAST CHANNEL   : 1115
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1117
+LAST CHANNEL   : 1117
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1118
+LAST CHANNEL   : 1118
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1121
+LAST CHANNEL   : 1121
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1123
+LAST CHANNEL   : 1123
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1125
+LAST CHANNEL   : 1126
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1127
+LAST CHANNEL   : 1128
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1130
+LAST CHANNEL   : 1130
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1132
+LAST CHANNEL   : 1132
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1135
+LAST CHANNEL   : 1135
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1138
+LAST CHANNEL   : 1138
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1140
+LAST CHANNEL   : 1142
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1143
+LAST CHANNEL   : 1143
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1144
+LAST CHANNEL   : 1144
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1146
+LAST CHANNEL   : 1146
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1151
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1154
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1155
+LAST CHANNEL   : 1156
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1157
+LAST CHANNEL   : 1157
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1159
+LAST CHANNEL   : 1160
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1163
+LAST CHANNEL   : 1165
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1168
+LAST CHANNEL   : 1168
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1169
+LAST CHANNEL   : 1169
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1171
+LAST CHANNEL   : 1171
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1173
+LAST CHANNEL   : 1173
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1178
+LAST CHANNEL   : 1178
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1179
+LAST CHANNEL   : 1179
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1180
+LAST CHANNEL   : 1181
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1185
+LAST CHANNEL   : 1186
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1187
+LAST CHANNEL   : 1187
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1188
+LAST CHANNEL   : 1188
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1190
+LAST CHANNEL   : 1191
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1193
+LAST CHANNEL   : 1196
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1198
+LAST CHANNEL   : 1198
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1199
+LAST CHANNEL   : 1201
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1202
+LAST CHANNEL   : 1202
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1203
+LAST CHANNEL   : 1203
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1206
+LAST CHANNEL   : 1206
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1211
+LAST CHANNEL   : 1212
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1215
+LAST CHANNEL   : 1218
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1221
+LAST CHANNEL   : 1221
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1223
+LAST CHANNEL   : 1224
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1226
+LAST CHANNEL   : 1227
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1230
+LAST CHANNEL   : 1230
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1231
+LAST CHANNEL   : 1231
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1236
+LAST CHANNEL   : 1236
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1238
+LAST CHANNEL   : 1238
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1240
+LAST CHANNEL   : 1241
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1249
+LAST CHANNEL   : 1249
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1260
+LAST CHANNEL   : 1260
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1263
+LAST CHANNEL   : 1263
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1265
+LAST CHANNEL   : 1265
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1269
+LAST CHANNEL   : 1269
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1273
+LAST CHANNEL   : 1273
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1275
+LAST CHANNEL   : 1275
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1284
+LAST CHANNEL   : 1285
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1295
+LAST CHANNEL   : 1295
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1300
+LAST CHANNEL   : 1300
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1304
+LAST CHANNEL   : 1304
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1306
+LAST CHANNEL   : 1306
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1308
+LAST CHANNEL   : 1308
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1312
+LAST CHANNEL   : 1312
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1313
+LAST CHANNEL   : 1313
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1315
+LAST CHANNEL   : 1316
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1320
+LAST CHANNEL   : 1321
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1325
+LAST CHANNEL   : 1325
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1326
+LAST CHANNEL   : 1326
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1329
+LAST CHANNEL   : 1329
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1335
+LAST CHANNEL   : 1335
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1337
+LAST CHANNEL   : 1337
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1340
+LAST CHANNEL   : 1340
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1344
+LAST CHANNEL   : 1344
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1348
+LAST CHANNEL   : 1348
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1353
+LAST CHANNEL   : 1353
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1357
+LAST CHANNEL   : 1357
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1365
+LAST CHANNEL   : 1365
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1367
+LAST CHANNEL   : 1367
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1372
+LAST CHANNEL   : 1372
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1374
+LAST CHANNEL   : 1374
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1376
+LAST CHANNEL   : 1376
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1382
+LAST CHANNEL   : 1383
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1385
+LAST CHANNEL   : 1386
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1391
+LAST CHANNEL   : 1391
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1394
+LAST CHANNEL   : 1394
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1396
+LAST CHANNEL   : 1396
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1398
+LAST CHANNEL   : 1398
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1400
+LAST CHANNEL   : 1400
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1403
+LAST CHANNEL   : 1403
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1405
+LAST CHANNEL   : 1407
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1410
+LAST CHANNEL   : 1410
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1412
+LAST CHANNEL   : 1412
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1421
+LAST CHANNEL   : 1421
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1427
+LAST CHANNEL   : 1427
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1431
+LAST CHANNEL   : 1431
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1443
+LAST CHANNEL   : 1443
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1445
+LAST CHANNEL   : 1446
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1454
+LAST CHANNEL   : 1454
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1469
+LAST CHANNEL   : 1469
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1475
+LAST CHANNEL   : 1476
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1482
+LAST CHANNEL   : 1482
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1508
+LAST CHANNEL   : 1510
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1512
+LAST CHANNEL   : 1512
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1519
+LAST CHANNEL   : 1519
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1527
+LAST CHANNEL   : 1527
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1536
+LAST CHANNEL   : 1537
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1539
+LAST CHANNEL   : 1539
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1542
+LAST CHANNEL   : 1542
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1553
+LAST CHANNEL   : 1553
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1556
+LAST CHANNEL   : 1556
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1558
+LAST CHANNEL   : 1558
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1559
+LAST CHANNEL   : 1560
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1566
+LAST CHANNEL   : 1566
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1572
+LAST CHANNEL   : 1572
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1573
+LAST CHANNEL   : 1573
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1575
+LAST CHANNEL   : 1576
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1577
+LAST CHANNEL   : 1577
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1579
+LAST CHANNEL   : 1579
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1580
+LAST CHANNEL   : 1580
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1583
+LAST CHANNEL   : 1583
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1584
+LAST CHANNEL   : 1584
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1586
+LAST CHANNEL   : 1586
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1592
+LAST CHANNEL   : 1592
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1600
+LAST CHANNEL   : 1600
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1603
+LAST CHANNEL   : 1603
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1605
+LAST CHANNEL   : 1605
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1612
+LAST CHANNEL   : 1612
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1615
+LAST CHANNEL   : 1616
+#
+%Defect
+DEFECT NAME    : PARTBONDED
+FIRST CHANNEL  : 1619
+LAST CHANNEL   : 1619
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1620
+LAST CHANNEL   : 1620
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1626
+LAST CHANNEL   : 1626
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1627
+LAST CHANNEL   : 1628
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1630
+LAST CHANNEL   : 1630
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1635
+LAST CHANNEL   : 1635
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1637
+LAST CHANNEL   : 1637
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1640
+LAST CHANNEL   : 1640
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1643
+LAST CHANNEL   : 1644
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1646
+LAST CHANNEL   : 1646
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1653
+LAST CHANNEL   : 1653
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1657
+LAST CHANNEL   : 1657
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1659
+LAST CHANNEL   : 1664
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1669
+LAST CHANNEL   : 1669
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1673
+LAST CHANNEL   : 1673
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1675
+LAST CHANNEL   : 1675
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1679
+LAST CHANNEL   : 1680
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1694
+LAST CHANNEL   : 1694
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1697
+LAST CHANNEL   : 1697
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1700
+LAST CHANNEL   : 1700
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1708
+LAST CHANNEL   : 1708
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1729
+LAST CHANNEL   : 1729
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1734
+LAST CHANNEL   : 1734
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1745
+LAST CHANNEL   : 1745
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1748
+LAST CHANNEL   : 1748
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1752
+LAST CHANNEL   : 1752
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1755
+LAST CHANNEL   : 1755
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1767
+LAST CHANNEL   : 1767
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1769
+LAST CHANNEL   : 1770
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1776
+LAST CHANNEL   : 1776
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1779
+LAST CHANNEL   : 1779
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1792
+LAST CHANNEL   : 1792
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1794
+LAST CHANNEL   : 1794
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1800
+LAST CHANNEL   : 1800
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1805
+LAST CHANNEL   : 1808
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1810
+LAST CHANNEL   : 1810
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1811
+LAST CHANNEL   : 1811
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1813
+LAST CHANNEL   : 1813
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1814
+LAST CHANNEL   : 1815
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1819
+LAST CHANNEL   : 1819
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1822
+LAST CHANNEL   : 1822
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1826
+LAST CHANNEL   : 1826
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1827
+LAST CHANNEL   : 1827
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1830
+LAST CHANNEL   : 1830
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1832
+LAST CHANNEL   : 1832
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1836
+LAST CHANNEL   : 1836
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1840
+LAST CHANNEL   : 1840
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1842
+LAST CHANNEL   : 1843
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1844
+LAST CHANNEL   : 1844
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1849
+LAST CHANNEL   : 1849
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1850
+LAST CHANNEL   : 1850
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1853
+LAST CHANNEL   : 1854
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1856
+LAST CHANNEL   : 1857
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1859
+LAST CHANNEL   : 1861
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1862
+LAST CHANNEL   : 1862
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1864
+LAST CHANNEL   : 1864
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1868
+LAST CHANNEL   : 1868
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1870
+LAST CHANNEL   : 1870
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1872
+LAST CHANNEL   : 1872
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1881
+LAST CHANNEL   : 1881
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1883
+LAST CHANNEL   : 1883
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1884
+LAST CHANNEL   : 1884
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1887
+LAST CHANNEL   : 1887
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1892
+LAST CHANNEL   : 1893
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1896
+LAST CHANNEL   : 1896
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1897
+LAST CHANNEL   : 1900
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1901
+LAST CHANNEL   : 1901
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1904
+LAST CHANNEL   : 1904
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1907
+LAST CHANNEL   : 1907
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1910
+LAST CHANNEL   : 1910
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1914
+LAST CHANNEL   : 1914
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1917
+LAST CHANNEL   : 1917
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1919
+LAST CHANNEL   : 1919
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1922
+LAST CHANNEL   : 1923
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1924
+LAST CHANNEL   : 1924
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1930
+LAST CHANNEL   : 1931
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1933
+LAST CHANNEL   : 1933
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1940
+LAST CHANNEL   : 1940
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1942
+LAST CHANNEL   : 1943
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1945
+LAST CHANNEL   : 1945
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1954
+LAST CHANNEL   : 1954
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1955
+LAST CHANNEL   : 1956
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1958
+LAST CHANNEL   : 1958
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1960
+LAST CHANNEL   : 1961
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1966
+LAST CHANNEL   : 1967
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1972
+LAST CHANNEL   : 1972
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1973
+LAST CHANNEL   : 1973
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1975
+LAST CHANNEL   : 1975
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1979
+LAST CHANNEL   : 1979
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1980
+LAST CHANNEL   : 1980
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1994
+LAST CHANNEL   : 1994
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1995
+LAST CHANNEL   : 1995
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2000
+LAST CHANNEL   : 2000
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2002
+LAST CHANNEL   : 2003
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2006
+LAST CHANNEL   : 2006
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2008
+LAST CHANNEL   : 2008
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2012
+LAST CHANNEL   : 2012
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2016
+LAST CHANNEL   : 2016
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2018
+LAST CHANNEL   : 2019
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2027
+LAST CHANNEL   : 2027
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2029
+LAST CHANNEL   : 2030
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2034
+LAST CHANNEL   : 2034
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2037
+LAST CHANNEL   : 2037
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2041
+LAST CHANNEL   : 2041
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2046
+LAST CHANNEL   : 2046
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2049
+LAST CHANNEL   : 2050
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2051
+LAST CHANNEL   : 2051
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2052
+LAST CHANNEL   : 2052
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2054
+LAST CHANNEL   : 2055
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2056
+LAST CHANNEL   : 2057
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2058
+LAST CHANNEL   : 2058
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2060
+LAST CHANNEL   : 2060
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2062
+LAST CHANNEL   : 2062
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2063
+LAST CHANNEL   : 2063
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2064
+LAST CHANNEL   : 2065
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2066
+LAST CHANNEL   : 2067
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2068
+LAST CHANNEL   : 2069
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2071
+LAST CHANNEL   : 2074
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2076
+LAST CHANNEL   : 2076
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2078
+LAST CHANNEL   : 2078
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2079
+LAST CHANNEL   : 2079
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2080
+LAST CHANNEL   : 2080
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2081
+LAST CHANNEL   : 2081
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2083
+LAST CHANNEL   : 2084
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2085
+LAST CHANNEL   : 2085
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2087
+LAST CHANNEL   : 2087
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2088
+LAST CHANNEL   : 2089
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2090
+LAST CHANNEL   : 2090
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2091
+LAST CHANNEL   : 2092
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2094
+LAST CHANNEL   : 2094
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2098
+LAST CHANNEL   : 2098
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2103
+LAST CHANNEL   : 2104
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2105
+LAST CHANNEL   : 2105
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2107
+LAST CHANNEL   : 2109
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2110
+LAST CHANNEL   : 2113
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2115
+LAST CHANNEL   : 2120
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2121
+LAST CHANNEL   : 2123
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2124
+LAST CHANNEL   : 2126
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2128
+LAST CHANNEL   : 2131
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2133
+LAST CHANNEL   : 2134
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2136
+LAST CHANNEL   : 2136
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2138
+LAST CHANNEL   : 2138
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2139
+LAST CHANNEL   : 2140
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2144
+LAST CHANNEL   : 2144
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2145
+LAST CHANNEL   : 2145
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2147
+LAST CHANNEL   : 2147
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2149
+LAST CHANNEL   : 2150
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2155
+LAST CHANNEL   : 2157
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2158
+LAST CHANNEL   : 2160
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2161
+LAST CHANNEL   : 2161
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2162
+LAST CHANNEL   : 2162
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2164
+LAST CHANNEL   : 2164
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2165
+LAST CHANNEL   : 2165
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2167
+LAST CHANNEL   : 2170
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2171
+LAST CHANNEL   : 2172
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2174
+LAST CHANNEL   : 2175
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2176
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2179
+LAST CHANNEL   : 2179
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2181
+LAST CHANNEL   : 2181
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2182
+LAST CHANNEL   : 2182
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2193
+LAST CHANNEL   : 2194
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2197
+LAST CHANNEL   : 2197
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2204
+LAST CHANNEL   : 2204
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2207
+LAST CHANNEL   : 2208
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2219
+LAST CHANNEL   : 2219
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2221
+LAST CHANNEL   : 2221
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2226
+LAST CHANNEL   : 2226
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2231
+LAST CHANNEL   : 2231
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2241
+LAST CHANNEL   : 2242
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2244
+LAST CHANNEL   : 2244
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2260
+LAST CHANNEL   : 2260
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2266
+LAST CHANNEL   : 2266
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2272
+LAST CHANNEL   : 2272
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2275
+LAST CHANNEL   : 2277
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2281
+LAST CHANNEL   : 2281
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2284
+LAST CHANNEL   : 2284
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2292
+LAST CHANNEL   : 2293
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2295
+LAST CHANNEL   : 2295
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2302
+LAST CHANNEL   : 2302
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2304
+LAST CHANNEL   : 2305
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2308
+LAST CHANNEL   : 2308
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2311
+LAST CHANNEL   : 2311
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2314
+LAST CHANNEL   : 2315
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2316
+LAST CHANNEL   : 2319
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2321
+LAST CHANNEL   : 2322
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2325
+LAST CHANNEL   : 2325
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2326
+LAST CHANNEL   : 2327
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2332
+LAST CHANNEL   : 2332
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2334
+LAST CHANNEL   : 2335
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2339
+LAST CHANNEL   : 2340
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2341
+LAST CHANNEL   : 2341
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2343
+LAST CHANNEL   : 2343
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2345
+LAST CHANNEL   : 2345
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2347
+LAST CHANNEL   : 2348
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2351
+LAST CHANNEL   : 2351
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2352
+LAST CHANNEL   : 2353
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2354
+LAST CHANNEL   : 2355
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2357
+LAST CHANNEL   : 2357
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2358
+LAST CHANNEL   : 2358
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2361
+LAST CHANNEL   : 2361
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2363
+LAST CHANNEL   : 2363
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2365
+LAST CHANNEL   : 2366
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2367
+LAST CHANNEL   : 2368
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2372
+LAST CHANNEL   : 2372
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2374
+LAST CHANNEL   : 2374
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2376
+LAST CHANNEL   : 2376
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2378
+LAST CHANNEL   : 2378
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2379
+LAST CHANNEL   : 2379
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2381
+LAST CHANNEL   : 2381
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2382
+LAST CHANNEL   : 2382
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2385
+LAST CHANNEL   : 2385
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2388
+LAST CHANNEL   : 2390
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2391
+LAST CHANNEL   : 2391
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2393
+LAST CHANNEL   : 2394
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2396
+LAST CHANNEL   : 2397
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2404
+LAST CHANNEL   : 2404
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2413
+LAST CHANNEL   : 2413
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2415
+LAST CHANNEL   : 2415
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2417
+LAST CHANNEL   : 2418
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2419
+LAST CHANNEL   : 2420
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2421
+LAST CHANNEL   : 2421
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2426
+LAST CHANNEL   : 2426
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2428
+LAST CHANNEL   : 2428
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2431
+LAST CHANNEL   : 2432
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2434
+LAST CHANNEL   : 2434
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2436
+LAST CHANNEL   : 2436
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2438
+LAST CHANNEL   : 2438
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2442
+LAST CHANNEL   : 2442
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2447
+LAST CHANNEL   : 2448
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2450
+LAST CHANNEL   : 2450
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2453
+LAST CHANNEL   : 2453
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2456
+LAST CHANNEL   : 2456
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2460
+LAST CHANNEL   : 2460
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2474
+LAST CHANNEL   : 2474
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2480
+LAST CHANNEL   : 2480
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2481
+LAST CHANNEL   : 2481
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2484
+LAST CHANNEL   : 2484
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2487
+LAST CHANNEL   : 2487
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2488
+LAST CHANNEL   : 2489
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2492
+LAST CHANNEL   : 2492
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2494
+LAST CHANNEL   : 2495
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2497
+LAST CHANNEL   : 2497
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2499
+LAST CHANNEL   : 2499
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2501
+LAST CHANNEL   : 2502
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2505
+LAST CHANNEL   : 2505
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2516
+LAST CHANNEL   : 2516
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2517
+LAST CHANNEL   : 2517
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2524
+LAST CHANNEL   : 2524
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2538
+LAST CHANNEL   : 2538
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2544
+LAST CHANNEL   : 2544
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2547
+LAST CHANNEL   : 2547
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2552
+LAST CHANNEL   : 2552
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2554
+LAST CHANNEL   : 2554
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2559
+LAST CHANNEL   : 2559
+#
+#773 defects found affecting 1108 strips
+#20 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : FAIL due to 1108 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 20 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/grosin/DAQs/NewInstall/DATA/results/ABC130_M1_PXH4_old2_RC_32773_3.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32776-2
+TEST_DATE      : 08/02/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"19:28:52"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 20 19 22 18 25 18 24 19 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 20 19 21 19 25 18 24 18 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S20 Low Rise: 3.9 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low Rise: 4.3 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 4.4 - using falling edge
+#

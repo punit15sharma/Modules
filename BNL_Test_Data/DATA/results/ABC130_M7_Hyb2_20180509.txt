@@ -1,0 +1,683 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M7_Hyb2
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33079-2
+TEST_DATE      : 09/05/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:45:49"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 25 23 23 23 22 19 23 25 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 25 23 23 23 22 19 23 25 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M7_Hyb2
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33080-2
+TEST_DATE      : 09/05/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"16:06:29"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+23 25 23 23 23 22 19 23 25 22 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+24 25 23 23 23 22 19 23 25 22 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M7_Hyb2
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33080-3
+TEST_DATE      : 09/05/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"16:15:38"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	13.70 	-16.67 	0.00
+#S17
+	4 	14.58 	-18.57 	0.00
+#S18
+	4 	13.93 	-17.16 	0.00
+#S19
+	4 	14.51 	-18.42 	0.00
+#S20
+	4 	14.29 	-17.93 	0.00
+#S21
+	4 	14.20 	-17.73 	0.00
+#S22
+	4 	14.14 	-17.60 	0.00
+#S23
+	4 	14.12 	-17.56 	0.00
+#S24
+	4 	14.00 	-17.30 	0.00
+#E25
+	4 	14.03 	-17.35 	0.00
+#M16
+	4 	13.70 	-16.68 	0.00
+#S17
+	4 	14.56 	-18.52 	0.00
+#S18
+	4 	13.93 	-17.16 	0.00
+#S19
+	4 	14.53 	-18.45 	0.00
+#S20
+	4 	14.37 	-18.09 	0.00
+#S21
+	4 	14.20 	-17.74 	0.00
+#S22
+	4 	14.13 	-17.58 	0.00
+#S23
+	4 	14.06 	-17.43 	0.00
+#S24
+	4 	14.01 	-17.32 	0.00
+#E25
+	4 	14.01 	-17.31 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	###    Too many defects in this chip!    ###
+#S17
+	###    Too many defects in this chip!    ###
+#S18
+	###    Too many defects in this chip!    ###
+#S19
+	###    Too many defects in this chip!    ###
+#S20
+	###    Too many defects in this chip!    ###
+#S21
+	###    Too many defects in this chip!    ###
+#S22
+	###    Too many defects in this chip!    ###
+#S23
+	###    Too many defects in this chip!    ###
+#S24
+	###    Too many defects in this chip!    ###
+#E25
+	###    Too many defects in this chip!    ###
+#M16
+	###    Too many defects in this chip!    ###
+#S17
+	###    Too many defects in this chip!    ###
+#S18
+	###    Too many defects in this chip!    ###
+#S19
+	###    Too many defects in this chip!    ###
+#S20
+	###    Too many defects in this chip!    ###
+#S21
+	###    Too many defects in this chip!    ###
+#S22
+	###    Too many defects in this chip!    ###
+#S23
+	###    Too many defects in this chip!    ###
+#S24
+	###    Too many defects in this chip!    ###
+#E25
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	"low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S17:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S18:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S19:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S20:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S21:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S22:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S23:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S24:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip E25:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip M16:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S17:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S18:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S19:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S20:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S21:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S22:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S23:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S24:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip E25:	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Link 0:	  0	1280	  0	  0	  0	  0	  0	  0	  0	  0	  0	1280
+#Link 1:	  0	1280	  0	  0	  0	  0	  0	  0	  0	  0	  0	1280
+#Link 2:	  0	2560	  0	  0	  0	  0	  0	  0	  0	  0	  0	2560
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1280
+LAST CHANNEL   : 2559
+#
+#2 defects found affecting 2560 strips
+#1280 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : FAIL due to chip M0 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S1 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S2 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S3 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S4 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip E5 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S6 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S7 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S8 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S9 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip M8 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S9 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S10 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S11 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S12 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip E13 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S14 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S15 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S16 low gain
+#
+%Comment
+COMMENT        : FAIL due to chip S17 low gain
+#
+%Comment
+COMMENT        : FAIL due to 2560 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1280 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : Channel 0 masked: very high noise (3835enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1 masked: very high noise (3704enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 2 masked: very high noise (3523enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 3 masked: very high noise (3747enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 4 masked: very high noise (3786enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 5 masked: very high noise (3485enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 6 masked: very high noise (3693enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 7 masked: very high noise (3674enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 8 masked: very high noise (3731enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 9 masked: very high noise (3688enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1280 masked: very high noise (3488enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1281 masked: very high noise (3577enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1282 masked: very high noise (3593enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1283 masked: very high noise (3497enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1284 masked: very high noise (3535enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1285 masked: very high noise (3521enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1286 masked: very high noise (3889enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1287 masked: very high noise (3562enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1288 masked: very high noise (3838enc, cut    0enc)
+#
+%Comment
+COMMENT        : Channel 1289 masked: very high noise (3833enc, cut    0enc)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/module_test/Desktop/itsdaq-sw/DATA/results/ABC130_M7_Hyb2_RC_33080_3.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M7_Hyb2
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33081-2
+TEST_DATE      : 09/05/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"16:30:36"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 20 19 19 18 17 15 18 21 17 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 20 19 19 18 18 15 19 21 18 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.40
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M7_Hyb2
+TEST MADE BY   : guy
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 33081-3
+TEST_DATE      : 09/05/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"16:35:10"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	74.42 	77.06 	0.00
+#S17
+	4 	65.98 	83.25 	0.00
+#S18
+	4 	74.56 	79.40 	0.00
+#S19
+	4 	64.39 	90.56 	0.00
+#S20
+	4 	67.83 	83.50 	0.00
+#S21
+	4 	66.89 	85.53 	0.00
+#S22
+	4 	71.62 	82.27 	0.00
+#S23
+	4 	71.01 	82.32 	0.00
+#S24
+	4 	72.14 	81.36 	0.00
+#E25
+	4 	71.01 	82.96 	0.00
+#M16
+	4 	75.18 	76.24 	0.00
+#S17
+	4 	66.45 	82.99 	0.00
+#S18
+	4 	74.39 	79.06 	0.00
+#S19
+	4 	64.03 	90.53 	0.00
+#S20
+	4 	67.65 	83.39 	0.00
+#S21
+	4 	67.62 	84.72 	0.00
+#S22
+	4 	71.97 	82.10 	0.00
+#S23
+	4 	72.49 	80.65 	0.00
+#S24
+	4 	72.68 	80.46 	0.00
+#E25
+	4 	71.43 	82.61 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	152.4 	 1.37 	77.0 	4.57 	 77.0 	 4.57 	9.32 	  758 	  37
+#S17
+	150.3 	 1.50 	83.2 	6.26 	 83.2 	 6.26 	8.89 	  669 	  32
+#S18
+	155.0 	 1.68 	79.4 	4.98 	 79.4 	 4.98 	9.12 	  720 	  33
+#S19
+	155.9 	 1.17 	90.6 	5.28 	 90.6 	 5.28 	9.17 	  634 	  26
+#S20
+	152.5 	 1.88 	83.4 	5.58 	 83.4 	 5.58 	9.41 	  707 	  34
+#S21
+	153.5 	 1.42 	85.5 	4.63 	 85.5 	 4.63 	9.10 	  666 	  29
+#S22
+	155.0 	 1.42 	82.3 	4.79 	 82.3 	 4.79 	8.77 	  668 	  32
+#S23
+	154.2 	 1.27 	82.3 	5.10 	 82.3 	 5.10 	8.76 	  667 	  29
+#S24
+	154.3 	 1.42 	81.3 	4.93 	 81.3 	 4.93 	8.90 	  687 	  37
+#E25
+	154.8 	 1.42 	83.0 	4.89 	 83.0 	 4.89 	8.94 	  675 	  31
+#M16
+	152.3 	 1.44 	76.2 	4.49 	 76.2 	 4.49 	8.84 	  726 	  37
+#S17
+	150.5 	 1.64 	83.0 	4.99 	 83.0 	 4.99 	8.34 	  631 	  35
+#S18
+	155.0 	 1.60 	78.9 	5.10 	 78.9 	 5.10 	8.47 	  673 	  36
+#S19
+	155.6 	 1.17 	90.5 	4.64 	 90.5 	 4.64 	8.58 	  593 	  25
+#S20
+	152.2 	 1.61 	83.3 	5.81 	 83.3 	 5.81 	8.71 	  656 	  36
+#S21
+	153.4 	 1.30 	84.7 	4.66 	 84.7 	 4.66 	8.44 	  624 	  30
+#S22
+	154.8 	 1.32 	82.1 	5.11 	 82.1 	 5.11 	8.21 	  626 	  31
+#S23
+	154.1 	 1.21 	80.5 	4.57 	 80.5 	 4.57 	8.04 	  625 	  30
+#S24
+	154.0 	 1.51 	80.5 	4.62 	 80.5 	 4.62 	8.40 	  654 	  32
+#E25
+	154.9 	 1.44 	82.6 	4.52 	 82.6 	 4.52 	8.49 	  644 	  32
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M16:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S17:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip S18:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip S19:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Link 0:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
+#Link 1:	  1	  7	  0	  0	  0	  1	  0	  0	  0	  0	  0	  7
+#Link 2:	  1	 10	  0	  0	  0	  1	  0	  0	  0	  0	  0	 10
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 573
+LAST CHANNEL   : 573
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1033
+LAST CHANNEL   : 1033
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1038
+LAST CHANNEL   : 1038
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1415
+LAST CHANNEL   : 1415
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1448
+LAST CHANNEL   : 1448
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1617
+LAST CHANNEL   : 1617
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1631
+LAST CHANNEL   : 1631
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1788
+LAST CHANNEL   : 1788
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1848
+LAST CHANNEL   : 1848
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2265
+LAST CHANNEL   : 2265
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2436
+LAST CHANNEL   : 2436
+#
+#11 defects found affecting 11 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+#
+%TEST Rawdata
+FILENAME       : /home/module_test/Desktop/itsdaq-sw/DATA/results/ABC130_M7_Hyb2_RC_33081_3.txt
+#

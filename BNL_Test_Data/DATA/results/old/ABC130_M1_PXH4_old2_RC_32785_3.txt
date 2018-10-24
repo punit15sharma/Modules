@@ -1,0 +1,2561 @@
+#chan	code	gain	offset	innse	comment
+   0	1000	16.0	16.0	  65	unbonded
+   1	1000	16.0	16.0	  65	unbonded
+   2	1000	16.0	16.0	  65	unbonded
+   3	1000	16.0	16.0	  65	unbonded
+   4	1000	16.0	16.0	  65	unbonded
+   5	1000	16.0	16.0	  65	unbonded
+   6	1000	16.0	16.0	  65	unbonded
+   7	1000	16.0	16.0	  65	unbonded
+   8	1000	16.0	16.0	  65	unbonded
+   9	1000	16.8	16.8	  62	unbonded
+  10	1000	16.1	16.1	  65	unbonded
+  11	1000	16.0	16.0	  65	unbonded
+  12	1000	16.0	16.0	  65	unbonded
+  13	1000	16.0	16.0	  65	unbonded
+  14	1000	16.0	16.0	  65	unbonded
+  15	1000	16.0	16.0	  65	unbonded
+  16	1000	16.0	16.0	  65	unbonded
+  17	1000	16.0	16.0	  65	unbonded
+  18	1000	16.8	16.8	  62	unbonded
+  19	1000	16.1	16.1	  65	unbonded
+  20	4000	16.0	16.0	 858	high noise
+  21	1000	16.0	16.0	  65	unbonded
+  22	1000	16.0	16.0	  65	unbonded
+  23	1000	16.0	16.0	  65	unbonded
+  24	1000	16.0	16.0	  65	unbonded
+  25	1000	16.0	16.0	  65	unbonded
+  26	1000	16.0	16.0	  65	unbonded
+  27	4000	16.0	16.0	 848	high noise
+  28	1000	16.0	16.0	  65	unbonded
+  29	1000	16.0	16.0	  65	unbonded
+  30	1000	16.0	16.0	  65	unbonded
+  31	1000	16.0	16.0	  65	unbonded
+  32	1000	16.0	16.0	  65	unbonded
+  33	1000	16.0	16.0	  65	unbonded
+  34	1000	16.0	16.0	  65	unbonded
+  35	1000	16.0	16.0	  65	unbonded
+  36	4000	16.0	16.0	 848	high noise
+  37	1000	16.0	16.0	  65	unbonded
+  38	1000	16.0	16.0	  65	unbonded
+  39	1000	16.0	16.0	  65	unbonded
+  40	1000	16.0	16.0	  65	unbonded
+  41	1000	16.4	16.4	  64	unbonded
+  42	1000	16.1	16.1	  65	unbonded
+  43	1000	16.0	16.0	  65	unbonded
+  44	1000	16.0	16.0	  65	unbonded
+  45	1000	16.0	16.0	  65	unbonded
+  46	1000	16.0	16.0	  65	unbonded
+  47	1000	16.0	16.0	  65	unbonded
+  48	1000	16.0	16.0	  65	unbonded
+  49	1000	16.0	16.0	  65	unbonded
+  50	1000	16.0	16.0	  65	unbonded
+  51	1000	16.0	16.0	  65	unbonded
+  52	1000	16.0	16.0	  65	unbonded
+  53	1000	16.0	16.0	  65	unbonded
+  54	1000	16.0	16.0	  65	unbonded
+  55	1000	16.0	16.0	  65	unbonded
+  56	4000	16.0	16.0	 848	high noise
+  57	1000	16.0	16.0	  65	unbonded
+  58	1000	16.0	16.0	  65	unbonded
+  59	1000	16.0	16.0	  65	unbonded
+  60	1000	16.0	16.0	  65	unbonded
+  61	1000	16.0	16.0	  65	unbonded
+  62	1000	16.0	16.0	  65	unbonded
+  63	1000	16.0	16.0	  65	unbonded
+  64	1000	16.0	16.0	  65	unbonded
+  65	1000	16.0	16.0	  65	unbonded
+  66	1000	16.0	16.0	  65	unbonded
+  67	1000	16.0	16.0	  65	unbonded
+  68	1000	16.4	16.4	  64	unbonded
+  69	1000	16.1	16.1	  65	unbonded
+  70	1000	16.0	16.0	  65	unbonded
+  71	1000	16.0	16.0	  65	unbonded
+  72	1000	16.0	16.0	  65	unbonded
+  73	1000	16.0	16.0	  65	unbonded
+  74	1000	16.0	16.0	  65	unbonded
+  75	1000	16.0	16.0	  65	unbonded
+  76	1000	16.0	16.0	  65	unbonded
+  77	1000	16.0	16.0	  65	unbonded
+  78	1000	16.0	16.0	  65	unbonded
+  79	1000	16.0	16.0	  65	unbonded
+  80	1000	16.0	16.0	  65	unbonded
+  81	1000	16.0	16.0	  65	unbonded
+  82	1000	16.0	16.0	  65	unbonded
+  83	1000	16.0	16.0	  65	unbonded
+  84	1000	16.0	16.0	  65	unbonded
+  85	1000	16.0	16.0	  65	unbonded
+  86	1000	16.0	16.0	  65	unbonded
+  87	1000	16.4	16.4	  64	unbonded
+  88	1000	16.1	16.1	  65	unbonded
+  89	1000	16.0	16.0	  65	unbonded
+  90	1000	16.0	16.0	  65	unbonded
+  91	1000	16.0	16.0	  65	unbonded
+  92	1000	16.0	16.0	  65	unbonded
+  93	1000	16.0	16.0	  65	unbonded
+  94	1000	16.0	16.0	  65	unbonded
+  95	1000	16.0	16.0	  65	unbonded
+  96	1000	16.0	16.0	  65	unbonded
+  97	1000	16.0	16.0	  65	unbonded
+  98	1000	16.0	16.0	  65	unbonded
+  99	1000	16.0	16.0	  65	unbonded
+ 100	1000	16.0	16.0	  65	unbonded
+ 101	1000	16.0	16.0	  65	unbonded
+ 102	1000	16.0	16.0	  65	unbonded
+ 103	1000	16.0	16.0	  65	unbonded
+ 104	1000	16.0	16.0	  65	unbonded
+ 105	1000	16.0	16.0	  65	unbonded
+ 106	1000	16.0	16.0	  65	unbonded
+ 107	1000	16.0	16.0	  65	unbonded
+ 108	1000	16.0	16.0	  65	unbonded
+ 109	1000	16.8	16.8	  62	unbonded
+ 110	1000	16.1	16.1	  65	unbonded
+ 111	1000	16.0	16.0	  65	unbonded
+ 112	1000	16.0	16.0	  65	unbonded
+ 113	1000	16.0	16.0	  65	unbonded
+ 114	1000	16.0	16.0	  65	unbonded
+ 115	1000	16.0	16.0	  65	unbonded
+ 116	1000	16.0	16.0	  65	unbonded
+ 117	1000	16.0	16.0	  65	unbonded
+ 118	1000	16.0	16.0	  65	unbonded
+ 119	1000	16.0	16.0	  65	unbonded
+ 120	1000	16.0	16.0	  65	unbonded
+ 121	1000	16.8	16.8	  62	unbonded
+ 122	1000	16.1	16.1	  65	unbonded
+ 123	1000	16.0	16.0	  65	unbonded
+ 124	1000	16.0	16.0	  65	unbonded
+ 125	1000	16.0	16.0	  65	unbonded
+ 126	1000	16.0	16.0	  65	unbonded
+ 127	1000	16.0	16.0	  65	unbonded
+ 128	1000	16.0	16.0	  65	unbonded
+ 129	1000	16.0	16.0	  65	unbonded
+ 130	1000	16.0	16.0	  65	unbonded
+ 131	1000	16.0	16.0	  65	unbonded
+ 132	1000	16.0	16.0	  65	unbonded
+ 133	1000	16.0	16.0	  65	unbonded
+ 134	1000	16.0	16.0	  65	unbonded
+ 135	1000	16.0	16.0	  65	unbonded
+ 136	1000	16.0	16.0	  65	unbonded
+ 137	1000	16.0	16.0	  65	unbonded
+ 138	1000	16.0	16.0	 204	unbonded
+ 139	1000	16.0	16.0	  65	unbonded
+ 140	1000	16.0	16.0	  65	unbonded
+ 141	1000	16.0	16.0	  65	unbonded
+ 142	1000	16.0	16.0	  65	unbonded
+ 143	1000	16.0	16.0	  65	unbonded
+ 144	1000	16.0	16.0	  65	unbonded
+ 145	1000	16.0	16.0	  65	unbonded
+ 146	1000	16.0	16.0	  65	unbonded
+ 147	1000	16.0	16.0	  65	unbonded
+ 148	1000	16.0	16.0	  65	unbonded
+ 149	1000	16.0	16.0	  65	unbonded
+ 150	1000	16.0	16.0	  65	unbonded
+ 151	1000	16.0	16.0	  65	unbonded
+ 152	1000	16.0	16.0	  65	unbonded
+ 153	1000	16.4	16.4	  64	unbonded
+ 154	1000	16.1	16.1	  65	unbonded
+ 155	4000	16.0	16.0	 848	high noise
+ 156	1000	16.0	16.0	  65	unbonded
+ 157	1000	16.0	16.0	  65	unbonded
+ 158	1000	16.0	16.0	  65	unbonded
+ 159	1000	16.0	16.0	  65	unbonded
+ 160	1000	16.0	16.0	  65	unbonded
+ 161	1000	16.0	16.0	  65	unbonded
+ 162	1000	16.0	16.0	  65	unbonded
+ 163	1000	16.0	16.0	  65	unbonded
+ 164	1000	16.0	16.0	  65	unbonded
+ 165	1000	16.0	16.0	  65	unbonded
+ 166	1000	16.0	16.0	  65	unbonded
+ 167	1000	16.0	16.0	  65	unbonded
+ 168	1000	16.0	16.0	  65	unbonded
+ 169	1000	16.0	16.0	  65	unbonded
+ 170	1000	16.0	16.0	  65	unbonded
+ 171	1000	16.4	16.4	  64	unbonded
+ 172	1000	16.1	16.1	  65	unbonded
+ 173	1000	16.0	16.0	  65	unbonded
+ 174	1000	16.0	16.0	  65	unbonded
+ 175	1000	16.0	16.0	  65	unbonded
+ 176	1000	16.0	16.0	  65	unbonded
+ 177	1000	16.0	16.0	  65	unbonded
+ 178	1000	16.0	16.0	  65	unbonded
+ 179	1000	16.0	16.0	 204	unbonded
+ 180	1000	16.0	16.0	  65	unbonded
+ 181	1000	16.0	16.0	  65	unbonded
+ 182	4000	16.0	16.0	 852	high noise
+ 183	1000	16.0	16.0	  65	unbonded
+ 184	1000	16.0	16.0	  65	unbonded
+ 185	1000	16.0	16.0	  65	unbonded
+ 186	1000	16.0	16.0	  65	unbonded
+ 187	1000	16.0	16.0	  65	unbonded
+ 188	1000	16.0	16.0	  65	unbonded
+ 189	1000	16.0	16.0	  65	unbonded
+ 190	1000	16.0	16.0	  65	unbonded
+ 191	1000	16.0	16.0	  65	unbonded
+ 192	1000	16.0	16.0	  65	unbonded
+ 193	1000	16.0	16.0	  65	unbonded
+ 194	1000	16.0	16.0	 204	unbonded
+ 195	1000	16.0	16.0	  65	unbonded
+ 196	1000	16.0	16.0	  65	unbonded
+ 197	1000	16.0	16.0	  65	unbonded
+ 198	1000	16.0	16.0	  65	unbonded
+ 199	1000	16.0	16.0	  65	unbonded
+ 200	1000	16.0	16.0	  65	unbonded
+ 201	1000	16.0	16.0	  65	unbonded
+ 202	1000	16.0	16.0	  65	unbonded
+ 203	1000	16.0	16.0	  65	unbonded
+ 204	1000	16.0	16.0	  65	unbonded
+ 205	1000	16.0	16.0	  65	unbonded
+ 206	1000	16.0	16.0	  65	unbonded
+ 207	1000	16.0	16.0	  65	unbonded
+ 208	1000	16.0	16.0	  65	unbonded
+ 209	1000	16.0	16.0	  65	unbonded
+ 210	1000	16.0	16.0	  65	unbonded
+ 211	1000	16.0	16.0	  65	unbonded
+ 212	1000	16.0	16.0	  65	unbonded
+ 213	1000	16.0	16.0	  65	unbonded
+ 214	1000	16.0	16.0	  65	unbonded
+ 215	1000	16.0	16.0	  65	unbonded
+ 216	1000	16.0	16.0	  65	unbonded
+ 217	1000	16.0	16.0	  65	unbonded
+ 218	4000	16.0	16.0	 848	high noise
+ 219	1000	16.0	16.0	  65	unbonded
+ 220	1000	16.0	16.0	  65	unbonded
+ 221	1000	16.0	16.0	  65	unbonded
+ 222	1000	16.0	16.0	  65	unbonded
+ 223	1000	16.0	16.0	  65	unbonded
+ 224	1000	16.0	16.0	  65	unbonded
+ 225	1000	16.0	16.0	  65	unbonded
+ 226	1000	16.0	16.0	  65	unbonded
+ 227	1000	16.0	16.0	  65	unbonded
+ 228	1000	16.0	16.0	  65	unbonded
+ 229	1000	16.0	16.0	  65	unbonded
+ 230	1000	16.0	16.0	  65	unbonded
+ 231	1000	16.0	16.0	  65	unbonded
+ 232	1000	16.0	16.0	  65	unbonded
+ 233	1000	16.0	16.0	  65	unbonded
+ 234	4000	16.0	16.0	 848	high noise
+ 235	1000	16.0	16.0	  65	unbonded
+ 236	1000	16.0	16.0	  65	unbonded
+ 237	1000	16.0	16.0	  65	unbonded
+ 238	1000	16.0	16.0	  65	unbonded
+ 239	1000	16.0	16.0	  65	unbonded
+ 240	1000	16.0	16.0	  65	unbonded
+ 241	1000	16.0	16.0	  65	unbonded
+ 242	1000	16.0	16.0	  65	unbonded
+ 243	1000	16.0	16.0	  65	unbonded
+ 244	1000	16.0	16.0	  65	unbonded
+ 245	1000	16.0	16.0	  65	unbonded
+ 246	1000	16.0	16.0	  65	unbonded
+ 247	1000	16.0	16.0	  65	unbonded
+ 248	1000	16.0	16.0	  65	unbonded
+ 249	1000	16.0	16.0	  65	unbonded
+ 250	1000	16.0	16.0	  65	unbonded
+ 251	1000	16.0	16.0	  65	unbonded
+ 252	1000	16.0	16.0	  65	unbonded
+ 253	1000	16.0	16.0	  65	unbonded
+ 254	1000	16.0	16.0	  65	unbonded
+ 255	1000	16.0	16.0	  65	unbonded
+ 256	1000	16.0	16.0	  65	unbonded
+ 257	1000	16.0	16.0	  65	unbonded
+ 258	1000	16.0	16.0	  65	unbonded
+ 259	1000	16.0	16.0	  65	unbonded
+ 260	1800	207.8	207.8	  67	high offset
+ 261	1000	16.1	16.1	  65	unbonded
+ 262	1000	16.0	16.0	  65	unbonded
+ 263	1000	16.0	16.0	  65	unbonded
+ 264	1000	16.0	16.0	  65	unbonded
+ 265	1000	16.0	16.0	  65	unbonded
+ 266	1000	16.0	16.0	  65	unbonded
+ 267	1000	16.0	16.0	  65	unbonded
+ 268	1000	16.0	16.0	  65	unbonded
+ 269	1000	16.0	16.0	  65	unbonded
+ 270	1000	16.0	16.0	  65	unbonded
+ 271	1000	16.0	16.0	  65	unbonded
+ 272	4000	16.0	16.0	 848	high noise
+ 273	4000	16.4	16.4	 823	high noise
+ 274	1000	16.1	16.1	  65	unbonded
+ 275	1000	16.0	16.0	  65	unbonded
+ 276	1000	16.0	16.0	  65	unbonded
+ 277	1000	16.0	16.0	  65	unbonded
+ 278	1000	16.0	16.0	  65	unbonded
+ 279	1000	16.0	16.0	  65	unbonded
+ 280	1000	16.0	16.0	  65	unbonded
+ 281	1000	16.0	16.0	  65	unbonded
+ 282	1000	16.0	16.0	  65	unbonded
+ 283	1000	16.0	16.0	  65	unbonded
+ 284	1000	16.0	16.0	  65	unbonded
+ 285	1000	16.0	16.0	  65	unbonded
+ 286	1000	16.0	16.0	  65	unbonded
+ 287	1000	16.0	16.0	  65	unbonded
+ 288	1000	16.0	16.0	  65	unbonded
+ 289	1000	16.0	16.0	  65	unbonded
+ 290	1000	16.0	16.0	  65	unbonded
+ 291	1000	16.0	16.0	  65	unbonded
+ 292	1000	16.0	16.0	  65	unbonded
+ 293	1000	16.0	16.0	  65	unbonded
+ 294	1000	16.0	16.0	  65	unbonded
+ 295	1000	16.0	16.0	  65	unbonded
+ 296	1000	16.0	16.0	  65	unbonded
+ 297	1000	16.0	16.0	  65	unbonded
+ 298	1000	16.0	16.0	  65	unbonded
+ 299	1000	16.0	16.0	  65	unbonded
+ 300	1000	16.0	16.0	  65	unbonded
+ 301	1000	15.7	15.7	 208	unbonded
+ 302	1000	16.4	16.4	  64	unbonded
+ 303	1000	16.1	16.1	  65	unbonded
+ 304	1000	16.0	16.0	  65	unbonded
+ 305	1000	16.0	16.0	  65	unbonded
+ 306	1000	16.0	16.0	  65	unbonded
+ 307	1000	16.0	16.0	  65	unbonded
+ 308	1000	16.0	16.0	  65	unbonded
+ 309	1000	16.0	16.0	  65	unbonded
+ 310	1000	16.0	16.0	  65	unbonded
+ 311	1000	16.0	16.0	  65	unbonded
+ 312	1000	16.0	16.0	  65	unbonded
+ 313	1000	16.0	16.0	  65	unbonded
+ 314	1000	16.0	16.0	  65	unbonded
+ 315	1000	16.0	16.0	  65	unbonded
+ 316	1000	16.0	16.0	  65	unbonded
+ 317	1000	16.0	16.0	  65	unbonded
+ 318	1000	16.0	16.0	  65	unbonded
+ 319	1800	207.8	207.8	  67	high offset
+ 320	1000	16.1	16.1	  65	unbonded
+ 321	1000	16.0	16.0	  65	unbonded
+ 322	1000	16.0	16.0	  65	unbonded
+ 323	1000	16.0	16.0	  65	unbonded
+ 324	1000	16.4	16.4	  64	unbonded
+ 325	1000	16.1	16.1	  65	unbonded
+ 326	1000	16.0	16.0	  65	unbonded
+ 327	4000	16.4	16.4	 830	high noise
+ 328	1000	16.1	16.1	  65	unbonded
+ 329	1000	16.0	16.0	  65	unbonded
+ 330	1000	16.0	16.0	  65	unbonded
+ 331	1000	16.0	16.0	  65	unbonded
+ 332	4000	16.0	16.0	 848	high noise
+ 333	1000	16.0	16.0	  65	unbonded
+ 334	1000	16.0	16.0	  65	unbonded
+ 335	1000	16.0	16.0	  65	unbonded
+ 336	1000	16.0	16.0	  65	unbonded
+ 337	1000	16.0	16.0	  65	unbonded
+ 338	1000	16.0	16.0	  65	unbonded
+ 339	1000	16.0	16.0	  65	unbonded
+ 340	1000	16.0	16.0	  65	unbonded
+ 341	1000	16.0	16.0	  65	unbonded
+ 342	1000	16.0	16.0	  65	unbonded
+ 343	1000	16.0	16.0	  65	unbonded
+ 344	1000	16.0	16.0	  65	unbonded
+ 345	1000	16.0	16.0	  65	unbonded
+ 346	1800	207.8	207.8	  66	high offset
+ 347	1000	16.1	16.1	  65	unbonded
+ 348	1800	209.0	209.0	  65	high offset
+ 349	1000	16.4	16.4	  64	unbonded
+ 350	1000	16.4	16.4	  64	unbonded
+ 351	1000	16.1	16.1	  65	unbonded
+ 352	1000	16.0	16.0	  65	unbonded
+ 353	1000	16.0	16.0	  65	unbonded
+ 354	1000	16.0	16.0	  65	unbonded
+ 355	1000	16.0	16.0	  65	unbonded
+ 356	1000	16.0	16.0	  65	unbonded
+ 357	1000	16.0	16.0	  65	unbonded
+ 358	1000	16.0	16.0	  65	unbonded
+ 359	1000	16.0	16.0	  65	unbonded
+ 360	1000	16.0	16.0	  65	unbonded
+ 361	1000	16.0	16.0	  65	unbonded
+ 362	1000	16.0	16.0	  65	unbonded
+ 363	1000	16.0	16.0	  65	unbonded
+ 364	1000	16.0	16.0	  65	unbonded
+ 365	1000	16.0	16.0	  65	unbonded
+ 366	1000	16.0	16.0	  65	unbonded
+ 367	1000	16.0	16.0	  65	unbonded
+ 368	1000	16.0	16.0	  65	unbonded
+ 369	1000	16.0	16.0	  65	unbonded
+ 370	1000	16.0	16.0	  65	unbonded
+ 371	1000	15.6	15.6	 210	unbonded
+ 372	1000	16.1	16.1	  65	unbonded
+ 373	1000	16.0	16.0	  65	unbonded
+ 374	1000	16.0	16.0	  65	unbonded
+ 375	1000	16.0	16.0	  65	unbonded
+ 376	1000	16.0	16.0	  65	unbonded
+ 377	1000	16.0	16.0	  65	unbonded
+ 378	1000	16.0	16.0	  65	unbonded
+ 379	1000	16.0	16.0	  65	unbonded
+ 380	1000	16.0	16.0	  65	unbonded
+ 381	1000	16.0	16.0	  65	unbonded
+ 382	1000	16.0	16.0	  65	unbonded
+ 383	1000	16.0	16.0	  65	unbonded
+ 384	1000	16.0	16.0	  65	unbonded
+ 385	1000	16.0	16.0	  65	unbonded
+ 386	1000	16.0	16.0	  65	unbonded
+ 387	1000	16.0	16.0	  65	unbonded
+ 388	1000	16.0	16.0	  65	unbonded
+ 389	1000	16.0	16.0	  65	unbonded
+ 390	1000	16.0	16.0	  65	unbonded
+ 391	1000	16.0	16.0	  65	unbonded
+ 392	1000	16.0	16.0	  65	unbonded
+ 393	1000	16.0	16.0	  65	unbonded
+ 394	1000	15.6	15.6	  67	unbonded
+ 395	1000	16.1	16.1	  65	unbonded
+ 396	1000	16.0	16.0	  65	unbonded
+ 397	1000	16.0	16.0	  65	unbonded
+ 398	1000	16.0	16.0	  65	unbonded
+ 399	1000	16.0	16.0	  65	unbonded
+ 400	1000	16.0	16.0	  65	unbonded
+ 401	1000	16.0	16.0	  65	unbonded
+ 402	1000	16.4	16.4	  64	unbonded
+ 403	1000	16.4	16.4	  64	unbonded
+ 404	1000	16.1	16.1	  65	unbonded
+ 405	1000	16.0	16.0	  65	unbonded
+ 406	1000	16.0	16.0	  65	unbonded
+ 407	1000	16.0	16.0	  65	unbonded
+ 408	1000	16.0	16.0	  65	unbonded
+ 409	1000	16.0	16.0	  65	unbonded
+ 410	1000	16.0	16.0	  65	unbonded
+ 411	1000	16.0	16.0	  65	unbonded
+ 412	1000	16.0	16.0	  65	unbonded
+ 413	4000	16.0	16.0	 848	high noise
+ 414	1000	16.0	16.0	  65	unbonded
+ 415	1000	16.0	16.0	  65	unbonded
+ 416	1000	16.0	16.0	  65	unbonded
+ 417	1000	16.0	16.0	  65	unbonded
+ 418	1000	16.0	16.0	  65	unbonded
+ 419	1000	16.0	16.0	  65	unbonded
+ 420	1000	16.0	16.0	  65	unbonded
+ 421	1000	16.0	16.0	  65	unbonded
+ 422	1000	16.0	16.0	  65	unbonded
+ 423	1000	16.0	16.0	  65	unbonded
+ 424	1000	16.0	16.0	  65	unbonded
+ 425	1000	16.0	16.0	  65	unbonded
+ 426	1000	16.0	16.0	  65	unbonded
+ 427	1000	16.0	16.0	  65	unbonded
+ 428	1000	16.0	16.0	 204	unbonded
+ 429	1000	16.0	16.0	  65	unbonded
+ 430	1000	16.0	16.0	  65	unbonded
+ 431	1000	16.0	16.0	  65	unbonded
+ 432	1000	16.0	16.0	  65	unbonded
+ 433	1000	16.0	16.0	  65	unbonded
+ 434	1000	16.0	16.0	  65	unbonded
+ 435	1000	16.0	16.0	  65	unbonded
+ 436	1000	16.0	16.0	  65	unbonded
+ 437	1000	16.0	16.0	  65	unbonded
+ 438	1000	16.0	16.0	  65	unbonded
+ 439	1000	16.0	16.0	  65	unbonded
+ 440	1000	16.0	16.0	  65	unbonded
+ 441	1000	16.0	16.0	  65	unbonded
+ 442	1000	16.0	16.0	  65	unbonded
+ 443	1000	16.0	16.0	  65	unbonded
+ 444	1000	16.0	16.0	  65	unbonded
+ 445	1000	16.0	16.0	  65	unbonded
+ 446	1000	16.0	16.0	  65	unbonded
+ 447	1000	16.0	16.0	  65	unbonded
+ 448	1000	16.0	16.0	  65	unbonded
+ 449	1000	16.0	16.0	  65	unbonded
+ 450	1000	16.0	16.0	  65	unbonded
+ 451	1000	16.0	16.0	  65	unbonded
+ 452	1000	16.0	16.0	  65	unbonded
+ 453	1000	16.0	16.0	  65	unbonded
+ 454	1000	16.0	16.0	  65	unbonded
+ 455	1000	16.0	16.0	  65	unbonded
+ 456	1000	16.0	16.0	  65	unbonded
+ 457	1000	16.0	16.0	  65	unbonded
+ 458	1000	16.0	16.0	  65	unbonded
+ 459	1000	16.0	16.0	  65	unbonded
+ 460	1000	16.0	16.0	  65	unbonded
+ 461	1000	16.0	16.0	  65	unbonded
+ 462	1000	16.4	16.4	  64	unbonded
+ 463	1000	16.1	16.1	  65	unbonded
+ 464	1000	16.0	16.0	  65	unbonded
+ 465	1000	16.0	16.0	  65	unbonded
+ 466	1000	16.0	16.0	  65	unbonded
+ 467	1000	16.8	16.8	  62	unbonded
+ 468	1000	16.1	16.1	  65	unbonded
+ 469	1800	206.4	206.4	  71	high offset
+ 470	1000	16.4	16.4	  64	unbonded
+ 471	4000	16.0	16.0	 851	high noise
+ 472	1000	16.0	16.0	  65	unbonded
+ 473	1000	16.0	16.0	  65	unbonded
+ 474	1000	16.0	16.0	  65	unbonded
+ 475	1000	16.0	16.0	  65	unbonded
+ 476	1000	16.0	16.0	  65	unbonded
+ 477	1000	16.0	16.0	  65	unbonded
+ 478	1000	16.0	16.0	  65	unbonded
+ 479	1000	16.0	16.0	  65	unbonded
+ 480	4000	16.5	16.5	 822	high noise
+ 481	4000	16.0	16.0	 846	high noise
+ 482	1000	16.0	16.0	  65	unbonded
+ 483	1000	16.0	16.0	  65	unbonded
+ 484	1000	16.0	16.0	  65	unbonded
+ 485	1000	16.0	16.0	  65	unbonded
+ 486	1000	16.0	16.0	  65	unbonded
+ 487	1000	16.0	16.0	  65	unbonded
+ 488	1000	16.0	16.0	  65	unbonded
+ 489	1000	16.0	16.0	  65	unbonded
+ 490	1000	16.0	16.0	  65	unbonded
+ 491	1000	16.0	16.0	  65	unbonded
+ 492	1000	16.0	16.0	  65	unbonded
+ 493	1000	16.0	16.0	  65	unbonded
+ 494	1000	16.0	16.0	  65	unbonded
+ 495	1000	16.0	16.0	  65	unbonded
+ 496	1000	16.0	16.0	  65	unbonded
+ 497	1000	16.0	16.0	  65	unbonded
+ 498	1000	16.0	16.0	  65	unbonded
+ 499	4000	16.0	16.0	 848	high noise
+ 500	1000	16.0	16.0	  65	unbonded
+ 501	1000	16.0	16.0	  65	unbonded
+ 502	1000	16.0	16.0	  65	unbonded
+ 503	1000	16.0	16.0	  65	unbonded
+ 504	1000	16.0	16.0	  65	unbonded
+ 505	1000	16.0	16.0	  65	unbonded
+ 506	1000	16.0	16.0	  65	unbonded
+ 507	4000	16.0	16.0	 848	high noise
+ 508	1000	16.0	16.0	  65	unbonded
+ 509	1000	16.0	16.0	  65	unbonded
+ 510	1000	16.0	16.0	  65	unbonded
+ 511	1000	16.0	16.0	  65	unbonded
+ 512	1000	16.0	16.0	  65	unbonded
+ 513	1000	16.0	16.0	  65	unbonded
+ 514	1000	16.0	16.0	  65	unbonded
+ 515	1000	16.0	16.0	  65	unbonded
+ 516	1000	16.4	16.4	  64	unbonded
+ 517	1000	16.1	16.1	  65	unbonded
+ 518	1000	16.0	16.0	  65	unbonded
+ 519	1000	16.0	16.0	  65	unbonded
+ 520	1000	16.0	16.0	  65	unbonded
+ 521	1000	16.0	16.0	  65	unbonded
+ 522	1000	16.0	16.0	  65	unbonded
+ 523	1000	16.0	16.0	  65	unbonded
+ 524	1000	16.0	16.0	  65	unbonded
+ 525	1000	16.0	16.0	 204	unbonded
+ 526	1000	16.0	16.0	  65	unbonded
+ 527	1000	16.0	16.0	  65	unbonded
+ 528	1000	16.0	16.0	  65	unbonded
+ 529	1000	16.0	16.0	  65	unbonded
+ 530	1000	16.0	16.0	  65	unbonded
+ 531	1000	16.0	16.0	  65	unbonded
+ 532	1000	16.0	16.0	  65	unbonded
+ 533	1000	16.0	16.0	  65	unbonded
+ 534	1000	16.0	16.0	  65	unbonded
+ 535	1000	16.0	16.0	  65	unbonded
+ 536	1000	16.8	16.8	  62	unbonded
+ 537	1000	16.1	16.1	  65	unbonded
+ 538	1000	16.0	16.0	  65	unbonded
+ 539	1000	16.0	16.0	  65	unbonded
+ 540	1000	16.0	16.0	  65	unbonded
+ 541	1000	16.4	16.4	  64	unbonded
+ 542	1000	16.1	16.1	  65	unbonded
+ 543	1000	16.0	16.0	  65	unbonded
+ 544	1000	16.0	16.0	  65	unbonded
+ 545	1000	16.0	16.0	  65	unbonded
+ 546	1000	16.0	16.0	  65	unbonded
+ 547	1000	16.4	16.4	  64	unbonded
+ 548	1000	16.1	16.1	  65	unbonded
+ 549	1000	16.0	16.0	  65	unbonded
+ 550	1000	16.0	16.0	  65	unbonded
+ 551	1000	16.0	16.0	  65	unbonded
+ 552	1000	16.0	16.0	  65	unbonded
+ 553	1000	16.4	16.4	  64	unbonded
+ 554	1000	16.1	16.1	  65	unbonded
+ 555	1000	16.0	16.0	  65	unbonded
+ 556	1000	16.0	16.0	  65	unbonded
+ 557	1000	16.0	16.0	  65	unbonded
+ 558	1000	16.0	16.0	  65	unbonded
+ 559	1000	16.0	16.0	  65	unbonded
+ 560	1000	16.0	16.0	 204	unbonded
+ 561	1000	16.4	16.4	  64	unbonded
+ 562	1000	16.1	16.1	  65	unbonded
+ 563	1000	16.0	16.0	  65	unbonded
+ 564	1000	16.0	16.0	  65	unbonded
+ 565	1000	16.0	16.0	  65	unbonded
+ 566	1000	16.0	16.0	  65	unbonded
+ 567	1000	16.0	16.0	  65	unbonded
+ 568	1000	16.0	16.0	  65	unbonded
+ 569	1000	16.0	16.0	  65	unbonded
+ 570	1000	16.4	16.4	  64	unbonded
+ 571	1000	16.1	16.1	  65	unbonded
+ 572	1000	16.0	16.0	  65	unbonded
+ 573	1000	16.0	16.0	  65	unbonded
+ 574	1000	16.0	16.0	  65	unbonded
+ 575	1000	16.0	16.0	  65	unbonded
+ 576	1000	16.0	16.0	  65	unbonded
+ 577	1000	16.0	16.0	  65	unbonded
+ 578	1000	16.0	16.0	  65	unbonded
+ 579	1000	16.0	16.0	  65	unbonded
+ 580	1000	16.0	16.0	  65	unbonded
+ 581	1000	16.0	16.0	  65	unbonded
+ 582	1000	16.0	16.0	  65	unbonded
+ 583	1000	16.0	16.0	  65	unbonded
+ 584	1000	16.0	16.0	  65	unbonded
+ 585	1000	16.0	16.0	  65	unbonded
+ 586	1000	16.0	16.0	  65	unbonded
+ 587	1000	16.0	16.0	  65	unbonded
+ 588	1000	16.0	16.0	  65	unbonded
+ 589	1000	16.0	16.0	  65	unbonded
+ 590	1000	16.0	16.0	  65	unbonded
+ 591	1800	208.0	208.0	   5	high offset
+ 592	1000	16.1	16.1	  65	unbonded
+ 593	1000	16.0	16.0	  65	unbonded
+ 594	1000	16.0	16.0	 204	unbonded
+ 595	1000	16.0	16.0	  65	unbonded
+ 596	1000	16.0	16.0	  65	unbonded
+ 597	1000	16.0	16.0	  65	unbonded
+ 598	1000	16.0	16.0	  65	unbonded
+ 599	1000	16.0	16.0	  65	unbonded
+ 600	1000	16.0	16.0	  65	unbonded
+ 601	1000	16.0	16.0	  65	unbonded
+ 602	1000	16.0	16.0	  65	unbonded
+ 603	1000	16.0	16.0	  65	unbonded
+ 604	4000	16.0	16.0	 854	high noise
+ 605	1000	16.0	16.0	  65	unbonded
+ 606	1000	16.0	16.0	  65	unbonded
+ 607	1000	16.0	16.0	  65	unbonded
+ 608	1000	16.0	16.0	  65	unbonded
+ 609	1000	16.0	16.0	  65	unbonded
+ 610	1800	207.8	207.8	  65	high offset
+ 611	1000	16.4	16.4	  63	unbonded
+ 612	4000	16.0	16.0	 847	high noise
+ 613	1000	16.0	16.0	  65	unbonded
+ 614	1800	207.8	207.8	  67	high offset
+ 615	1000	16.1	16.1	  65	unbonded
+ 616	1000	16.0	16.0	  65	unbonded
+ 617	1000	16.0	16.0	  65	unbonded
+ 618	1000	16.0	16.0	  65	unbonded
+ 619	1000	16.0	16.0	  65	unbonded
+ 620	1000	16.0	16.0	  65	unbonded
+ 621	1000	16.0	16.0	  65	unbonded
+ 622	1000	16.4	16.4	  64	unbonded
+ 623	1000	16.1	16.1	  65	unbonded
+ 624	1000	16.0	16.0	  65	unbonded
+ 625	1000	16.0	16.0	  65	unbonded
+ 626	1000	16.0	16.0	  65	unbonded
+ 627	1000	16.0	16.0	  65	unbonded
+ 628	1000	16.0	16.0	  65	unbonded
+ 629	1000	16.0	16.0	  65	unbonded
+ 630	1000	16.0	16.0	  65	unbonded
+ 631	1000	15.6	15.6	  67	unbonded
+ 632	1000	16.1	16.1	  65	unbonded
+ 633	1000	16.0	16.0	  65	unbonded
+ 634	1000	16.0	16.0	  65	unbonded
+ 635	1000	16.0	16.0	  65	unbonded
+ 636	1000	16.0	16.0	  65	unbonded
+ 637	1000	16.0	16.0	  65	unbonded
+ 638	1000	16.0	16.0	  65	unbonded
+ 639	1000	16.0	16.0	  65	unbonded
+ 640	1000	16.0	16.0	 204	unbonded
+ 641	1000	16.0	16.0	 204	unbonded
+ 642	1000	16.0	16.0	 204	unbonded
+ 643	1000	16.0	16.0	 204	unbonded
+ 644	1000	16.0	16.0	 204	unbonded
+ 645	1000	16.0	16.0	 204	unbonded
+ 646	1000	16.0	16.0	 204	unbonded
+ 647	1000	16.0	16.0	 204	unbonded
+ 648	1000	16.0	16.0	 204	unbonded
+ 649	1000	16.0	16.0	 204	unbonded
+ 650	1000	16.0	16.0	 204	unbonded
+ 651	1000	16.0	16.0	 204	unbonded
+ 652	1000	16.0	16.0	 204	unbonded
+ 653	1000	16.0	16.0	 204	unbonded
+ 654	1000	16.0	16.0	 204	unbonded
+ 655	1000	16.0	16.0	 204	unbonded
+ 656	1000	16.0	16.0	 204	unbonded
+ 657	1000	16.0	16.0	 204	unbonded
+ 658	1000	16.0	16.0	 204	unbonded
+ 659	1000	16.0	16.0	 204	unbonded
+ 660	1000	16.0	16.0	 204	unbonded
+ 661	1000	16.0	16.0	 204	unbonded
+ 662	1000	16.0	16.0	 204	unbonded
+ 663	1000	16.0	16.0	 204	unbonded
+ 664	1000	16.0	16.0	 204	unbonded
+ 665	1000	16.0	16.0	 204	unbonded
+ 666	1000	16.0	16.0	 204	unbonded
+ 667	1000	16.0	16.0	 204	unbonded
+ 668	1000	16.0	16.0	 204	unbonded
+ 669	1000	16.0	16.0	 204	unbonded
+ 670	1000	16.0	16.0	 204	unbonded
+ 671	1000	16.0	16.0	 204	unbonded
+ 672	1000	16.0	16.0	 204	unbonded
+ 673	1000	16.0	16.0	 204	unbonded
+ 674	1000	16.0	16.0	 204	unbonded
+ 675	1000	16.0	16.0	 204	unbonded
+ 676	1000	16.0	16.0	 204	unbonded
+ 677	1000	16.0	16.0	 204	unbonded
+ 678	1000	16.0	16.0	 204	unbonded
+ 679	4000	16.0	16.0	 842	high noise
+ 680	1000	16.0	16.0	 204	unbonded
+ 681	4000	16.0	16.0	 842	high noise
+ 682	1000	16.0	16.0	 204	unbonded
+ 683	1000	16.0	16.0	 204	unbonded
+ 684	1000	16.0	16.0	 204	unbonded
+ 685	1000	16.0	16.0	 204	unbonded
+ 686	1000	16.0	16.0	 204	unbonded
+ 687	1000	16.4	16.4	 200	unbonded
+ 688	1000	16.0	16.0	 204	unbonded
+ 689	1000	16.0	16.0	 204	unbonded
+ 690	1000	16.0	16.0	 204	unbonded
+ 691	1000	16.0	16.0	 204	unbonded
+ 692	1000	16.0	16.0	 204	unbonded
+ 693	1000	16.0	16.0	 204	unbonded
+ 694	1000	16.0	16.0	 204	unbonded
+ 695	1000	16.0	16.0	 204	unbonded
+ 696	1000	16.0	16.0	 204	unbonded
+ 697	1000	16.0	16.0	 204	unbonded
+ 698	1000	16.0	16.0	 204	unbonded
+ 699	1000	16.0	16.0	 204	unbonded
+ 700	4000	16.4	16.4	 823	high noise
+ 701	1000	16.0	16.0	 204	unbonded
+ 702	1000	16.0	16.0	 204	unbonded
+ 703	1000	16.0	16.0	 204	unbonded
+ 704	1000	16.0	16.0	 204	unbonded
+ 705	1000	16.0	16.0	 204	unbonded
+ 706	1000	16.0	16.0	 204	unbonded
+ 707	1000	16.0	16.0	 204	unbonded
+ 708	1000	16.0	16.0	 204	unbonded
+ 709	1000	16.0	16.0	 204	unbonded
+ 710	1000	16.0	16.0	 204	unbonded
+ 711	1000	16.4	16.4	 200	unbonded
+ 712	1000	16.0	16.0	 204	unbonded
+ 713	1000	16.0	16.0	 204	unbonded
+ 714	1000	16.0	16.0	 204	unbonded
+ 715	1000	16.0	16.0	 204	unbonded
+ 716	1000	16.0	16.0	 204	unbonded
+ 717	1000	16.0	16.0	 204	unbonded
+ 718	1000	16.0	16.0	 204	unbonded
+ 719	1000	16.0	16.0	 204	unbonded
+ 720	1000	16.0	16.0	 204	unbonded
+ 721	1000	16.0	16.0	 204	unbonded
+ 722	1000	16.0	16.0	 204	unbonded
+ 723	1000	16.0	16.0	 204	unbonded
+ 724	1000	16.0	16.0	 204	unbonded
+ 725	1000	16.0	16.0	 204	unbonded
+ 726	1000	16.0	16.0	 204	unbonded
+ 727	1000	16.0	16.0	 204	unbonded
+ 728	1000	16.0	16.0	 204	unbonded
+ 729	1000	16.8	16.8	 195	unbonded
+ 730	1000	16.0	16.0	 204	unbonded
+ 731	1000	16.0	16.0	 204	unbonded
+ 732	1000	16.0	16.0	 204	unbonded
+ 733	1000	16.0	16.0	 204	unbonded
+ 734	1000	17.5	17.5	 187	unbonded
+ 735	1000	15.8	15.8	 207	unbonded
+ 736	1000	16.0	16.0	 204	unbonded
+ 737	1000	16.0	16.0	 204	unbonded
+ 738	1000	16.0	16.0	 198	unbonded
+ 739	1000	16.0	16.0	 204	unbonded
+ 740	1000	16.0	16.0	 204	unbonded
+ 741	1000	16.0	16.0	 204	unbonded
+ 742	1000	16.0	16.0	 204	unbonded
+ 743	1000	16.0	16.0	 204	unbonded
+ 744	1000	16.0	16.0	 204	unbonded
+ 745	1000	16.0	16.0	 204	unbonded
+ 746	1000	16.0	16.0	 204	unbonded
+ 747	1000	16.0	16.0	 204	unbonded
+ 748	1000	16.0	16.0	 204	unbonded
+ 749	4000	16.0	16.0	 842	high noise
+ 750	4000	16.0	16.0	 842	high noise
+ 751	1000	16.0	16.0	 204	unbonded
+ 752	1000	16.4	16.4	 200	unbonded
+ 753	1000	16.0	16.0	 204	unbonded
+ 754	1000	16.0	16.0	 204	unbonded
+ 755	1000	16.0	16.0	 204	unbonded
+ 756	1000	16.0	16.0	 198	unbonded
+ 757	1000	16.0	16.0	 204	unbonded
+ 758	1800	207.8	207.8	  64	high offset
+ 759	1000	16.0	16.0	 204	unbonded
+ 760	1000	16.0	16.0	 204	unbonded
+ 761	1000	16.0	16.0	 204	unbonded
+ 762	1000	16.0	16.0	 204	unbonded
+ 763	1000	16.0	16.0	 204	unbonded
+ 764	1000	16.0	16.0	 204	unbonded
+ 765	1000	16.0	16.0	 204	unbonded
+ 766	1000	16.0	16.0	 204	unbonded
+ 767	1000	16.0	16.0	 204	unbonded
+ 768	1100	16.0	16.0	 204	low gain
+ 769	1100	16.0	16.0	 204	low gain
+ 770	4100	16.7	16.7	 831	low gain
+ 771	1100	16.0	16.0	 204	low gain
+ 772	1100	16.0	16.0	 204	low gain
+ 773	1100	16.0	16.0	 204	low gain
+ 774	1100	16.0	16.0	 204	low gain
+ 775	1100	16.8	16.8	 195	low gain
+ 776	1100	16.0	16.0	 204	low gain
+ 777	1100	16.0	16.0	 204	low gain
+ 778	1100	16.0	16.0	 204	low gain
+ 779	4100	16.8	16.8	 811	low gain
+ 780	1100	16.0	16.0	 204	low gain
+ 781	1100	16.0	16.0	 204	low gain
+ 782	1100	16.0	16.0	 204	low gain
+ 783	1100	16.4	16.4	 200	low gain
+ 784	1800	125.4	125.4	  26	high offset
+ 785	1100	16.0	16.0	 204	low gain
+ 786	1100	16.4	16.4	 200	low gain
+ 787	1800	126.1	126.1	  26	high offset
+ 788	1100	16.4	16.4	 200	low gain
+ 789	1100	16.4	16.4	 200	low gain
+ 790	1100	16.4	16.4	 200	low gain
+ 791	1100	16.5	16.5	 193	low gain
+ 792	1100	16.0	16.0	 204	low gain
+ 793	1100	16.0	16.0	 204	low gain
+ 794	1100	16.0	16.0	 204	low gain
+ 795	4100	16.0	16.0	 842	low gain
+ 796	4100	16.8	16.8	 805	low gain
+ 797	1100	16.0	16.0	 204	low gain
+ 798	1100	16.0	16.0	 204	low gain
+ 799	1100	16.0	16.0	 204	low gain
+ 800	1100	16.0	16.0	 204	low gain
+ 801	1100	16.0	16.0	 204	low gain
+ 802	1100	16.0	16.0	 204	low gain
+ 803	1100	16.4	16.4	 200	low gain
+ 804	1100	16.0	16.0	 198	low gain
+ 805	4100	16.0	16.0	 842	low gain
+ 806	1100	16.0	16.0	 204	low gain
+ 807	1100	16.0	16.0	 204	low gain
+ 808	1800	207.8	207.8	  65	high offset
+ 809	1100	16.0	16.0	 204	low gain
+ 810	1100	16.4	16.4	 200	low gain
+ 811	1100	16.0	16.0	 204	low gain
+ 812	1100	16.0	16.0	 204	low gain
+ 813	1100	16.0	16.0	 204	low gain
+ 814	1100	16.0	16.0	 204	low gain
+ 815	1800	208.0	208.0	  16	high offset
+ 816	1100	16.0	16.0	 204	low gain
+ 817	1800	208.8	208.8	  65	high offset
+ 818	1000	43.2	43.2	 311	unbonded
+ 819	1100	16.0	16.0	 204	low gain
+ 820	1100	16.0	16.0	 204	low gain
+ 821	4100	16.4	16.4	 827	low gain
+ 822	1100	16.0	16.0	 204	low gain
+ 823	1100	16.0	16.0	 198	low gain
+ 824	4100	16.3	16.3	 824	low gain
+ 825	1800	282.0	282.0	  12	high offset
+ 826	1100	16.0	16.0	 204	low gain
+ 827	1100	16.0	16.0	 204	low gain
+ 828	1100	16.0	16.0	 204	low gain
+ 829	1800	207.8	207.8	  65	high offset
+ 830	1100	16.0	16.0	 204	low gain
+ 831	1100	16.4	16.4	 200	low gain
+ 832	1100	16.0	16.0	 204	low gain
+ 833	1100	16.0	16.0	 204	low gain
+ 834	1100	16.0	16.0	 204	low gain
+ 835	1100	16.0	16.0	 204	low gain
+ 836	1100	16.0	16.0	 204	low gain
+ 837	1100	16.0	16.0	 204	low gain
+ 838	1100	16.0	16.0	 204	low gain
+ 839	1100	16.0	16.0	 204	low gain
+ 840	1100	16.0	16.0	 204	low gain
+ 841	1100	16.0	16.0	 204	low gain
+ 842	1100	16.4	16.4	 200	low gain
+ 843	1800	272.6	272.6	  12	high offset
+ 844	1800	131.1	131.1	  25	high offset
+ 845	1100	16.0	16.0	 204	low gain
+ 846	4100	15.6	15.6	 859	low gain
+ 847	1100	16.1	16.1	 204	low gain
+ 848	1100	16.0	16.0	 204	low gain
+ 849	1100	16.0	16.0	 204	low gain
+ 850	1100	16.0	16.0	 204	low gain
+ 851	1100	16.0	16.0	 204	low gain
+ 852	1100	16.0	16.0	 204	low gain
+ 853	1800	207.8	207.8	  16	high offset
+ 854	4100	16.0	16.0	 841	low gain
+ 855	1100	16.0	16.0	 204	low gain
+ 856	1100	16.0	16.0	 204	low gain
+ 857	1100	16.0	16.0	 204	low gain
+ 858	1100	16.0	16.0	 204	low gain
+ 859	1100	16.0	16.0	 204	low gain
+ 860	1100	16.0	16.0	 204	low gain
+ 861	1100	16.0	16.0	 204	low gain
+ 862	1100	16.0	16.0	 204	low gain
+ 863	1100	16.0	16.0	 204	low gain
+ 864	1100	16.0	16.0	 204	low gain
+ 865	1100	16.8	16.8	 195	low gain
+ 866	1100	16.0	16.0	 204	low gain
+ 867	1800	206.1	206.1	  16	high offset
+ 868	1100	16.1	16.1	 204	low gain
+ 869	1100	16.0	16.0	 204	low gain
+ 870	1100	16.0	16.0	 204	low gain
+ 871	1100	16.0	16.0	 204	low gain
+ 872	1100	16.0	16.0	 204	low gain
+ 873	1100	16.0	16.0	 204	low gain
+ 874	4100	16.0	16.0	 842	low gain
+ 875	1100	16.0	16.0	 204	low gain
+ 876	1100	16.0	16.0	 204	low gain
+ 877	1100	16.0	16.0	 204	low gain
+ 878	1100	16.0	16.0	 204	low gain
+ 879	1100	16.0	16.0	 204	low gain
+ 880	1100	16.0	16.0	 204	low gain
+ 881	1100	16.0	16.0	 204	low gain
+ 882	1100	16.0	16.0	 204	low gain
+ 883	1100	16.0	16.0	 204	low gain
+ 884	1100	16.0	16.0	 204	low gain
+ 885	1100	16.0	16.0	 204	low gain
+ 886	1100	16.0	16.0	 204	low gain
+ 887	1100	16.0	16.0	 204	low gain
+ 888	1800	208.0	208.0	  64	high offset
+ 889	1100	16.0	16.0	 204	low gain
+ 890	1100	16.0	16.0	 204	low gain
+ 891	1100	16.0	16.0	 204	low gain
+ 892	1100	16.0	16.0	 204	low gain
+ 893	1100	16.4	16.4	 200	low gain
+ 894	1100	16.0	16.0	 204	low gain
+ 895	1100	16.0	16.0	 204	low gain
+ 896	1000	16.0	16.0	 204	unbonded
+ 897	1000	16.0	16.0	 204	unbonded
+ 898	1000	16.0	16.0	 204	unbonded
+ 899	1000	16.0	16.0	 204	unbonded
+ 900	1000	16.0	16.0	 204	unbonded
+ 901	1800	208.0	208.0	  16	high offset
+ 902	1000	16.0	16.0	 204	unbonded
+ 903	1000	16.0	16.0	 204	unbonded
+ 904	1000	16.4	16.4	 200	unbonded
+ 905	1000	16.0	16.0	 204	unbonded
+ 906	1800	209.0	209.0	  16	high offset
+ 907	1000	15.3	15.3	 213	unbonded
+ 908	1000	16.1	16.1	 204	unbonded
+ 909	1000	16.0	16.0	 204	unbonded
+ 910	1800	208.0	208.0	  16	high offset
+ 911	1000	16.0	16.0	 204	unbonded
+ 912	1000	16.0	16.0	 204	unbonded
+ 913	4000	16.0	16.0	 844	high noise
+ 914	1000	16.5	16.5	 199	unbonded
+ 915	1000	16.0	16.0	 204	unbonded
+ 916	4000	16.0	16.0	 842	high noise
+ 917	1000	16.0	16.0	 204	unbonded
+ 918	1000	16.0	16.0	 204	unbonded
+ 919	1000	16.0	16.0	 204	unbonded
+ 920	1000	16.0	16.0	 204	unbonded
+ 921	1000	16.4	16.4	 200	unbonded
+ 922	1800	370.3	370.3	   9	high offset
+ 923	1000	16.5	16.5	 198	unbonded
+ 924	1000	16.0	16.0	 204	unbonded
+ 925	1000	16.4	16.4	 200	unbonded
+ 926	1000	17.4	17.4	 188	unbonded
+ 927	1000	16.0	16.0	 204	unbonded
+ 928	1000	16.0	16.0	 204	unbonded
+ 929	1000	16.0	16.0	 204	unbonded
+ 930	1000	16.0	16.0	 204	unbonded
+ 931	1000	16.0	16.0	 204	unbonded
+ 932	1000	16.0	16.0	 204	unbonded
+ 933	1000	16.0	16.0	 204	unbonded
+ 934	1000	16.0	16.0	 204	unbonded
+ 935	1000	16.0	16.0	 204	unbonded
+ 936	1800	207.8	207.8	  65	high offset
+ 937	1000	15.5	15.5	 212	unbonded
+ 938	1000	16.0	16.0	 204	unbonded
+ 939	1000	16.0	16.0	 204	unbonded
+ 940	4000	16.0	16.0	 842	high noise
+ 941	1000	16.0	16.0	 204	unbonded
+ 942	1000	16.0	16.0	 204	unbonded
+ 943	1000	16.4	16.4	 200	unbonded
+ 944	1000	16.0	16.0	 204	unbonded
+ 945	1000	16.0	16.0	 204	unbonded
+ 946	1000	16.0	16.0	 204	unbonded
+ 947	1000	16.0	16.0	 204	unbonded
+ 948	1000	16.0	16.0	 204	unbonded
+ 949	1800	207.8	207.8	  65	high offset
+ 950	1000	16.0	16.0	 204	unbonded
+ 951	1000	16.0	16.0	 204	unbonded
+ 952	1000	16.0	16.0	 204	unbonded
+ 953	1000	16.0	16.0	 204	unbonded
+ 954	1000	16.4	16.4	 200	unbonded
+ 955	1000	16.0	16.0	 204	unbonded
+ 956	1800	208.8	208.8	  66	high offset
+ 957	1000	16.0	16.0	 204	unbonded
+ 958	4000	16.0	16.0	 842	high noise
+ 959	1800	207.8	207.8	  66	high offset
+ 960	1000	37.1	37.1	  88	unbonded
+ 961	1000	16.0	16.0	 204	unbonded
+ 962	1000	16.4	16.4	 200	unbonded
+ 963	1000	16.0	16.0	 204	unbonded
+ 964	1000	16.0	16.0	 204	unbonded
+ 965	1000	16.8	16.8	 195	unbonded
+ 966	1000	16.0	16.0	 204	unbonded
+ 967	1000	16.0	16.0	 204	unbonded
+ 968	1000	16.0	16.0	 204	unbonded
+ 969	1800	207.8	207.8	  16	high offset
+ 970	1000	16.0	16.0	 204	unbonded
+ 971	1000	16.0	16.0	 204	unbonded
+ 972	4000	16.0	16.0	 842	high noise
+ 973	1000	16.0	16.0	 204	unbonded
+ 974	1000	16.0	16.0	 204	unbonded
+ 975	1000	16.0	16.0	 204	unbonded
+ 976	1000	16.0	16.0	 204	unbonded
+ 977	1000	16.0	16.0	 204	unbonded
+ 978	1000	16.0	16.0	 204	unbonded
+ 979	1000	16.0	16.0	 204	unbonded
+ 980	4000	16.0	16.0	 842	high noise
+ 981	1000	16.0	16.0	 204	unbonded
+ 982	1000	16.0	16.0	 204	unbonded
+ 983	1000	16.0	16.0	 204	unbonded
+ 984	4000	16.0	16.0	 842	high noise
+ 985	1000	16.0	16.0	 204	unbonded
+ 986	1000	16.0	16.0	 204	unbonded
+ 987	1800	207.8	207.8	  65	high offset
+ 988	1000	16.0	16.0	 204	unbonded
+ 989	1000	16.0	16.0	 204	unbonded
+ 990	1000	16.0	16.0	 204	unbonded
+ 991	1000	16.0	16.0	 204	unbonded
+ 992	1000	16.0	16.0	 204	unbonded
+ 993	4000	16.0	16.0	 842	high noise
+ 994	1000	16.0	16.0	 204	unbonded
+ 995	1000	16.0	16.0	 204	unbonded
+ 996	1000	16.8	16.8	 195	unbonded
+ 997	1000	16.0	16.0	 204	unbonded
+ 998	1000	16.0	16.0	 204	unbonded
+ 999	1000	16.0	16.0	 204	unbonded
+1000	1000	16.0	16.0	 204	unbonded
+1001	4000	16.0	16.0	 847	high noise
+1002	1800	207.8	207.8	  66	high offset
+1003	1000	16.4	16.4	 200	unbonded
+1004	1000	16.0	16.0	 204	unbonded
+1005	1000	16.0	16.0	 204	unbonded
+1006	1000	16.0	16.0	 204	unbonded
+1007	1000	16.0	16.0	 204	unbonded
+1008	1000	16.0	16.0	 204	unbonded
+1009	1000	16.0	16.0	 204	unbonded
+1010	1000	16.0	16.0	 204	unbonded
+1011	4000	16.0	16.0	 842	high noise
+1012	1000	16.4	16.4	 200	unbonded
+1013	1000	16.0	16.0	 204	unbonded
+1014	1000	16.0	16.0	 204	unbonded
+1015	1800	208.0	208.0	  65	high offset
+1016	1000	16.0	16.0	 204	unbonded
+1017	1000	16.0	16.0	 204	unbonded
+1018	1000	16.8	16.8	 195	unbonded
+1019	1000	16.0	16.0	 204	unbonded
+1020	1000	16.0	16.0	 204	unbonded
+1021	1000	16.0	16.0	 204	unbonded
+1022	1000	16.0	16.0	 204	unbonded
+1023	1000	16.0	16.0	 204	unbonded
+1024	1000	16.4	16.4	 200	unbonded
+1025	4000	16.0	16.0	 841	high noise
+1026	1000	16.0	16.0	 204	unbonded
+1027	1000	16.0	16.0	 204	unbonded
+1028	1000	17.4	17.4	 188	unbonded
+1029	1000	16.0	16.0	 204	unbonded
+1030	1000	16.0	16.0	 204	unbonded
+1031	4000	16.8	16.8	 805	high noise
+1032	1000	16.0	16.0	 204	unbonded
+1033	1000	16.0	16.0	 204	unbonded
+1034	1000	16.0	16.0	 204	unbonded
+1035	1000	16.0	16.0	 204	unbonded
+1036	1000	16.4	16.4	 200	unbonded
+1037	1800	167.0	167.0	  20	high offset
+1038	1000	16.0	16.0	 204	unbonded
+1039	1000	16.0	16.0	 204	unbonded
+1040	1000	16.4	16.4	 200	unbonded
+1041	1000	16.0	16.0	 204	unbonded
+1042	1000	16.0	16.0	 204	unbonded
+1043	1000	16.0	16.0	 204	unbonded
+1044	1000	16.0	16.0	 204	unbonded
+1045	1000	16.0	16.0	 204	unbonded
+1046	1000	16.0	16.0	 204	unbonded
+1047	1000	16.0	16.0	 204	unbonded
+1048	1000	16.0	16.0	 204	unbonded
+1049	1800	208.0	208.0	  65	high offset
+1050	1000	16.0	16.0	 204	unbonded
+1051	1000	16.0	16.0	 204	unbonded
+1052	1000	16.0	16.0	 204	unbonded
+1053	1000	16.0	16.0	 204	unbonded
+1054	1000	16.0	16.0	 204	unbonded
+1055	1000	16.0	16.0	 204	unbonded
+1056	1800	207.8	207.8	  65	high offset
+1057	1000	16.0	16.0	 204	unbonded
+1058	1000	16.0	16.0	 204	unbonded
+1059	1000	16.0	16.0	 204	unbonded
+1060	1000	16.8	16.8	 189	unbonded
+1061	1000	16.0	16.0	 204	unbonded
+1062	1000	16.0	16.0	 204	unbonded
+1063	1000	16.0	16.0	 204	unbonded
+1064	1000	16.0	16.0	 204	unbonded
+1065	1000	16.0	16.0	 204	unbonded
+1066	1000	16.0	16.0	 204	unbonded
+1067	1000	16.0	16.0	 204	unbonded
+1068	1000	16.0	16.0	 204	unbonded
+1069	1000	16.4	16.4	 200	unbonded
+1070	1000	16.0	16.0	 204	unbonded
+1071	1000	16.0	16.0	 204	unbonded
+1072	4000	16.0	16.0	 842	high noise
+1073	1000	16.0	16.0	 204	unbonded
+1074	1000	16.8	16.8	 195	unbonded
+1075	1000	16.0	16.0	 204	unbonded
+1076	1000	16.0	16.0	 204	unbonded
+1077	1800	208.2	208.2	  16	high offset
+1078	1000	16.0	16.0	 204	unbonded
+1079	1000	16.0	16.0	 204	unbonded
+1080	1000	16.0	16.0	 204	unbonded
+1081	1000	16.0	16.0	 204	unbonded
+1082	1000	16.0	16.0	 204	unbonded
+1083	1000	16.0	16.0	 204	unbonded
+1084	1000	16.0	16.0	 204	unbonded
+1085	1000	16.0	16.0	 204	unbonded
+1086	1000	15.5	15.5	 211	unbonded
+1087	1000	16.0	16.0	 204	unbonded
+1088	1000	16.4	16.4	 200	unbonded
+1089	1000	15.8	15.8	 207	unbonded
+1090	1000	17.2	17.2	 190	unbonded
+1091	1000	17.3	17.3	 189	unbonded
+1092	1800	178.4	178.4	  75	high offset
+1093	1000	16.0	16.0	 204	unbonded
+1094	1000	16.0	16.0	 204	unbonded
+1095	1000	16.8	16.8	 189	unbonded
+1096	1000	16.0	16.0	 204	unbonded
+1097	1000	16.0	16.0	 204	unbonded
+1098	1000	16.8	16.8	 195	unbonded
+1099	1000	16.0	16.0	 204	unbonded
+1100	1000	16.4	16.4	 200	unbonded
+1101	1000	16.4	16.4	 200	unbonded
+1102	1000	16.0	16.0	 204	unbonded
+1103	1000	16.0	16.0	 204	unbonded
+1104	1000	16.0	16.0	 204	unbonded
+1105	1800	208.0	208.0	  16	high offset
+1106	1000	16.0	16.0	 204	unbonded
+1107	1000	16.0	16.0	 204	unbonded
+1108	1000	16.0	16.0	 204	unbonded
+1109	1000	16.0	16.0	 204	unbonded
+1110	1000	16.8	16.8	 195	unbonded
+1111	1000	16.0	16.0	 204	unbonded
+1112	1000	16.0	16.0	 204	unbonded
+1113	1000	16.4	16.4	 200	unbonded
+1114	4000	16.0	16.0	 841	high noise
+1115	1000	16.0	16.0	 204	unbonded
+1116	1000	16.0	16.0	 204	unbonded
+1117	1000	16.0	16.0	 204	unbonded
+1118	1000	16.0	16.0	 204	unbonded
+1119	1000	16.0	16.0	 204	unbonded
+1120	1000	16.0	16.0	 204	unbonded
+1121	1000	16.0	16.0	 204	unbonded
+1122	1000	16.0	16.0	 204	unbonded
+1123	1800	208.2	208.2	  16	high offset
+1124	1000	16.0	16.0	 204	unbonded
+1125	4000	16.3	16.3	 821	high noise
+1126	4000	16.0	16.0	 841	high noise
+1127	4000	16.0	16.0	 842	high noise
+1128	1000	16.8	16.8	 195	unbonded
+1129	1000	17.6	17.6	 186	unbonded
+1130	1000	16.0	16.0	 204	unbonded
+1131	1000	16.0	16.0	 204	unbonded
+1132	1000	16.0	16.0	 204	unbonded
+1133	1000	16.0	16.0	 204	unbonded
+1134	1800	208.5	208.5	  67	high offset
+1135	4000	16.0	16.0	 841	high noise
+1136	4000	15.6	15.6	 866	high noise
+1137	1000	16.1	16.1	 204	unbonded
+1138	1000	16.0	16.0	 204	unbonded
+1139	1000	16.0	16.0	 204	unbonded
+1140	1000	16.4	16.4	 200	unbonded
+1141	1000	16.0	16.0	 204	unbonded
+1142	1000	16.0	16.0	 204	unbonded
+1143	4000	16.8	16.8	 807	high noise
+1144	4000	16.0	16.0	 841	high noise
+1145	1000	16.0	16.0	 204	unbonded
+1146	1000	16.0	16.0	 204	unbonded
+1147	1000	16.0	16.0	 204	unbonded
+1148	1000	16.0	16.0	 204	unbonded
+1149	1000	16.0	16.0	 204	unbonded
+1150	1000	16.0	16.0	 204	unbonded
+1151	1000	16.0	16.0	 204	unbonded
+1152	4100	16.0	16.0	 852	low gain
+1153	4100	16.0	16.0	 846	low gain
+1154	1100	16.4	16.4	 200	low gain
+1155	1100	16.0	16.0	 204	low gain
+1156	1100	16.0	16.0	 204	low gain
+1157	4100	16.0	16.0	 842	low gain
+1158	1100	16.0	16.0	 204	low gain
+1159	1100	16.0	16.0	 204	low gain
+1160	1100	16.0	16.0	 204	low gain
+1161	1100	16.0	16.0	 204	low gain
+1162	4100	16.0	16.0	 842	low gain
+1163	1800	207.8	207.8	  65	high offset
+1164	1100	15.5	15.5	 212	low gain
+1165	1100	16.0	16.0	 204	low gain
+1166	1100	16.0	16.0	 204	low gain
+1167	1800	207.8	207.8	  64	high offset
+1168	1100	36.8	36.8	 366	low gain
+1169	1100	16.0	16.0	 204	low gain
+1170	1100	16.0	16.0	 204	low gain
+1171	1100	16.0	16.0	 204	low gain
+1172	1100	16.0	16.0	 204	low gain
+1173	1100	16.0	16.0	 204	low gain
+1174	1100	16.4	16.4	 200	low gain
+1175	1100	16.0	16.0	 204	low gain
+1176	1100	16.0	16.0	 204	low gain
+1177	1100	16.0	16.0	 204	low gain
+1178	1100	16.4	16.4	 200	low gain
+1179	1100	16.0	16.0	 204	low gain
+1180	1800	209.0	209.0	  64	high offset
+1181	1100	16.0	16.0	 204	low gain
+1182	1100	16.0	16.0	 204	low gain
+1183	1100	16.0	16.0	 204	low gain
+1184	1100	16.8	16.8	 195	low gain
+1185	1100	17.6	17.6	 186	low gain
+1186	1800	125.6	125.6	  26	high offset
+1187	1100	16.0	16.0	 204	low gain
+1188	4100	17.4	17.4	 776	low gain
+1189	1100	16.0	16.0	 204	low gain
+1190	1100	16.4	16.4	 200	low gain
+1191	4100	16.0	16.0	 847	low gain
+1192	1100	16.0	16.0	 204	low gain
+1193	1100	16.0	16.0	 204	low gain
+1194	1100	16.0	16.0	 204	low gain
+1195	1100	16.8	16.8	 195	low gain
+1196	1100	16.0	16.0	 204	low gain
+1197	1100	16.0	16.0	 204	low gain
+1198	1100	16.0	16.0	 204	low gain
+1199	1100	16.4	16.4	 200	low gain
+1200	1100	16.0	16.0	 204	low gain
+1201	1100	16.0	16.0	 204	low gain
+1202	1100	16.0	16.0	 204	low gain
+1203	1100	16.0	16.0	 204	low gain
+1204	1100	16.0	16.0	 204	low gain
+1205	1100	16.0	16.0	 204	low gain
+1206	1100	16.0	16.0	 204	low gain
+1207	1100	16.0	16.0	 204	low gain
+1208	1100	16.0	16.0	 204	low gain
+1209	1100	16.0	16.0	 204	low gain
+1210	1800	207.8	207.8	  16	high offset
+1211	1100	16.1	16.1	 204	low gain
+1212	1100	16.0	16.0	 204	low gain
+1213	1100	16.0	16.0	 204	low gain
+1214	1100	16.0	16.0	 204	low gain
+1215	1100	16.0	16.0	 204	low gain
+1216	1100	16.0	16.0	 204	low gain
+1217	1100	16.0	16.0	 204	low gain
+1218	1100	16.0	16.0	 204	low gain
+1219	1100	16.8	16.8	 195	low gain
+1220	1100	16.5	16.5	 199	low gain
+1221	1100	15.8	15.8	 207	low gain
+1222	1100	17.2	17.2	 190	low gain
+1223	4100	16.0	16.0	 845	low gain
+1224	4100	16.0	16.0	 842	low gain
+1225	1100	16.0	16.0	 204	low gain
+1226	1100	16.0	16.0	 204	low gain
+1227	1100	16.0	16.0	 204	low gain
+1228	1100	16.0	16.0	 204	low gain
+1229	1100	16.0	16.0	 204	low gain
+1230	1100	16.0	16.0	 204	low gain
+1231	4100	16.0	16.0	 842	low gain
+1232	1100	16.0	16.0	 204	low gain
+1233	1100	16.0	16.0	 204	low gain
+1234	1100	16.0	16.0	 204	low gain
+1235	1100	16.8	16.8	 195	low gain
+1236	4100	17.1	17.1	 786	low gain
+1237	1100	16.0	16.0	 204	low gain
+1238	4100	16.0	16.0	 860	low gain
+1239	1100	16.0	16.0	 204	low gain
+1240	1100	16.0	16.0	 204	low gain
+1241	1100	16.0	16.0	 204	low gain
+1242	1100	16.8	16.8	 195	low gain
+1243	1100	16.1	16.1	 204	low gain
+1244	1100	16.0	16.0	 204	low gain
+1245	1100	16.0	16.0	 204	low gain
+1246	1100	16.0	16.0	 204	low gain
+1247	1100	16.0	16.0	 204	low gain
+1248	1100	16.0	16.0	 204	low gain
+1249	1100	16.0	16.0	 204	low gain
+1250	1800	208.5	208.5	  65	high offset
+1251	1100	16.0	16.0	 204	low gain
+1252	1100	16.0	16.0	 204	low gain
+1253	1100	16.0	16.0	 204	low gain
+1254	1100	16.4	16.4	 200	low gain
+1255	1100	16.0	16.0	 204	low gain
+1256	1100	16.0	16.0	 204	low gain
+1257	1100	16.0	16.0	 204	low gain
+1258	1100	16.8	16.8	 195	low gain
+1259	1100	16.0	16.0	 204	low gain
+1260	1800	206.8	206.8	  16	high offset
+1261	1100	16.4	16.4	 200	low gain
+1262	1100	16.0	16.0	 204	low gain
+1263	4100	16.0	16.0	 842	low gain
+1264	1100	16.0	16.0	 204	low gain
+1265	1100	16.0	16.0	 204	low gain
+1266	1100	16.0	16.0	 204	low gain
+1267	1100	16.0	16.0	 204	low gain
+1268	1100	16.4	16.4	 200	low gain
+1269	1800	348.5	348.5	   9	high offset
+1270	1100	16.0	16.0	 204	low gain
+1271	1100	16.0	16.0	 204	low gain
+1272	1100	16.0	16.0	 204	low gain
+1273	1800	208.0	208.0	  64	high offset
+1274	1100	16.0	16.0	 204	low gain
+1275	1100	16.4	16.4	 200	low gain
+1276	1100	16.0	16.0	 204	low gain
+1277	1100	15.6	15.6	 210	low gain
+1278	1000	81.8	81.8	 165	unbonded
+1279	1800	181.7	181.7	  17	high offset
+1280	1000	16.4	16.4	  64	unbonded
+1281	1000	16.1	16.1	  65	unbonded
+1282	1000	16.0	16.0	  65	unbonded
+1283	1000	16.0	16.0	  65	unbonded
+1284	1000	16.4	16.4	  64	unbonded
+1285	1000	16.1	16.1	  65	unbonded
+1286	1000	16.0	16.0	  65	unbonded
+1287	1000	16.0	16.0	  65	unbonded
+1288	1000	16.0	16.0	  65	unbonded
+1289	1000	16.0	16.0	  65	unbonded
+1290	1000	16.0	16.0	  65	unbonded
+1291	1000	16.0	16.0	  65	unbonded
+1292	1000	16.0	16.0	  65	unbonded
+1293	1000	16.0	16.0	  65	unbonded
+1294	1000	16.0	16.0	  65	unbonded
+1295	1000	16.0	16.0	  65	unbonded
+1296	1000	16.0	16.0	  65	unbonded
+1297	1000	16.0	16.0	  65	unbonded
+1298	1000	16.0	16.0	  65	unbonded
+1299	1000	16.0	16.0	  65	unbonded
+1300	1000	16.0	16.0	  65	unbonded
+1301	1000	16.0	16.0	  65	unbonded
+1302	1000	16.0	16.0	  65	unbonded
+1303	1000	16.0	16.0	  65	unbonded
+1304	1000	16.0	16.0	  65	unbonded
+1305	1000	16.0	16.0	  65	unbonded
+1306	1000	16.0	16.0	  65	unbonded
+1307	1000	16.0	16.0	  65	unbonded
+1308	1000	16.0	16.0	  65	unbonded
+1309	1000	16.0	16.0	  65	unbonded
+1310	1000	16.0	16.0	  65	unbonded
+1311	1000	16.0	16.0	  65	unbonded
+1312	1000	16.0	16.0	  65	unbonded
+1313	1000	16.0	16.0	  65	unbonded
+1314	1000	16.0	16.0	  65	unbonded
+1315	1800	207.8	207.8	  66	high offset
+1316	1000	16.1	16.1	  65	unbonded
+1317	1000	16.0	16.0	  65	unbonded
+1318	1000	16.0	16.0	  65	unbonded
+1319	1000	16.0	16.0	  65	unbonded
+1320	1000	16.0	16.0	  65	unbonded
+1321	1000	16.0	16.0	  65	unbonded
+1322	1000	16.0	16.0	  65	unbonded
+1323	1000	16.0	16.0	  65	unbonded
+1324	1000	16.0	16.0	  65	unbonded
+1325	1000	16.0	16.0	  65	unbonded
+1326	1000	16.0	16.0	  65	unbonded
+1327	1000	16.0	16.0	  65	unbonded
+1328	1000	16.0	16.0	  65	unbonded
+1329	1000	16.0	16.0	  65	unbonded
+1330	1000	16.0	16.0	  65	unbonded
+1331	1000	16.4	16.4	  64	unbonded
+1332	1000	16.1	16.1	  65	unbonded
+1333	1000	16.0	16.0	  65	unbonded
+1334	1000	16.0	16.0	  65	unbonded
+1335	1000	16.0	16.0	  65	unbonded
+1336	1000	16.0	16.0	  65	unbonded
+1337	4000	16.0	16.0	 848	high noise
+1338	1000	16.0	16.0	  65	unbonded
+1339	1000	16.0	16.0	  65	unbonded
+1340	1000	16.8	16.8	  62	unbonded
+1341	1000	16.1	16.1	  65	unbonded
+1342	1000	16.0	16.0	  65	unbonded
+1343	1000	16.0	16.0	  65	unbonded
+1344	1000	16.0	16.0	  65	unbonded
+1345	1000	16.0	16.0	  65	unbonded
+1346	1000	16.0	16.0	  65	unbonded
+1347	1000	16.0	16.0	  65	unbonded
+1348	1000	16.0	16.0	  65	unbonded
+1349	1000	16.0	16.0	  65	unbonded
+1350	1000	16.0	16.0	  65	unbonded
+1351	1000	16.0	16.0	  65	unbonded
+1352	1000	16.0	16.0	  65	unbonded
+1353	1000	16.0	16.0	  65	unbonded
+1354	1000	16.0	16.0	  65	unbonded
+1355	1000	16.0	16.0	  65	unbonded
+1356	1000	16.0	16.0	  65	unbonded
+1357	1000	16.4	16.4	  64	unbonded
+1358	1000	16.1	16.1	  65	unbonded
+1359	1000	16.0	16.0	  65	unbonded
+1360	1000	16.0	16.0	  65	unbonded
+1361	1000	16.0	16.0	  65	unbonded
+1362	1000	16.0	16.0	  65	unbonded
+1363	1000	16.0	16.0	  65	unbonded
+1364	1000	16.0	16.0	  65	unbonded
+1365	1000	16.0	16.0	  65	unbonded
+1366	1000	16.0	16.0	  65	unbonded
+1367	1000	16.0	16.0	  65	unbonded
+1368	1000	16.0	16.0	  65	unbonded
+1369	1000	16.0	16.0	  65	unbonded
+1370	1000	16.0	16.0	  65	unbonded
+1371	1000	16.0	16.0	  65	unbonded
+1372	1000	16.8	16.8	  62	unbonded
+1373	1000	16.1	16.1	  65	unbonded
+1374	1000	16.0	16.0	  65	unbonded
+1375	1000	16.0	16.0	  65	unbonded
+1376	1000	16.0	16.0	  65	unbonded
+1377	1000	16.0	16.0	  65	unbonded
+1378	1000	16.0	16.0	  65	unbonded
+1379	1000	16.0	16.0	  65	unbonded
+1380	1000	16.0	16.0	  65	unbonded
+1381	1000	16.0	16.0	  65	unbonded
+1382	1000	16.0	16.0	  65	unbonded
+1383	1000	16.0	16.0	  65	unbonded
+1384	1000	16.0	16.0	  65	unbonded
+1385	1000	16.4	16.4	  64	unbonded
+1386	1000	16.1	16.1	  65	unbonded
+1387	1000	16.0	16.0	  65	unbonded
+1388	1000	16.0	16.0	  65	unbonded
+1389	1000	16.0	16.0	  65	unbonded
+1390	1000	16.0	16.0	  65	unbonded
+1391	1000	16.0	16.0	  65	unbonded
+1392	1000	16.0	16.0	  65	unbonded
+1393	1000	16.0	16.0	  65	unbonded
+1394	1000	16.0	16.0	  65	unbonded
+1395	1000	16.0	16.0	  65	unbonded
+1396	1000	16.4	16.4	  64	unbonded
+1397	1000	16.1	16.1	  65	unbonded
+1398	1000	16.8	16.8	  62	unbonded
+1399	1000	16.1	16.1	  65	unbonded
+1400	1000	16.0	16.0	  65	unbonded
+1401	1000	16.0	16.0	  65	unbonded
+1402	1000	16.0	16.0	  65	unbonded
+1403	1000	16.0	16.0	  65	unbonded
+1404	1000	16.0	16.0	  65	unbonded
+1405	1000	16.0	16.0	  65	unbonded
+1406	1000	16.0	16.0	  65	unbonded
+1407	1000	16.0	16.0	  65	unbonded
+1408	1000	16.0	16.0	  65	unbonded
+1409	1000	16.0	16.0	  65	unbonded
+1410	1000	16.0	16.0	  65	unbonded
+1411	1000	16.0	16.0	  65	unbonded
+1412	4000	16.4	16.4	 830	high noise
+1413	1000	16.1	16.1	  65	unbonded
+1414	1000	16.0	16.0	  65	unbonded
+1415	1000	16.0	16.0	  65	unbonded
+1416	1000	16.0	16.0	  65	unbonded
+1417	1000	16.0	16.0	  65	unbonded
+1418	1000	16.0	16.0	  65	unbonded
+1419	1000	16.0	16.0	  65	unbonded
+1420	1000	16.0	16.0	  65	unbonded
+1421	1000	16.4	16.4	  64	unbonded
+1422	1000	16.1	16.1	  65	unbonded
+1423	1000	16.0	16.0	  65	unbonded
+1424	1000	16.0	16.0	  65	unbonded
+1425	1000	16.0	16.0	  65	unbonded
+1426	1000	16.0	16.0	  65	unbonded
+1427	1000	16.0	16.0	  65	unbonded
+1428	1000	16.0	16.0	  65	unbonded
+1429	1000	16.0	16.0	  65	unbonded
+1430	1000	16.0	16.0	  65	unbonded
+1431	1000	16.0	16.0	  65	unbonded
+1432	1000	16.0	16.0	  65	unbonded
+1433	1000	16.0	16.0	  65	unbonded
+1434	1000	16.0	16.0	  65	unbonded
+1435	1000	16.0	16.0	  65	unbonded
+1436	1000	16.0	16.0	  65	unbonded
+1437	1000	16.0	16.0	  65	unbonded
+1438	1000	16.0	16.0	  65	unbonded
+1439	1000	16.0	16.0	  65	unbonded
+1440	1000	16.0	16.0	  65	unbonded
+1441	1000	16.0	16.0	  65	unbonded
+1442	1000	16.0	16.0	  65	unbonded
+1443	1000	16.0	16.0	  65	unbonded
+1444	1000	16.0	16.0	  65	unbonded
+1445	1000	16.0	16.0	  65	unbonded
+1446	1000	16.0	16.0	  65	unbonded
+1447	1000	16.0	16.0	  65	unbonded
+1448	1000	16.0	16.0	  65	unbonded
+1449	1000	16.0	16.0	  65	unbonded
+1450	1000	16.0	16.0	  65	unbonded
+1451	1000	16.0	16.0	  65	unbonded
+1452	1000	16.0	16.0	  65	unbonded
+1453	1000	16.0	16.0	  65	unbonded
+1454	1000	16.0	16.0	  65	unbonded
+1455	1000	16.0	16.0	  65	unbonded
+1456	1000	16.0	16.0	  65	unbonded
+1457	1000	16.0	16.0	  65	unbonded
+1458	1000	16.0	16.0	  65	unbonded
+1459	1000	16.0	16.0	  65	unbonded
+1460	1000	16.0	16.0	  65	unbonded
+1461	1000	16.0	16.0	  65	unbonded
+1462	1000	16.0	16.0	  65	unbonded
+1463	1000	16.0	16.0	  65	unbonded
+1464	1000	16.0	16.0	  65	unbonded
+1465	1000	16.0	16.0	  65	unbonded
+1466	1000	16.0	16.0	  65	unbonded
+1467	1000	16.0	16.0	  65	unbonded
+1468	1000	16.0	16.0	  65	unbonded
+1469	1000	16.0	16.0	  65	unbonded
+1470	1000	16.0	16.0	  65	unbonded
+1471	1000	16.0	16.0	  65	unbonded
+1472	1000	16.0	16.0	  65	unbonded
+1473	1000	16.0	16.0	  65	unbonded
+1474	1000	16.0	16.0	  65	unbonded
+1475	1000	16.0	16.0	  65	unbonded
+1476	1000	16.0	16.0	  65	unbonded
+1477	1000	16.0	16.0	  65	unbonded
+1478	1000	16.0	16.0	  65	unbonded
+1479	1000	16.0	16.0	  65	unbonded
+1480	1000	16.0	16.0	  65	unbonded
+1481	1000	16.0	16.0	  65	unbonded
+1482	1000	16.0	16.0	  65	unbonded
+1483	1000	16.0	16.0	  65	unbonded
+1484	1000	16.0	16.0	  65	unbonded
+1485	1000	16.0	16.0	  65	unbonded
+1486	1000	16.0	16.0	  65	unbonded
+1487	1000	16.0	16.0	  65	unbonded
+1488	1000	16.0	16.0	  65	unbonded
+1489	1000	16.0	16.0	  65	unbonded
+1490	1000	16.0	16.0	  65	unbonded
+1491	1000	16.0	16.0	  65	unbonded
+1492	1000	16.0	16.0	  65	unbonded
+1493	1000	16.0	16.0	  65	unbonded
+1494	1000	16.0	16.0	  65	unbonded
+1495	1000	16.0	16.0	  65	unbonded
+1496	1000	16.0	16.0	  65	unbonded
+1497	1000	16.0	16.0	  65	unbonded
+1498	1000	16.0	16.0	  65	unbonded
+1499	1000	16.0	16.0	  65	unbonded
+1500	1000	16.0	16.0	  65	unbonded
+1501	1000	16.0	16.0	  65	unbonded
+1502	1000	16.0	16.0	  65	unbonded
+1503	1000	16.0	16.0	  65	unbonded
+1504	1000	16.0	16.0	  65	unbonded
+1505	1000	16.0	16.0	  65	unbonded
+1506	1000	16.0	16.0	  65	unbonded
+1507	1000	16.0	16.0	  65	unbonded
+1508	1000	16.0	16.0	  65	unbonded
+1509	1000	16.0	16.0	  65	unbonded
+1510	1000	16.4	16.4	  64	unbonded
+1511	1000	16.1	16.1	  65	unbonded
+1512	1000	16.0	16.0	  65	unbonded
+1513	1000	16.0	16.0	  65	unbonded
+1514	4000	16.0	16.0	 848	high noise
+1515	1000	16.0	16.0	  65	unbonded
+1516	1000	16.0	16.0	  65	unbonded
+1517	1000	16.0	16.0	  65	unbonded
+1518	1000	16.0	16.0	  65	unbonded
+1519	1000	16.0	16.0	  65	unbonded
+1520	1000	16.0	16.0	  65	unbonded
+1521	1000	16.0	16.0	  65	unbonded
+1522	1000	16.0	16.0	  65	unbonded
+1523	1000	16.0	16.0	  65	unbonded
+1524	1000	16.0	16.0	  65	unbonded
+1525	1000	16.0	16.0	  65	unbonded
+1526	1000	16.0	16.0	  65	unbonded
+1527	1000	16.0	16.0	  65	unbonded
+1528	1000	16.0	16.0	  65	unbonded
+1529	1000	16.0	16.0	  65	unbonded
+1530	1000	16.0	16.0	  65	unbonded
+1531	1000	16.0	16.0	  65	unbonded
+1532	1000	16.0	16.0	  65	unbonded
+1533	1000	16.0	16.0	  65	unbonded
+1534	1000	16.0	16.0	  65	unbonded
+1535	1000	16.0	16.0	  65	unbonded
+1536	1000	16.0	16.0	  65	unbonded
+1537	1000	16.0	16.0	  65	unbonded
+1538	1000	16.0	16.0	  65	unbonded
+1539	1000	16.0	16.0	  65	unbonded
+1540	1000	16.0	16.0	  65	unbonded
+1541	1000	16.0	16.0	  65	unbonded
+1542	1000	16.0	16.0	  65	unbonded
+1543	1000	16.0	16.0	  65	unbonded
+1544	1000	16.0	16.0	  65	unbonded
+1545	1000	16.0	16.0	  65	unbonded
+1546	1000	16.0	16.0	  65	unbonded
+1547	1000	16.0	16.0	  65	unbonded
+1548	1000	16.0	16.0	  65	unbonded
+1549	1000	16.0	16.0	  65	unbonded
+1550	1000	16.0	16.0	  65	unbonded
+1551	1000	16.0	16.0	  65	unbonded
+1552	1000	16.0	16.0	  65	unbonded
+1553	4000	16.8	16.8	 813	high noise
+1554	1000	16.1	16.1	  65	unbonded
+1555	1000	16.0	16.0	  65	unbonded
+1556	1000	16.0	16.0	  65	unbonded
+1557	1000	16.0	16.0	  65	unbonded
+1558	1000	16.4	16.4	  64	unbonded
+1559	1000	16.1	16.1	  65	unbonded
+1560	4000	16.4	16.4	 827	high noise
+1561	1000	16.1	16.1	  65	unbonded
+1562	1000	16.0	16.0	  65	unbonded
+1563	1000	16.0	16.0	  65	unbonded
+1564	1000	16.4	16.4	  64	unbonded
+1565	1000	16.1	16.1	  65	unbonded
+1566	1000	16.0	16.0	  65	unbonded
+1567	1000	16.0	16.0	  65	unbonded
+1568	1000	16.0	16.0	  65	unbonded
+1569	1000	16.0	16.0	  65	unbonded
+1570	1000	16.0	16.0	  65	unbonded
+1571	1000	16.0	16.0	  65	unbonded
+1572	1000	16.0	16.0	  65	unbonded
+1573	1000	16.0	16.0	  65	unbonded
+1574	1000	16.0	16.0	  65	unbonded
+1575	1000	16.0	16.0	  65	unbonded
+1576	1000	16.0	16.0	  65	unbonded
+1577	1000	16.8	16.8	  62	unbonded
+1578	1000	16.1	16.1	  65	unbonded
+1579	1000	16.0	16.0	  65	unbonded
+1580	1000	16.0	16.0	  65	unbonded
+1581	1000	16.0	16.0	  65	unbonded
+1582	1000	16.0	16.0	  65	unbonded
+1583	1000	16.0	16.0	  65	unbonded
+1584	1000	16.0	16.0	  65	unbonded
+1585	1000	16.0	16.0	  65	unbonded
+1586	1000	16.0	16.0	  65	unbonded
+1587	1000	16.0	16.0	  65	unbonded
+1588	1000	16.0	16.0	  65	unbonded
+1589	1000	16.0	16.0	  65	unbonded
+1590	1000	16.0	16.0	  65	unbonded
+1591	1000	16.0	16.0	  65	unbonded
+1592	1000	16.0	16.0	  65	unbonded
+1593	1000	16.0	16.0	  65	unbonded
+1594	1000	16.0	16.0	  65	unbonded
+1595	1000	16.0	16.0	  65	unbonded
+1596	1000	16.0	16.0	  65	unbonded
+1597	1000	16.0	16.0	  65	unbonded
+1598	1000	16.0	16.0	  65	unbonded
+1599	1000	16.0	16.0	  65	unbonded
+1600	4000	16.4	16.4	 830	high noise
+1601	1000	16.1	16.1	  65	unbonded
+1602	1000	16.0	16.0	  65	unbonded
+1603	1000	16.0	16.0	  65	unbonded
+1604	1000	16.0	16.0	  65	unbonded
+1605	1000	16.0	16.0	  65	unbonded
+1606	1000	16.0	16.0	  65	unbonded
+1607	1000	16.0	16.0	  65	unbonded
+1608	1000	16.0	16.0	  65	unbonded
+1609	1000	16.0	16.0	  65	unbonded
+1610	1000	16.0	16.0	  65	unbonded
+1611	1000	16.0	16.0	  65	unbonded
+1612	1000	16.0	16.0	  65	unbonded
+1613	1000	16.0	16.0	  65	unbonded
+1614	1000	16.0	16.0	  65	unbonded
+1615	1000	16.0	16.0	  65	unbonded
+1616	1000	16.0	16.0	  65	unbonded
+1617	1000	16.0	16.0	  65	unbonded
+1618	1000	16.0	16.0	  65	unbonded
+1619	4000	16.0	16.0	 852	high noise
+1620	1000	15.6	15.6	  67	unbonded
+1621	1000	16.1	16.1	  65	unbonded
+1622	1000	16.0	16.0	  65	unbonded
+1623	1000	16.0	16.0	  65	unbonded
+1624	1000	16.0	16.0	  65	unbonded
+1625	1000	16.0	16.0	  65	unbonded
+1626	1000	16.0	16.0	  65	unbonded
+1627	1000	16.0	16.0	  65	unbonded
+1628	1000	16.4	16.4	  64	unbonded
+1629	1000	16.1	16.1	  65	unbonded
+1630	1000	16.0	16.0	  65	unbonded
+1631	1000	16.0	16.0	  65	unbonded
+1632	1000	16.0	16.0	  65	unbonded
+1633	1000	16.0	16.0	  65	unbonded
+1634	1000	16.0	16.0	  65	unbonded
+1635	1000	16.0	16.0	  65	unbonded
+1636	1000	16.0	16.0	  65	unbonded
+1637	1000	16.0	16.0	  65	unbonded
+1638	1000	16.0	16.0	  65	unbonded
+1639	1000	16.0	16.0	  65	unbonded
+1640	4000	16.0	16.0	 848	high noise
+1641	1000	16.0	16.0	  65	unbonded
+1642	1000	16.0	16.0	  65	unbonded
+1643	1000	16.0	16.0	  65	unbonded
+1644	1000	16.0	16.0	  65	unbonded
+1645	1000	16.0	16.0	  65	unbonded
+1646	1000	16.0	16.0	  65	unbonded
+1647	1000	16.0	16.0	  65	unbonded
+1648	1000	16.0	16.0	  65	unbonded
+1649	1000	16.0	16.0	  65	unbonded
+1650	1000	16.0	16.0	  65	unbonded
+1651	1000	16.0	16.0	  65	unbonded
+1652	1000	16.0	16.0	  65	unbonded
+1653	1000	16.0	16.0	  65	unbonded
+1654	1000	16.0	16.0	  65	unbonded
+1655	1000	16.0	16.0	  65	unbonded
+1656	1000	16.0	16.0	  65	unbonded
+1657	1000	16.0	16.0	  65	unbonded
+1658	1000	16.0	16.0	  65	unbonded
+1659	1000	16.0	16.0	  65	unbonded
+1660	1000	16.0	16.0	  65	unbonded
+1661	1000	16.0	16.0	  65	unbonded
+1662	1000	16.0	16.0	  65	unbonded
+1663	4000	16.0	16.0	 848	high noise
+1664	1000	16.0	16.0	  65	unbonded
+1665	1000	16.0	16.0	  65	unbonded
+1666	1000	16.0	16.0	  65	unbonded
+1667	1000	16.0	16.0	  65	unbonded
+1668	1000	16.0	16.0	  65	unbonded
+1669	1000	16.0	16.0	  65	unbonded
+1670	1000	16.0	16.0	  65	unbonded
+1671	1000	16.0	16.0	  65	unbonded
+1672	1000	16.0	16.0	  65	unbonded
+1673	1000	16.0	16.0	  65	unbonded
+1674	1000	16.0	16.0	  65	unbonded
+1675	1000	16.0	16.0	  65	unbonded
+1676	1000	16.0	16.0	  65	unbonded
+1677	1000	16.0	16.0	  65	unbonded
+1678	1000	16.0	16.0	  65	unbonded
+1679	1000	16.0	16.0	  65	unbonded
+1680	1000	16.0	16.0	  65	unbonded
+1681	1000	16.0	16.0	  65	unbonded
+1682	1000	16.0	16.0	  65	unbonded
+1683	1000	16.0	16.0	  65	unbonded
+1684	1000	16.0	16.0	  65	unbonded
+1685	1000	16.0	16.0	  65	unbonded
+1686	1000	16.0	16.0	  65	unbonded
+1687	1000	16.0	16.0	  65	unbonded
+1688	1000	16.0	16.0	  65	unbonded
+1689	1000	16.0	16.0	  65	unbonded
+1690	1000	16.0	16.0	  65	unbonded
+1691	1000	16.0	16.0	  65	unbonded
+1692	1000	16.0	16.0	  65	unbonded
+1693	1000	16.0	16.0	  65	unbonded
+1694	1000	16.4	16.4	  64	unbonded
+1695	1000	16.1	16.1	  65	unbonded
+1696	1000	16.0	16.0	  65	unbonded
+1697	1000	16.8	16.8	  62	unbonded
+1698	1000	16.1	16.1	  65	unbonded
+1699	1000	16.0	16.0	  65	unbonded
+1700	1000	16.0	16.0	  65	unbonded
+1701	1000	16.0	16.0	  65	unbonded
+1702	1000	16.0	16.0	  65	unbonded
+1703	1000	16.0	16.0	  65	unbonded
+1704	1000	16.0	16.0	  65	unbonded
+1705	1000	16.0	16.0	  65	unbonded
+1706	1000	16.0	16.0	  65	unbonded
+1707	1000	16.0	16.0	  65	unbonded
+1708	1000	16.0	16.0	  65	unbonded
+1709	1000	16.0	16.0	  65	unbonded
+1710	1000	16.0	16.0	  65	unbonded
+1711	1000	16.0	16.0	  65	unbonded
+1712	1000	16.0	16.0	  65	unbonded
+1713	1000	16.0	16.0	  65	unbonded
+1714	1000	16.0	16.0	  65	unbonded
+1715	1000	16.0	16.0	  65	unbonded
+1716	1000	16.0	16.0	  65	unbonded
+1717	1000	16.0	16.0	  65	unbonded
+1718	1000	16.0	16.0	  65	unbonded
+1719	1000	16.0	16.0	  65	unbonded
+1720	1000	16.0	16.0	  65	unbonded
+1721	1000	16.0	16.0	  65	unbonded
+1722	1000	16.0	16.0	  65	unbonded
+1723	1000	16.0	16.0	  65	unbonded
+1724	1000	16.0	16.0	  65	unbonded
+1725	1000	16.0	16.0	  65	unbonded
+1726	1000	16.0	16.0	  65	unbonded
+1727	1000	16.0	16.0	  65	unbonded
+1728	1000	16.0	16.0	  65	unbonded
+1729	1000	16.8	16.8	  62	unbonded
+1730	1000	16.1	16.1	  65	unbonded
+1731	1000	16.0	16.0	  65	unbonded
+1732	1000	16.0	16.0	  65	unbonded
+1733	1000	16.0	16.0	  65	unbonded
+1734	1000	16.0	16.0	  65	unbonded
+1735	1000	16.0	16.0	  65	unbonded
+1736	1000	16.0	16.0	  65	unbonded
+1737	1000	16.0	16.0	  65	unbonded
+1738	1000	16.0	16.0	  65	unbonded
+1739	1000	16.0	16.0	  65	unbonded
+1740	1000	16.8	16.8	  62	unbonded
+1741	1000	16.1	16.1	  65	unbonded
+1742	1000	16.0	16.0	  65	unbonded
+1743	1000	16.0	16.0	  65	unbonded
+1744	1000	16.0	16.0	  65	unbonded
+1745	1000	16.0	16.0	  65	unbonded
+1746	1000	16.0	16.0	  65	unbonded
+1747	1000	16.0	16.0	  65	unbonded
+1748	1000	16.0	16.0	  65	unbonded
+1749	1000	16.0	16.0	  65	unbonded
+1750	1000	16.0	16.0	  65	unbonded
+1751	1000	16.0	16.0	  65	unbonded
+1752	1000	16.8	16.8	  62	unbonded
+1753	1000	16.1	16.1	  65	unbonded
+1754	4000	16.0	16.0	 848	high noise
+1755	1000	16.0	16.0	  65	unbonded
+1756	1000	16.0	16.0	  65	unbonded
+1757	1000	16.0	16.0	  65	unbonded
+1758	1000	16.0	16.0	  65	unbonded
+1759	1000	16.0	16.0	  65	unbonded
+1760	1000	16.0	16.0	  65	unbonded
+1761	1000	16.0	16.0	  65	unbonded
+1762	1000	16.0	16.0	  65	unbonded
+1763	1000	16.0	16.0	  65	unbonded
+1764	1000	16.0	16.0	  65	unbonded
+1765	1000	16.0	16.0	  65	unbonded
+1766	1000	16.0	16.0	  65	unbonded
+1767	1000	16.8	16.8	  62	unbonded
+1768	1000	16.1	16.1	  65	unbonded
+1769	1000	16.0	16.0	  65	unbonded
+1770	1000	16.0	16.0	  65	unbonded
+1771	1000	16.0	16.0	  65	unbonded
+1772	1000	16.0	16.0	  65	unbonded
+1773	1000	16.0	16.0	  65	unbonded
+1774	1000	16.0	16.0	  65	unbonded
+1775	1000	16.0	16.0	  65	unbonded
+1776	1000	16.0	16.0	  65	unbonded
+1777	1000	16.0	16.0	  65	unbonded
+1778	1000	16.0	16.0	  65	unbonded
+1779	4000	16.0	16.0	 848	high noise
+1780	1000	16.0	16.0	  65	unbonded
+1781	1000	16.0	16.0	  65	unbonded
+1782	1000	16.0	16.0	  65	unbonded
+1783	1000	16.0	16.0	  65	unbonded
+1784	1000	16.0	16.0	  65	unbonded
+1785	1000	16.0	16.0	  65	unbonded
+1786	1000	16.0	16.0	  65	unbonded
+1787	1000	16.4	16.4	  64	unbonded
+1788	1000	16.1	16.1	  65	unbonded
+1789	1000	16.0	16.0	  65	unbonded
+1790	1000	16.0	16.0	  65	unbonded
+1791	1000	16.0	16.0	  65	unbonded
+1792	1000	16.0	16.0	  65	unbonded
+1793	1000	16.0	16.0	  65	unbonded
+1794	1000	16.0	16.0	  65	unbonded
+1795	1000	16.0	16.0	  65	unbonded
+1796	1000	16.0	16.0	  65	unbonded
+1797	1000	16.0	16.0	  65	unbonded
+1798	1000	16.0	16.0	  65	unbonded
+1799	1000	16.0	16.0	  65	unbonded
+1800	1000	16.0	16.0	  65	unbonded
+1801	1000	16.0	16.0	  65	unbonded
+1802	1000	16.0	16.0	  65	unbonded
+1803	1000	16.0	16.0	  65	unbonded
+1804	1000	16.0	16.0	  65	unbonded
+1805	1000	16.0	16.0	  65	unbonded
+1806	1000	16.4	16.4	  64	unbonded
+1807	1000	16.1	16.1	  65	unbonded
+1808	4000	16.8	16.8	 811	high noise
+1809	1000	16.1	16.1	  65	unbonded
+1810	1800	203.4	203.4	   5	high offset
+1811	1000	16.1	16.1	  65	unbonded
+1812	1000	16.0	16.0	  65	unbonded
+1813	1000	16.0	16.0	  65	unbonded
+1814	1000	16.8	16.8	  62	unbonded
+1815	1000	16.1	16.1	  65	unbonded
+1816	1000	16.0	16.0	  65	unbonded
+1817	1000	16.0	16.0	  65	unbonded
+1818	1000	16.0	16.0	  65	unbonded
+1819	1000	16.0	16.0	  65	unbonded
+1820	1000	16.0	16.0	  65	unbonded
+1821	1000	16.0	16.0	  65	unbonded
+1822	1000	16.0	16.0	  65	unbonded
+1823	1000	16.0	16.0	  65	unbonded
+1824	1000	16.0	16.0	  65	unbonded
+1825	1000	16.0	16.0	  65	unbonded
+1826	1000	16.0	16.0	  65	unbonded
+1827	1000	16.0	16.0	  65	unbonded
+1828	1000	16.0	16.0	  65	unbonded
+1829	1000	16.0	16.0	  65	unbonded
+1830	1000	16.0	16.0	  65	unbonded
+1831	1000	16.0	16.0	  65	unbonded
+1832	4000	16.5	16.5	 829	high noise
+1833	1000	16.1	16.1	  65	unbonded
+1834	1000	16.0	16.0	  65	unbonded
+1835	1000	16.0	16.0	  65	unbonded
+1836	1000	16.0	16.0	  65	unbonded
+1837	1000	16.0	16.0	  65	unbonded
+1838	1000	16.0	16.0	  65	unbonded
+1839	1000	16.0	16.0	  65	unbonded
+1840	1000	16.4	16.4	 200	unbonded
+1841	1000	16.1	16.1	  65	unbonded
+1842	1000	16.0	16.0	  65	unbonded
+1843	1000	16.0	16.0	  65	unbonded
+1844	1000	16.0	16.0	  65	unbonded
+1845	1000	16.0	16.0	  65	unbonded
+1846	1000	16.0	16.0	  65	unbonded
+1847	1000	16.0	16.0	  65	unbonded
+1848	1000	16.0	16.0	  65	unbonded
+1849	1000	16.0	16.0	  65	unbonded
+1850	1000	16.0	16.0	  65	unbonded
+1851	1000	16.0	16.0	  65	unbonded
+1852	1000	16.0	16.0	  65	unbonded
+1853	1000	16.0	16.0	  65	unbonded
+1854	1000	16.4	16.4	  64	unbonded
+1855	1000	16.1	16.1	  65	unbonded
+1856	1000	16.0	16.0	  65	unbonded
+1857	1000	16.0	16.0	  65	unbonded
+1858	1000	16.0	16.0	  65	unbonded
+1859	1000	16.0	16.0	  65	unbonded
+1860	1000	16.0	16.0	  65	unbonded
+1861	4000	16.0	16.0	 851	high noise
+1862	1000	16.0	16.0	  65	unbonded
+1863	1000	16.0	16.0	  65	unbonded
+1864	1000	16.0	16.0	  65	unbonded
+1865	1000	16.0	16.0	  65	unbonded
+1866	1000	16.0	16.0	  65	unbonded
+1867	1000	16.0	16.0	  65	unbonded
+1868	1000	16.0	16.0	  65	unbonded
+1869	1000	16.0	16.0	  65	unbonded
+1870	1000	16.0	16.0	  65	unbonded
+1871	1000	16.0	16.0	  65	unbonded
+1872	1000	16.0	16.0	  65	unbonded
+1873	1000	16.0	16.0	  65	unbonded
+1874	1000	16.0	16.0	  65	unbonded
+1875	1000	16.0	16.0	  65	unbonded
+1876	1000	16.0	16.0	  65	unbonded
+1877	1000	16.8	16.8	  62	unbonded
+1878	1000	16.1	16.1	  65	unbonded
+1879	1000	16.0	16.0	  65	unbonded
+1880	1000	16.0	16.0	  65	unbonded
+1881	1000	16.4	16.4	  64	unbonded
+1882	1000	16.1	16.1	  65	unbonded
+1883	4000	16.0	16.0	 848	high noise
+1884	1000	16.0	16.0	  65	unbonded
+1885	1000	16.0	16.0	  65	unbonded
+1886	1000	16.0	16.0	  65	unbonded
+1887	1000	16.0	16.0	  65	unbonded
+1888	1000	16.0	16.0	  65	unbonded
+1889	1000	16.0	16.0	  65	unbonded
+1890	1000	16.0	16.0	  65	unbonded
+1891	1000	16.0	16.0	  65	unbonded
+1892	1000	16.0	16.0	  65	unbonded
+1893	1000	16.4	16.4	  64	unbonded
+1894	1000	16.1	16.1	  65	unbonded
+1895	1000	16.0	16.0	  65	unbonded
+1896	4000	16.0	16.0	 853	high noise
+1897	1000	16.0	16.0	  65	unbonded
+1898	1000	16.0	16.0	  65	unbonded
+1899	1000	16.0	16.0	  65	unbonded
+1900	1000	16.0	16.0	  65	unbonded
+1901	1000	16.8	16.8	  62	unbonded
+1902	1000	16.1	16.1	  65	unbonded
+1903	1000	16.0	16.0	  65	unbonded
+1904	1800	207.9	207.9	   5	high offset
+1905	4000	16.0	16.0	 847	high noise
+1906	4000	16.0	16.0	 848	high noise
+1907	1000	15.6	15.6	  67	unbonded
+1908	1000	16.1	16.1	  65	unbonded
+1909	1000	16.0	16.0	  65	unbonded
+1910	4000	16.0	16.0	 847	high noise
+1911	1000	16.0	16.0	  65	unbonded
+1912	1000	16.0	16.0	  65	unbonded
+1913	1000	16.0	16.0	  65	unbonded
+1914	1800	208.2	208.2	  66	high offset
+1915	1000	16.1	16.1	  65	unbonded
+1916	1000	16.0	16.0	  65	unbonded
+1917	1000	16.0	16.0	  65	unbonded
+1918	1000	16.0	16.0	  65	unbonded
+1919	1000	16.0	16.0	  65	unbonded
+1920	1000	16.0	16.0	 204	unbonded
+1921	1000	16.0	16.0	 204	unbonded
+1922	1000	16.0	16.0	 204	unbonded
+1923	1000	16.0	16.0	 204	unbonded
+1924	1000	16.0	16.0	 204	unbonded
+1925	1000	16.0	16.0	 204	unbonded
+1926	1000	16.0	16.0	 204	unbonded
+1927	1000	16.0	16.0	 204	unbonded
+1928	1000	16.0	16.0	 204	unbonded
+1929	1000	16.0	16.0	 204	unbonded
+1930	1000	16.0	16.0	 204	unbonded
+1931	1000	16.0	16.0	 204	unbonded
+1932	1000	16.0	16.0	 204	unbonded
+1933	1000	16.0	16.0	 204	unbonded
+1934	1000	16.0	16.0	 204	unbonded
+1935	1000	16.0	16.0	 204	unbonded
+1936	1000	16.0	16.0	 204	unbonded
+1937	1000	16.0	16.0	 204	unbonded
+1938	1000	16.0	16.0	 204	unbonded
+1939	1000	16.0	16.0	 204	unbonded
+1940	1000	16.0	16.0	 204	unbonded
+1941	1000	16.0	16.0	 204	unbonded
+1942	1000	16.0	16.0	 204	unbonded
+1943	1000	16.0	16.0	 204	unbonded
+1944	1000	16.0	16.0	 204	unbonded
+1945	1000	16.4	16.4	 200	unbonded
+1946	1000	16.0	16.0	 204	unbonded
+1947	1000	16.0	16.0	 204	unbonded
+1948	1000	16.0	16.0	 204	unbonded
+1949	1000	16.0	16.0	 204	unbonded
+1950	1000	16.0	16.0	 204	unbonded
+1951	1000	16.0	16.0	 204	unbonded
+1952	1000	16.0	16.0	 204	unbonded
+1953	1000	16.0	16.0	 204	unbonded
+1954	1000	16.0	16.0	 204	unbonded
+1955	1000	16.0	16.0	 204	unbonded
+1956	1000	16.0	16.0	 204	unbonded
+1957	1000	16.0	16.0	 204	unbonded
+1958	1000	16.0	16.0	 204	unbonded
+1959	1000	16.0	16.0	 204	unbonded
+1960	1000	16.0	16.0	 204	unbonded
+1961	1000	16.0	16.0	 204	unbonded
+1962	1000	16.0	16.0	 204	unbonded
+1963	1000	16.0	16.0	 204	unbonded
+1964	1000	16.0	16.0	 204	unbonded
+1965	1000	16.0	16.0	 204	unbonded
+1966	1000	16.0	16.0	 204	unbonded
+1967	1800	208.0	208.0	  65	high offset
+1968	1000	16.0	16.0	 204	unbonded
+1969	1000	16.0	16.0	 204	unbonded
+1970	1000	16.0	16.0	 204	unbonded
+1971	1000	16.0	16.0	 204	unbonded
+1972	1000	16.0	16.0	 204	unbonded
+1973	1000	16.0	16.0	 204	unbonded
+1974	1000	16.0	16.0	 204	unbonded
+1975	1800	208.2	208.2	  66	high offset
+1976	1000	16.0	16.0	 204	unbonded
+1977	1000	16.0	16.0	 204	unbonded
+1978	1000	16.0	16.0	 204	unbonded
+1979	1000	16.0	16.0	 204	unbonded
+1980	1000	16.0	16.0	 204	unbonded
+1981	1000	16.0	16.0	 204	unbonded
+1982	1800	207.8	207.8	  66	high offset
+1983	1000	16.0	16.0	 204	unbonded
+1984	1000	16.0	16.0	 204	unbonded
+1985	1000	16.0	16.0	 204	unbonded
+1986	1000	16.0	16.0	 204	unbonded
+1987	1000	16.0	16.0	 204	unbonded
+1988	1000	16.0	16.0	 204	unbonded
+1989	1000	16.0	16.0	 204	unbonded
+1990	1000	16.0	16.0	 204	unbonded
+1991	1000	16.0	16.0	 204	unbonded
+1992	1000	16.0	16.0	 204	unbonded
+1993	1000	16.0	16.0	 204	unbonded
+1994	1000	16.0	16.0	 204	unbonded
+1995	1000	16.0	16.0	 204	unbonded
+1996	1000	16.0	16.0	 204	unbonded
+1997	1000	16.0	16.0	 204	unbonded
+1998	1000	16.0	16.0	 204	unbonded
+1999	1000	16.0	16.0	 204	unbonded
+2000	1000	16.0	16.0	 204	unbonded
+2001	1000	16.0	16.0	 204	unbonded
+2002	1000	16.8	16.8	 195	unbonded
+2003	1000	16.0	16.0	 204	unbonded
+2004	1000	16.0	16.0	 204	unbonded
+2005	1000	16.0	16.0	 204	unbonded
+2006	1000	16.0	16.0	 204	unbonded
+2007	1000	16.0	16.0	 204	unbonded
+2008	1000	16.0	16.0	 204	unbonded
+2009	1000	16.0	16.0	 204	unbonded
+2010	1000	16.0	16.0	 204	unbonded
+2011	1000	16.0	16.0	 204	unbonded
+2012	1000	16.8	16.8	 195	unbonded
+2013	1000	16.0	16.0	 204	unbonded
+2014	1000	16.0	16.0	 204	unbonded
+2015	1000	16.0	16.0	 204	unbonded
+2016	1000	16.1	16.1	 204	unbonded
+2017	1000	16.0	16.0	 204	unbonded
+2018	1000	16.4	16.4	 200	unbonded
+2019	1000	15.8	15.8	 207	unbonded
+2020	1000	17.2	17.2	 190	unbonded
+2021	1000	17.7	17.7	 185	unbonded
+2022	1000	15.9	15.9	 206	unbonded
+2023	1000	16.0	16.0	 204	unbonded
+2024	1000	16.0	16.0	 204	unbonded
+2025	1000	16.0	16.0	 204	unbonded
+2026	1000	16.0	16.0	 204	unbonded
+2027	1800	207.8	207.8	  16	high offset
+2028	1000	16.1	16.1	 204	unbonded
+2029	4000	16.0	16.0	 842	high noise
+2030	1000	16.0	16.0	 204	unbonded
+2031	1000	16.0	16.0	 204	unbonded
+2032	1000	16.0	16.0	 204	unbonded
+2033	1000	16.0	16.0	 204	unbonded
+2034	1000	16.0	16.0	 204	unbonded
+2035	1000	16.0	16.0	 204	unbonded
+2036	1000	16.0	16.0	 204	unbonded
+2037	1000	16.0	16.0	 204	unbonded
+2038	1000	16.0	16.0	 204	unbonded
+2039	1000	16.0	16.0	 204	unbonded
+2040	1000	16.0	16.0	 204	unbonded
+2041	1000	15.5	15.5	 211	unbonded
+2042	1000	16.0	16.0	 204	unbonded
+2043	1000	16.0	16.0	 204	unbonded
+2044	1000	16.0	16.0	 204	unbonded
+2045	1000	16.0	16.0	 204	unbonded
+2046	1000	16.0	16.0	 204	unbonded
+2047	1000	16.0	16.0	 204	unbonded
+2048	1100	16.0	16.0	 204	low gain
+2049	4100	16.0	16.0	 842	low gain
+2050	1800	207.8	207.8	  65	high offset
+2051	1100	16.0	16.0	 204	low gain
+2052	1100	16.0	16.0	 204	low gain
+2053	1100	16.0	16.0	 204	low gain
+2054	1100	16.0	16.0	 204	low gain
+2055	1100	16.0	16.0	 204	low gain
+2056	1100	16.0	16.0	 204	low gain
+2057	1100	16.0	16.0	 204	low gain
+2058	1100	16.0	16.0	 204	low gain
+2059	1100	16.0	16.0	 204	low gain
+2060	1100	16.0	16.0	 204	low gain
+2061	1100	16.0	16.0	 204	low gain
+2062	1100	16.0	16.0	 204	low gain
+2063	4100	16.3	16.3	 827	low gain
+2064	1100	16.0	16.0	 204	low gain
+2065	1100	16.0	16.0	 204	low gain
+2066	1100	16.0	16.0	 204	low gain
+2067	1100	16.0	16.0	 204	low gain
+2068	1100	16.0	16.0	 204	low gain
+2069	1100	16.0	16.0	 204	low gain
+2070	1100	16.0	16.0	 204	low gain
+2071	1100	16.0	16.0	 204	low gain
+2072	1100	16.0	16.0	 204	low gain
+2073	1100	16.0	16.0	 204	low gain
+2074	4100	16.0	16.0	 842	low gain
+2075	1100	16.0	16.0	 204	low gain
+2076	4100	16.0	16.0	 842	low gain
+2077	1100	16.0	16.0	 204	low gain
+2078	1800	207.8	207.8	  16	high offset
+2079	1100	16.0	16.0	 204	low gain
+2080	1100	16.0	16.0	 204	low gain
+2081	1100	16.0	16.0	 204	low gain
+2082	1100	16.0	16.0	 204	low gain
+2083	1100	16.0	16.0	 204	low gain
+2084	1100	16.4	16.4	 200	low gain
+2085	1100	16.0	16.0	 204	low gain
+2086	1100	16.4	16.4	 200	low gain
+2087	1100	16.0	16.0	 204	low gain
+2088	1100	16.0	16.0	 204	low gain
+2089	1100	16.0	16.0	 204	low gain
+2090	1100	16.0	16.0	 204	low gain
+2091	1100	16.0	16.0	 204	low gain
+2092	1100	16.0	16.0	 204	low gain
+2093	1100	16.0	16.0	 204	low gain
+2094	1100	16.0	16.0	 204	low gain
+2095	1100	16.0	16.0	 204	low gain
+2096	1100	16.0	16.0	 204	low gain
+2097	1100	16.0	16.0	 204	low gain
+2098	1100	16.0	16.0	 204	low gain
+2099	1100	16.0	16.0	 204	low gain
+2100	1100	16.0	16.0	 204	low gain
+2101	1100	16.0	16.0	 204	low gain
+2102	1100	16.0	16.0	 204	low gain
+2103	1100	16.4	16.4	 200	low gain
+2104	4100	16.3	16.3	 824	low gain
+2105	1100	16.0	16.0	 204	low gain
+2106	1100	16.0	16.0	 204	low gain
+2107	1100	16.0	16.0	 204	low gain
+2108	1100	16.0	16.0	 204	low gain
+2109	1100	16.0	16.0	 204	low gain
+2110	1100	16.0	16.0	 204	low gain
+2111	1100	16.0	16.0	 204	low gain
+2112	1100	16.0	16.0	 204	low gain
+2113	1100	16.0	16.0	 204	low gain
+2114	1100	16.0	16.0	 204	low gain
+2115	1100	16.0	16.0	 204	low gain
+2116	1100	16.0	16.0	 204	low gain
+2117	1100	16.0	16.0	 204	low gain
+2118	1100	16.4	16.4	 200	low gain
+2119	1100	15.8	15.8	 201	low gain
+2120	1100	17.2	17.2	 190	low gain
+2121	1100	17.2	17.2	 190	low gain
+2122	1100	16.4	16.4	 200	low gain
+2123	1100	16.0	16.0	 204	low gain
+2124	1100	16.0	16.0	 204	low gain
+2125	1100	16.0	16.0	 204	low gain
+2126	1100	16.0	16.0	 204	low gain
+2127	1100	16.0	16.0	 204	low gain
+2128	1100	16.0	16.0	 204	low gain
+2129	1100	16.0	16.0	 204	low gain
+2130	1100	16.0	16.0	 204	low gain
+2131	1100	16.0	16.0	 204	low gain
+2132	1100	16.0	16.0	 204	low gain
+2133	1800	207.8	207.8	  16	high offset
+2134	1000	47.3	47.3	 291	unbonded
+2135	1100	16.0	16.0	 205	low gain
+2136	1100	16.1	16.1	 204	low gain
+2137	1100	16.0	16.0	 204	low gain
+2138	1100	16.0	16.0	 204	low gain
+2139	1100	16.0	16.0	 204	low gain
+2140	1100	16.0	16.0	 204	low gain
+2141	1100	16.0	16.0	 204	low gain
+2142	1100	16.4	16.4	 200	low gain
+2143	1100	16.0	16.0	 204	low gain
+2144	1100	16.0	16.0	 204	low gain
+2145	4100	16.8	16.8	 803	low gain
+2146	1100	16.0	16.0	 204	low gain
+2147	1800	206.2	206.2	  66	high offset
+2148	1100	16.0	16.0	 204	low gain
+2149	1800	209.0	209.0	  16	high offset
+2150	4100	16.0	16.0	 841	low gain
+2151	1100	16.0	16.0	 204	low gain
+2152	1100	16.0	16.0	 204	low gain
+2153	1100	16.0	16.0	 204	low gain
+2154	1100	16.0	16.0	 204	low gain
+2155	1100	16.0	16.0	 204	low gain
+2156	1100	16.0	16.0	 204	low gain
+2157	1100	15.5	15.5	 211	low gain
+2158	1100	16.0	16.0	 204	low gain
+2159	1100	16.0	16.0	 204	low gain
+2160	1100	16.0	16.0	 204	low gain
+2161	1100	16.0	16.0	 204	low gain
+2162	1100	16.0	16.0	 204	low gain
+2163	1100	16.0	16.0	 204	low gain
+2164	1100	16.0	16.0	 204	low gain
+2165	4100	16.0	16.0	 842	low gain
+2166	1100	16.0	16.0	 204	low gain
+2167	1100	16.0	16.0	 204	low gain
+2168	1100	16.0	16.0	 204	low gain
+2169	1100	16.0	16.0	 204	low gain
+2170	1100	16.4	16.4	 200	low gain
+2171	4100	16.3	16.3	 824	low gain
+2172	1100	16.0	16.0	 204	low gain
+2173	1100	16.0	16.0	 204	low gain
+2174	4100	16.0	16.0	 842	low gain
+2175	4100	15.5	15.5	 868	low gain
+2176	1100	16.0	16.0	 204	low gain
+2177	1100	16.4	16.4	 200	low gain
+2178	1100	16.0	16.0	 204	low gain
+2179	1100	16.8	16.8	 195	low gain
+2180	1100	16.1	16.1	 204	low gain
+2181	1100	16.4	16.4	 200	low gain
+2182	1100	16.4	16.4	 199	low gain
+2183	1100	16.0	16.0	 204	low gain
+2184	1100	16.0	16.0	 204	low gain
+2185	1100	16.0	16.0	 204	low gain
+2186	1100	16.0	16.0	 204	low gain
+2187	1100	16.0	16.0	 204	low gain
+2188	1100	16.0	16.0	 204	low gain
+2189	4100	16.0	16.0	 842	low gain
+2190	1100	16.0	16.0	 204	low gain
+2191	1100	16.0	16.0	 204	low gain
+2192	1100	16.0	16.0	 204	low gain
+2193	1100	16.4	16.4	 200	low gain
+2194	1100	16.0	16.0	 204	low gain
+2195	1100	16.0	16.0	 204	low gain
+2196	1100	16.0	16.0	 204	low gain
+2197	1100	16.0	16.0	 204	low gain
+2198	1100	16.4	16.4	 200	low gain
+2199	1100	16.0	16.0	 204	low gain
+2200	1100	16.0	16.0	 204	low gain
+2201	1100	16.0	16.0	 204	low gain
+2202	1100	16.0	16.0	 204	low gain
+2203	1100	16.8	16.8	 195	low gain
+2204	1100	16.0	16.0	 204	low gain
+2205	1100	16.0	16.0	 204	low gain
+2206	1100	16.0	16.0	 204	low gain
+2207	1100	16.8	16.8	 195	low gain
+2208	1000	37.2	37.2	  86	unbonded
+2209	1100	16.8	16.8	 195	low gain
+2210	1100	16.4	16.4	 200	low gain
+2211	4100	16.3	16.3	 828	low gain
+2212	1100	16.0	16.0	 204	low gain
+2213	1100	16.0	16.0	 204	low gain
+2214	1100	16.0	16.0	 204	low gain
+2215	1100	16.0	16.0	 204	low gain
+2216	1100	16.0	16.0	 204	low gain
+2217	1100	16.0	16.0	 204	low gain
+2218	1100	16.0	16.0	 204	low gain
+2219	1100	16.0	16.0	 204	low gain
+2220	1100	16.4	16.4	 200	low gain
+2221	1800	166.2	166.2	  82	high offset
+2222	1100	16.0	16.0	 204	low gain
+2223	1100	16.4	16.4	 200	low gain
+2224	1100	16.0	16.0	 204	low gain
+2225	4100	16.0	16.0	 842	low gain
+2226	1100	16.0	16.0	 204	low gain
+2227	1100	16.0	16.0	 204	low gain
+2228	1100	16.0	16.0	 204	low gain
+2229	1100	16.0	16.0	 204	low gain
+2230	1100	16.0	16.0	 204	low gain
+2231	4100	16.3	16.3	 824	low gain
+2232	1100	16.0	16.0	 204	low gain
+2233	1100	16.0	16.0	 204	low gain
+2234	1100	16.0	16.0	 204	low gain
+2235	1100	16.0	16.0	 204	low gain
+2236	1100	16.0	16.0	 204	low gain
+2237	1100	16.0	16.0	 204	low gain
+2238	1100	16.0	16.0	 204	low gain
+2239	1100	16.8	16.8	 195	low gain
+2240	1100	16.0	16.0	 204	low gain
+2241	1100	15.5	15.5	 211	low gain
+2242	1000	44.5	44.5	  74	unbonded
+2243	1100	15.9	15.9	 206	low gain
+2244	1100	16.8	16.8	 195	low gain
+2245	1100	16.0	16.0	 204	low gain
+2246	1100	16.0	16.0	 204	low gain
+2247	1100	16.0	16.0	 204	low gain
+2248	1100	16.0	16.0	 204	low gain
+2249	1100	16.0	16.0	 204	low gain
+2250	1100	16.0	16.0	 204	low gain
+2251	1100	16.0	16.0	 204	low gain
+2252	1100	16.0	16.0	 204	low gain
+2253	1100	16.0	16.0	 204	low gain
+2254	1100	16.0	16.0	 204	low gain
+2255	1100	16.0	16.0	 204	low gain
+2256	1100	16.0	16.0	 204	low gain
+2257	1100	16.0	16.0	 204	low gain
+2258	1100	16.0	16.0	 204	low gain
+2259	1100	16.0	16.0	 198	low gain
+2260	1100	16.0	16.0	 204	low gain
+2261	1100	16.0	16.0	 204	low gain
+2262	4100	16.0	16.0	 847	low gain
+2263	1100	16.4	16.4	 200	low gain
+2264	1100	16.0	16.0	 204	low gain
+2265	1100	16.0	16.0	 204	low gain
+2266	1100	16.8	16.8	 195	low gain
+2267	1100	17.6	17.6	 186	low gain
+2268	4100	16.0	16.0	 842	low gain
+2269	1100	16.8	16.8	 195	low gain
+2270	1100	16.0	16.0	 204	low gain
+2271	1100	16.0	16.0	 204	low gain
+2272	1100	16.4	16.4	 200	low gain
+2273	1100	16.0	16.0	 204	low gain
+2274	1100	16.0	16.0	 204	low gain
+2275	4100	16.8	16.8	 805	low gain
+2276	4100	16.0	16.0	 841	low gain
+2277	1100	16.0	16.0	 204	low gain
+2278	1100	16.0	16.0	 204	low gain
+2279	4100	16.8	16.8	 803	low gain
+2280	1100	16.0	16.0	 204	low gain
+2281	1100	16.0	16.0	 204	low gain
+2282	1100	16.0	16.0	 204	low gain
+2283	1100	16.0	16.0	 204	low gain
+2284	1100	16.0	16.0	 204	low gain
+2285	1100	16.0	16.0	 204	low gain
+2286	1100	16.0	16.0	 204	low gain
+2287	1100	16.0	16.0	 204	low gain
+2288	1100	16.0	16.0	 204	low gain
+2289	1100	16.0	16.0	 204	low gain
+2290	1100	16.0	16.0	 204	low gain
+2291	1100	16.0	16.0	 204	low gain
+2292	1800	207.8	207.8	  16	high offset
+2293	1100	16.0	16.0	 204	low gain
+2294	1100	16.0	16.0	 204	low gain
+2295	4100	16.4	16.4	 823	low gain
+2296	1100	16.0	16.0	 204	low gain
+2297	1100	16.0	16.0	 204	low gain
+2298	1100	16.0	16.0	 204	low gain
+2299	1100	16.0	16.0	 204	low gain
+2300	4100	16.0	16.0	 842	low gain
+2301	1100	16.0	16.0	 204	low gain
+2302	1100	15.5	15.5	 211	low gain
+2303	1100	16.0	16.0	 204	low gain
+2304	1800	208.6	208.6	  65	high offset
+2305	1000	16.0	16.0	 204	unbonded
+2306	1000	16.0	16.0	 204	unbonded
+2307	1000	16.0	16.0	 204	unbonded
+2308	1000	16.0	16.0	 204	unbonded
+2309	1000	16.0	16.0	 204	unbonded
+2310	1000	16.0	16.0	 204	unbonded
+2311	1000	16.4	16.4	 200	unbonded
+2312	1000	16.0	16.0	 204	unbonded
+2313	1000	16.0	16.0	 204	unbonded
+2314	1000	16.0	16.0	 204	unbonded
+2315	1000	16.0	16.0	 204	unbonded
+2316	1000	16.0	16.0	 204	unbonded
+2317	4000	17.4	17.4	 779	high noise
+2318	1000	16.0	16.0	 204	unbonded
+2319	1000	16.0	16.0	 204	unbonded
+2320	1000	16.0	16.0	 204	unbonded
+2321	4000	16.5	16.5	 824	high noise
+2322	1800	335.9	335.9	  41	high offset
+2323	1000	16.1	16.1	 204	unbonded
+2324	1000	16.0	16.0	 204	unbonded
+2325	1000	16.0	16.0	 204	unbonded
+2326	1000	16.0	16.0	 204	unbonded
+2327	1000	16.0	16.0	 204	unbonded
+2328	1000	16.0	16.0	 204	unbonded
+2329	1000	16.0	16.0	 204	unbonded
+2330	1000	16.0	16.0	 204	unbonded
+2331	4000	16.0	16.0	 842	high noise
+2332	1000	16.0	16.0	 204	unbonded
+2333	1000	16.0	16.0	 204	unbonded
+2334	1000	16.0	16.0	 204	unbonded
+2335	1000	16.0	16.0	 204	unbonded
+2336	1000	16.4	16.4	 200	unbonded
+2337	1000	16.0	16.0	 204	unbonded
+2338	1000	16.4	16.4	 200	unbonded
+2339	1000	16.0	16.0	 204	unbonded
+2340	1000	16.0	16.0	 204	unbonded
+2341	1000	16.4	16.4	 200	unbonded
+2342	1000	16.0	16.0	 204	unbonded
+2343	1000	16.0	16.0	 204	unbonded
+2344	1000	16.0	16.0	 204	unbonded
+2345	1000	16.0	16.0	 204	unbonded
+2346	1000	16.0	16.0	 204	unbonded
+2347	1000	16.0	16.0	 204	unbonded
+2348	1000	16.0	16.0	 204	unbonded
+2349	1000	16.0	16.0	 204	unbonded
+2350	1000	16.0	16.0	 204	unbonded
+2351	1000	16.0	16.0	 204	unbonded
+2352	4000	16.3	16.3	 828	high noise
+2353	1000	16.0	16.0	 204	unbonded
+2354	1000	16.0	16.0	 204	unbonded
+2355	1000	16.0	16.0	 204	unbonded
+2356	1000	16.0	16.0	 204	unbonded
+2357	4000	16.0	16.0	 844	high noise
+2358	1000	16.4	16.4	 194	unbonded
+2359	1000	16.0	16.0	 204	unbonded
+2360	1000	16.0	16.0	 204	unbonded
+2361	4000	16.8	16.8	 803	high noise
+2362	4000	16.0	16.0	 841	high noise
+2363	1800	206.2	206.2	  16	high offset
+2364	1000	16.0	16.0	 204	unbonded
+2365	4000	15.6	15.6	 866	high noise
+2366	1000	36.8	36.8	  89	unbonded
+2367	1000	16.0	16.0	 204	unbonded
+2368	1000	16.0	16.0	 204	unbonded
+2369	1000	16.0	16.0	 204	unbonded
+2370	1000	16.0	16.0	 204	unbonded
+2371	1000	16.0	16.0	 204	unbonded
+2372	1000	16.0	16.0	 204	unbonded
+2373	1000	16.0	16.0	 204	unbonded
+2374	1000	16.4	16.4	 200	unbonded
+2375	1000	16.0	16.0	 198	unbonded
+2376	1000	16.8	16.8	 195	unbonded
+2377	1000	16.1	16.1	 204	unbonded
+2378	1000	16.4	16.4	 200	unbonded
+2379	1000	16.0	16.0	 204	unbonded
+2380	1000	16.0	16.0	 204	unbonded
+2381	1000	16.4	16.4	 200	unbonded
+2382	1000	16.4	16.4	 200	unbonded
+2383	1000	16.0	16.0	 204	unbonded
+2384	1000	16.0	16.0	 204	unbonded
+2385	1000	16.0	16.0	 204	unbonded
+2386	1000	16.0	16.0	 204	unbonded
+2387	1000	16.0	16.0	 204	unbonded
+2388	1800	207.9	207.9	  16	high offset
+2389	4000	16.3	16.3	 828	high noise
+2390	1000	16.0	16.0	 204	unbonded
+2391	1000	16.0	16.0	 204	unbonded
+2392	1000	16.0	16.0	 204	unbonded
+2393	1000	16.0	16.0	 204	unbonded
+2394	1800	207.8	207.8	  16	high offset
+2395	1000	16.1	16.1	 204	unbonded
+2396	1000	16.1	16.1	 204	unbonded
+2397	1000	16.0	16.0	 204	unbonded
+2398	1000	16.0	16.0	 204	unbonded
+2399	1000	16.0	16.0	 204	unbonded
+2400	1000	16.0	16.0	 204	unbonded
+2401	1000	16.0	16.0	 204	unbonded
+2402	1000	16.0	16.0	 204	unbonded
+2403	1000	16.0	16.0	 204	unbonded
+2404	1800	208.0	208.0	  16	high offset
+2405	1000	16.0	16.0	 204	unbonded
+2406	1000	16.0	16.0	 204	unbonded
+2407	1000	16.0	16.0	 204	unbonded
+2408	1000	16.0	16.0	 204	unbonded
+2409	4000	16.0	16.0	 842	high noise
+2410	1000	16.0	16.0	 204	unbonded
+2411	1000	16.0	16.0	 204	unbonded
+2412	1000	16.0	16.0	 204	unbonded
+2413	1000	16.0	16.0	 204	unbonded
+2414	1000	16.0	16.0	 204	unbonded
+2415	1000	16.0	16.0	 204	unbonded
+2416	1000	16.4	16.4	 200	unbonded
+2417	1000	16.0	16.0	 204	unbonded
+2418	1800	209.1	209.1	   0	high offset
+2419	1000	16.0	16.0	  39	unbonded
+2420	1000	16.0	16.0	 204	unbonded
+2421	1000	16.0	16.0	 204	unbonded
+2422	1000	16.0	16.0	 204	unbonded
+2423	1000	16.0	16.0	 204	unbonded
+2424	4000	16.3	16.3	 824	high noise
+2425	1000	16.0	16.0	 204	unbonded
+2426	1000	16.4	16.4	 200	unbonded
+2427	1000	16.0	16.0	 204	unbonded
+2428	1000	16.0	16.0	 204	unbonded
+2429	1000	16.4	16.4	 200	unbonded
+2430	1000	16.0	16.0	 204	unbonded
+2431	1000	16.4	16.4	 200	unbonded
+2432	4000	16.4	16.4	 823	high noise
+2433	1000	16.0	16.0	 204	unbonded
+2434	1000	16.0	16.0	 204	unbonded
+2435	1000	16.0	16.0	 204	unbonded
+2436	1800	207.8	207.8	  66	high offset
+2437	1000	16.0	16.0	 204	unbonded
+2438	1000	15.6	15.6	 210	unbonded
+2439	1000	16.1	16.1	 204	unbonded
+2440	1000	16.0	16.0	 204	unbonded
+2441	4000	16.3	16.3	 824	high noise
+2442	1800	248.7	248.7	  54	high offset
+2443	1000	16.0	16.0	 204	unbonded
+2444	1000	16.0	16.0	 204	unbonded
+2445	1000	16.0	16.0	 204	unbonded
+2446	1000	16.0	16.0	 204	unbonded
+2447	1000	16.0	16.0	 204	unbonded
+2448	4000	16.0	16.0	 844	high noise
+2449	1000	16.0	16.0	 204	unbonded
+2450	1000	16.0	16.0	 204	unbonded
+2451	1000	16.0	16.0	 204	unbonded
+2452	1000	16.0	16.0	 204	unbonded
+2453	1800	208.0	208.0	  15	high offset
+2454	1000	16.0	16.0	 204	unbonded
+2455	1000	16.0	16.0	 204	unbonded
+2456	1800	207.8	207.8	  65	high offset
+2457	1000	16.1	16.1	 204	unbonded
+2458	1000	16.0	16.0	 204	unbonded
+2459	1000	16.0	16.0	 204	unbonded
+2460	4000	16.5	16.5	 824	high noise
+2461	1000	16.0	16.0	 204	unbonded
+2462	1000	16.0	16.0	 204	unbonded
+2463	1000	16.0	16.0	 204	unbonded
+2464	1000	16.0	16.0	 204	unbonded
+2465	1000	16.0	16.0	 204	unbonded
+2466	1000	16.0	16.0	 204	unbonded
+2467	1000	16.0	16.0	 204	unbonded
+2468	1000	16.0	16.0	 204	unbonded
+2469	1000	16.0	16.0	 204	unbonded
+2470	1000	16.0	16.0	 204	unbonded
+2471	1000	16.0	16.0	 204	unbonded
+2472	1000	16.4	16.4	 200	unbonded
+2473	1000	16.4	16.4	 200	unbonded
+2474	1000	16.4	16.4	 200	unbonded
+2475	1000	16.0	16.0	 204	unbonded
+2476	1000	16.4	16.4	 200	unbonded
+2477	1000	16.0	16.0	 204	unbonded
+2478	1000	16.0	16.0	 204	unbonded
+2479	1000	16.0	16.0	 204	unbonded
+2480	1000	16.0	16.0	 204	unbonded
+2481	1800	207.8	207.8	  16	high offset
+2482	1000	16.1	16.1	 204	unbonded
+2483	1000	16.0	16.0	 204	unbonded
+2484	1000	16.0	16.0	 204	unbonded
+2485	1000	16.0	16.0	 204	unbonded
+2486	1000	16.0	16.0	 204	unbonded
+2487	1000	16.0	16.0	 204	unbonded
+2488	1800	207.8	207.8	  65	high offset
+2489	1000	16.0	16.0	 204	unbonded
+2490	1000	16.4	16.4	 200	unbonded
+2491	1000	16.0	16.0	 204	unbonded
+2492	1000	16.0	16.0	 204	unbonded
+2493	1000	16.0	16.0	 204	unbonded
+2494	1000	16.0	16.0	 204	unbonded
+2495	4000	16.8	16.8	 810	high noise
+2496	1000	16.0	16.0	 204	unbonded
+2497	1000	16.0	16.0	 204	unbonded
+2498	1000	16.0	16.0	 204	unbonded
+2499	1000	16.0	16.0	 204	unbonded
+2500	1000	16.0	16.0	 204	unbonded
+2501	1000	16.5	16.5	 199	unbonded
+2502	1000	16.0	16.0	 204	unbonded
+2503	1000	16.0	16.0	 204	unbonded
+2504	1000	16.0	16.0	 204	unbonded
+2505	1000	16.0	16.0	 204	unbonded
+2506	1000	16.0	16.0	 204	unbonded
+2507	1000	16.0	16.0	 204	unbonded
+2508	1000	16.8	16.8	 195	unbonded
+2509	1000	16.0	16.0	 204	unbonded
+2510	1000	16.0	16.0	 204	unbonded
+2511	1000	16.0	16.0	 204	unbonded
+2512	1000	16.0	16.0	 204	unbonded
+2513	1000	16.0	16.0	 204	unbonded
+2514	1000	16.4	16.4	 200	unbonded
+2515	4000	15.8	15.8	 854	high noise
+2516	1000	17.2	17.2	 190	unbonded
+2517	1000	17.6	17.6	 186	unbonded
+2518	1000	16.0	16.0	 204	unbonded
+2519	4000	16.8	16.8	 803	high noise
+2520	1000	16.1	16.1	 204	unbonded
+2521	1000	16.0	16.0	 204	unbonded
+2522	1000	16.8	16.8	 195	unbonded
+2523	1000	16.0	16.0	 204	unbonded
+2524	1000	16.0	16.0	 204	unbonded
+2525	1000	16.0	16.0	 204	unbonded
+2526	1000	16.0	16.0	 204	unbonded
+2527	1000	16.0	16.0	 204	unbonded
+2528	1000	16.0	16.0	 204	unbonded
+2529	1000	16.0	16.0	 204	unbonded
+2530	1000	16.8	16.8	 195	unbonded
+2531	1000	16.4	16.4	 200	unbonded
+2532	1000	16.0	16.0	 204	unbonded
+2533	1000	16.0	16.0	 204	unbonded
+2534	1000	16.0	16.0	 204	unbonded
+2535	4000	16.3	16.3	 824	high noise
+2536	1000	16.0	16.0	 204	unbonded
+2537	1000	16.0	16.0	 204	unbonded
+2538	4000	16.8	16.8	 803	high noise
+2539	1000	16.0	16.0	 204	unbonded
+2540	4000	16.0	16.0	 842	high noise
+2541	1000	16.0	16.0	 204	unbonded
+2542	1000	16.0	16.0	 204	unbonded
+2543	4000	16.5	16.5	 818	high noise
+2544	1800	308.0	308.0	  44	high offset
+2545	1000	16.0	16.0	 204	unbonded
+2546	1000	16.0	16.0	 204	unbonded
+2547	1000	16.0	16.0	 204	unbonded
+2548	1000	16.0	16.0	 204	unbonded
+2549	1000	16.0	16.0	 204	unbonded
+2550	1000	16.0	16.0	 204	unbonded
+2551	1000	16.0	16.0	 204	unbonded
+2552	1800	207.8	207.8	  65	high offset
+2553	1000	16.0	16.0	 204	unbonded
+2554	1000	16.0	16.0	 198	unbonded
+2555	1000	16.0	16.0	 204	unbonded
+2556	1000	16.0	16.0	 204	unbonded
+2557	1000	16.8	16.8	 195	unbonded
+2558	1000	16.0	16.0	 204	unbonded
+2559	1000	16.0	16.0	 204	unbonded

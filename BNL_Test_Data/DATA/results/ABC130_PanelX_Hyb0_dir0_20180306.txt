@@ -1,0 +1,522 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_PanelX_Hyb0_dir0
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32889-2
+TEST_DATE      : 06/03/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"18:53:28"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21514 21514 21720 21513 21514 51737 3125 20325 3125 3125 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21720 21513 21721 21719 21442 40205 3125 182162 3125 3125 -1 -1 -1 -1 -1 -1 
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2048
+LAST CHANNEL   : 2175
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 2048
+LAST CHANNEL   : 2175
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2303
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2303
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2304
+LAST CHANNEL   : 2431
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 2304
+LAST CHANNEL   : 2431
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2432
+LAST CHANNEL   : 2559
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 2432
+LAST CHANNEL   : 2559
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2560
+LAST CHANNEL   : 2687
+#
+%Defect
+DEFECT NAME    : SD_HI
+FIRST CHANNEL  : 2560
+LAST CHANNEL   : 2687
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2688
+LAST CHANNEL   : 2815
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : SD_LO
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+#30 defects found
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M16 Low Rise: 387.4 - using fall and mean width
+#
+%Comment
+COMMENT        : M16 High Fall: -38037.3 - using rise and mean width
+#
+%Comment
+COMMENT        : S17 Low Rise: 387.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S17 High Fall: -38037.3 - using rise and mean width
+#
+%Comment
+COMMENT        : S18 Low Rise: 387.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S18 High Fall: -38398.5 - using rise and mean width
+#
+%Comment
+COMMENT        : S19 Low Rise: 387.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S19 High Fall: -38036.6 - using rise and mean width
+#
+%Comment
+COMMENT        : S20 Low Rise: 387.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S20 High Fall: -38037.3 - using rise and mean width
+#
+%Comment
+COMMENT        : S21 Low Rise: -1.6 - using fall and mean width
+#
+%Comment
+COMMENT        : S22 Low Rise: -1.6 - using fall and mean width
+#
+%Comment
+COMMENT        : S23 Low Rise: -1.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S24 Low Rise: -1.6 - using fall and mean width
+#
+%Comment
+COMMENT        : E25 Low Rise: -1.6 - using fall and mean width
+#
+%Comment
+COMMENT        : M16 Low Rise: 387.4 - using fall and mean width
+#
+%Comment
+COMMENT        : M16 High Fall: -38398.5 - using rise and mean width
+#
+%Comment
+COMMENT        : S17 Low Rise: 389.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S17 High Fall: -38037.3 - using rise and mean width
+#
+%Comment
+COMMENT        : S18 Low Rise: 384.7 - using fall and mean width
+#
+%Comment
+COMMENT        : S18 High Fall: -38398.5 - using rise and mean width
+#
+%Comment
+COMMENT        : S19 Low Rise: 389.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S19 High Fall: -38398.5 - using rise and mean width
+#
+%Comment
+COMMENT        : S20 Low Rise: 388.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S20 High Fall: -37912.0 - using rise and mean width
+#
+%Comment
+COMMENT        : S21 Low Rise: -1.6 - using fall and mean width
+#
+%Comment
+COMMENT        : S22 Low Rise: -1.6 - using fall and mean width
+#
+%Comment
+COMMENT        : S23 Low Rise: -1.4 - using fall and mean width
+#
+%Comment
+COMMENT        : S24 Low Rise: -1.6 - using fall and mean width
+#
+%Comment
+COMMENT        : E25 Low Rise: -1.6 - using fall and mean width
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_PanelX_Hyb0_dir0
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32890-2
+TEST_DATE      : 06/03/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"19:07:24"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 26 28 25 26 26 24 26 26 26 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21 26 28 25 26 25 24 26 26 26 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_PanelX_Hyb0_dir0
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32890-4
+TEST_DATE      : 06/03/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"19:09:49"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 26 28 26 26 27 24 27 27 28 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 26 28 26 26 27 26 27 27 28 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S22 has 4 Empty Bins
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_PanelX_Hyb0_dir0
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32890-6
+TEST_DATE      : 06/03/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"19:14:25"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 30 32 30 31 37 38 36 32 32 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+19 30 32 25 159 47 701339 42 36 43 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M16 has 2 Empty Bins
+#
+%Comment
+COMMENT        : M16 High SD width: 20.1 (module average -135935.5)
+#
+%Comment
+COMMENT        : S17 has 2 Empty Bins
+#
+%Comment
+COMMENT        : S17 High SD width: 18.1 (module average -135935.5)
+#
+%Comment
+COMMENT        : S18 has 2 Empty Bins
+#
+%Comment
+COMMENT        : S18 High SD width: 21.6 (module average -135935.5)
+#
+%Comment
+COMMENT        : S19 has 2 Empty Bins
+#
+%Comment
+COMMENT        : S19 High SD width: 18.3 (module average -135935.5)
+#
+%Comment
+COMMENT        : S20 High SD width: 13.3 (module average -135935.5)
+#
+%Comment
+COMMENT        : S21 High SD width: 0.3 (module average -135935.5)
+#
+%Comment
+COMMENT        : S22 High SD width: -3.8 (module average -135935.5)
+#
+%Comment
+COMMENT        : S23 High SD width: 1.7 (module average -135935.5)
+#
+%Comment
+COMMENT        : S24 High SD width: 13.1 (module average -135935.5)
+#
+%Comment
+COMMENT        : E25 High SD width: 13.3 (module average -135935.5)
+#
+%Comment
+COMMENT        : M16 has 2 Empty Bins
+#
+%Comment
+COMMENT        : M16 High SD width: 20.7 (module average -135935.5)
+#
+%Comment
+COMMENT        : S17 has 2 Empty Bins
+#
+%Comment
+COMMENT        : S17 High SD width: 18.1 (module average -135935.5)
+#
+%Comment
+COMMENT        : S18 has 2 Empty Bins
+#
+%Comment
+COMMENT        : S18 High SD width: 21.4 (module average -135935.5)
+#
+%Comment
+COMMENT        : S19 has 2 Empty Bins
+#
+%Comment
+COMMENT        : S19 High SD width: 29.5 (module average -135935.5)
+#
+%Comment
+COMMENT        : S20 High SD width: -284.2 (module average -135935.5)
+#
+%Comment
+COMMENT        : S21 High SD width: -22.8 (module average -135935.5)
+#
+%Comment
+COMMENT        : S22 Low Rise: 1630972.6 - using falling edge
+#
+%Comment
+COMMENT        : S22 Low SD width: -1630936.5 (module average -135935.5)
+#
+%Comment
+COMMENT        : S23 High SD width: -11.4 (module average -135935.5)
+#
+%Comment
+COMMENT        : S24 High SD width: 3.6 (module average -135935.5)
+#
+%Comment
+COMMENT        : E25 High SD width: -12.3 (module average -135935.5)
+#

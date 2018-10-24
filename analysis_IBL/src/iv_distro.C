@@ -1,0 +1,232 @@
+{
+//=========Macro generated from canvas: module_canvas/
+//=========  (Mon Mar 30 19:45:45 2015) by ROOT version5.34/26
+   TCanvas *module_canvas = new TCanvas("module_canvas", "",-1,1,963,643);
+   module_canvas->SetHighLightColor(2);
+   module_canvas->Range(-58.5,-16.14375,406.5,145.2938);
+   module_canvas->SetFillColor(0);
+   module_canvas->SetBorderMode(0);
+   module_canvas->SetBorderSize(2);
+   module_canvas->SetTickx(1);
+   module_canvas->SetTicky(1);
+   module_canvas->SetFrameBorderMode(0);
+   module_canvas->SetFrameBorderMode(0);
+   
+   THStack *hs = new THStack();
+   hs->SetName("hs");
+   hs->SetTitle("");
+   
+   TH1F *hs_stack_1 = new TH1F("hs_stack_1","",31,-12,360);
+   hs_stack_1->SetMinimum(0);
+   hs_stack_1->SetMaximum(129.15);
+   hs_stack_1->SetDirectory(0);
+   hs_stack_1->SetStats(0);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#000099");
+   hs_stack_1->SetLineColor(ci);
+   hs_stack_1->GetXaxis()->SetTitle("Voltage Breakdown [V]");
+   hs_stack_1->GetXaxis()->SetBinLabel(1,"Ohmic");
+   hs_stack_1->GetXaxis()->SetBinLabel(31,">350");
+   hs_stack_1->GetXaxis()->SetBinLabel(6,"50");
+   hs_stack_1->GetXaxis()->SetBinLabel(10,"100");
+   hs_stack_1->GetXaxis()->SetBinLabel(14,"150");
+   hs_stack_1->GetXaxis()->SetBinLabel(18,"200");
+   hs_stack_1->GetXaxis()->SetBinLabel(22,"250");
+   hs_stack_1->GetXaxis()->SetBinLabel(26,"300");
+   hs_stack_1->GetXaxis()->SetBit(TAxis::kLabelsHori);
+   hs_stack_1->GetXaxis()->SetLabelFont(42);
+   hs_stack_1->GetXaxis()->SetLabelSize(0.05);
+   hs_stack_1->GetXaxis()->SetTitleSize(0.035);
+   hs_stack_1->GetXaxis()->SetTitleOffset(1.55);
+   hs_stack_1->GetXaxis()->SetTitleFont(42);
+   hs_stack_1->GetYaxis()->SetTitle("Number of Modules");
+   hs_stack_1->GetYaxis()->SetLabelFont(42);
+   hs_stack_1->GetYaxis()->SetLabelSize(0.035);
+   hs_stack_1->GetYaxis()->SetTitleSize(0.035);
+   hs_stack_1->GetYaxis()->SetTitleOffset(1.55);
+   hs_stack_1->GetYaxis()->SetTitleFont(42);
+   hs_stack_1->GetZaxis()->SetLabelFont(42);
+   hs_stack_1->GetZaxis()->SetLabelSize(0.035);
+   hs_stack_1->GetZaxis()->SetTitleSize(0.035);
+   hs_stack_1->GetZaxis()->SetTitleFont(42);
+   hs->SetHistogram(hs_stack_1);
+   
+   
+   TH1D *histo_break_Planar = new TH1D("histo_break_Planar","histo_break_Planar",31,-12,360);
+   histo_break_Planar->SetBinContent(12,2);
+   histo_break_Planar->SetBinContent(13,1);
+   histo_break_Planar->SetBinContent(15,3);
+   histo_break_Planar->SetBinContent(16,2);
+   histo_break_Planar->SetBinContent(17,1);
+   histo_break_Planar->SetBinContent(18,2);
+   histo_break_Planar->SetBinContent(19,5);
+   histo_break_Planar->SetBinContent(20,1);
+   histo_break_Planar->SetBinContent(21,5);
+   histo_break_Planar->SetBinContent(22,9);
+   histo_break_Planar->SetBinContent(23,18);
+   histo_break_Planar->SetBinContent(24,25);
+   histo_break_Planar->SetBinContent(25,22);
+   histo_break_Planar->SetBinContent(26,15);
+   histo_break_Planar->SetBinContent(27,15);
+   histo_break_Planar->SetBinContent(28,13);
+   histo_break_Planar->SetBinContent(29,6);
+   histo_break_Planar->SetBinContent(30,1);
+   histo_break_Planar->SetBinContent(31,123);
+   histo_break_Planar->SetEntries(269);
+
+   ci = TColor::GetColor("#0000ff");
+   histo_break_Planar->SetFillColor(ci);
+   histo_break_Planar->SetFillStyle(3345);
+   histo_break_Planar->SetLineWidth(2);
+   histo_break_Planar->GetXaxis()->SetLabelFont(42);
+   histo_break_Planar->GetXaxis()->SetLabelSize(0.035);
+   histo_break_Planar->GetXaxis()->SetTitleSize(0.035);
+   histo_break_Planar->GetXaxis()->SetTitleFont(42);
+   histo_break_Planar->GetYaxis()->SetLabelFont(42);
+   histo_break_Planar->GetYaxis()->SetLabelSize(0.035);
+   histo_break_Planar->GetYaxis()->SetTitleSize(0.035);
+   histo_break_Planar->GetYaxis()->SetTitleFont(42);
+   histo_break_Planar->GetZaxis()->SetLabelFont(42);
+   histo_break_Planar->GetZaxis()->SetLabelSize(0.035);
+   histo_break_Planar->GetZaxis()->SetTitleSize(0.035);
+   histo_break_Planar->GetZaxis()->SetTitleFont(42);
+   hs->Add(histo_break_Planar,"");
+   
+   TH1D *histo_break_CNM = new TH1D("histo_break_CNM","histo_break_CNM",31,-12,360);
+   histo_break_CNM->SetBinContent(3,8);
+   histo_break_CNM->SetBinContent(4,15);
+   histo_break_CNM->SetBinContent(5,9);
+   histo_break_CNM->SetBinContent(6,7);
+   histo_break_CNM->SetBinContent(7,13);
+   histo_break_CNM->SetBinContent(8,8);
+   histo_break_CNM->SetBinContent(9,13);
+   histo_break_CNM->SetBinContent(10,9);
+   histo_break_CNM->SetEntries(82);
+
+   ci = TColor::GetColor("#ffcccc");
+   histo_break_CNM->SetFillColor(ci);
+   histo_break_CNM->SetLineWidth(2);
+   histo_break_CNM->GetXaxis()->SetLabelFont(42);
+   histo_break_CNM->GetXaxis()->SetLabelSize(0.035);
+   histo_break_CNM->GetXaxis()->SetTitleSize(0.035);
+   histo_break_CNM->GetXaxis()->SetTitleFont(42);
+   histo_break_CNM->GetYaxis()->SetLabelFont(42);
+   histo_break_CNM->GetYaxis()->SetLabelSize(0.035);
+   histo_break_CNM->GetYaxis()->SetTitleSize(0.035);
+   histo_break_CNM->GetYaxis()->SetTitleFont(42);
+   histo_break_CNM->GetZaxis()->SetLabelFont(42);
+   histo_break_CNM->GetZaxis()->SetLabelSize(0.035);
+   histo_break_CNM->GetZaxis()->SetTitleSize(0.035);
+   histo_break_CNM->GetZaxis()->SetTitleFont(42);
+   hs->Add(histo_break_CNM,"");
+   
+   TH1D *histo_break_FBK = new TH1D("histo_break_FBK","histo_break_FBK",31,-12,360);
+   histo_break_FBK->SetBinContent(3,1);
+   histo_break_FBK->SetBinContent(4,20);
+   histo_break_FBK->SetBinContent(5,48);
+   histo_break_FBK->SetBinContent(6,4);
+   histo_break_FBK->SetEntries(73);
+
+   ci = TColor::GetColor("#ff0000");
+   histo_break_FBK->SetFillColor(ci);
+   histo_break_FBK->SetFillStyle(3354);
+   histo_break_FBK->SetLineWidth(2);
+   histo_break_FBK->GetXaxis()->SetLabelFont(42);
+   histo_break_FBK->GetXaxis()->SetLabelSize(0.035);
+   histo_break_FBK->GetXaxis()->SetTitleSize(0.035);
+   histo_break_FBK->GetXaxis()->SetTitleFont(42);
+   histo_break_FBK->GetYaxis()->SetLabelFont(42);
+   histo_break_FBK->GetYaxis()->SetLabelSize(0.035);
+   histo_break_FBK->GetYaxis()->SetTitleSize(0.035);
+   histo_break_FBK->GetYaxis()->SetTitleFont(42);
+   histo_break_FBK->GetZaxis()->SetLabelFont(42);
+   histo_break_FBK->GetZaxis()->SetLabelSize(0.035);
+   histo_break_FBK->GetZaxis()->SetTitleSize(0.035);
+   histo_break_FBK->GetZaxis()->SetTitleFont(42);
+   hs->Add(histo_break_FBK,"");
+   
+   TH1D *histo_break_Ohmic = new TH1D("histo_break_Ohmic","histo_break_Ohmic",1,-12,0);
+   histo_break_Ohmic->SetBinContent(1,14);
+   histo_break_Ohmic->SetEntries(14);
+
+   ci = TColor::GetColor("#ffcccc");
+   histo_break_Ohmic->SetFillColor(ci);
+   histo_break_Ohmic->SetLineWidth(2);
+   histo_break_Ohmic->GetXaxis()->SetLabelFont(42);
+   histo_break_Ohmic->GetXaxis()->SetLabelSize(0.035);
+   histo_break_Ohmic->GetXaxis()->SetTitleSize(0.035);
+   histo_break_Ohmic->GetXaxis()->SetTitleFont(42);
+   histo_break_Ohmic->GetYaxis()->SetLabelFont(42);
+   histo_break_Ohmic->GetYaxis()->SetLabelSize(0.035);
+   histo_break_Ohmic->GetYaxis()->SetTitleSize(0.035);
+   histo_break_Ohmic->GetYaxis()->SetTitleFont(42);
+   histo_break_Ohmic->GetZaxis()->SetLabelFont(42);
+   histo_break_Ohmic->GetZaxis()->SetLabelSize(0.035);
+   histo_break_Ohmic->GetZaxis()->SetTitleSize(0.035);
+   histo_break_Ohmic->GetZaxis()->SetTitleFont(42);
+   hs->Add(histo_break_Ohmic,"");
+   hs->Draw("nostack");
+   
+   TLegend *leg = new TLegend(0.65,0.65,0.85,0.85,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetTextSize(0.04);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("histo_break_Planar","Planar CiS","F");
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(3345);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("histo_break_FBK","3D FBK","F");
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(3354);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("histo_break_CNM","3D CNM","F");
+
+   ci = TColor::GetColor("#ffcccc");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   TLatex *   tex = new TLatex(0.12,0.8,"ATLAS");
+tex->SetNDC();
+   tex->SetTextFont(72);
+   tex->SetTextSize(0.07);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.28,0.8,"Internal");
+tex->SetNDC();
+   tex->SetTextFont(42);
+   tex->SetTextSize(0.07);
+   tex->SetLineWidth(2);
+   tex->Draw();
+   module_canvas->Modified();
+   module_canvas->cd();
+   module_canvas->SetSelected(module_canvas);
+}

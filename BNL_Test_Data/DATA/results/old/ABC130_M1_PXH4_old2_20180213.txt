@@ -1,0 +1,2018 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32814-2
+TEST_DATE      : 13/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"14:56:19"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 21 20 22 19 25 18 24 19 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 21 20 22 19 25 18 24 19 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32814-3
+TEST_DATE      : 13/02/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"15:07:20"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	62.84 	90.42 	0.00
+#S17
+	4 	66.99 	89.49 	0.00
+#S18
+	4 	67.27 	85.25 	0.00
+#S19
+	4 	67.66 	83.27 	0.00
+#S20
+	4 	71.18 	81.71 	0.00
+#S21
+	4 	64.90 	81.17 	0.00
+#S22
+	4 	64.69 	81.42 	0.00
+#S23
+	4 	70.37 	85.57 	0.00
+#S24
+	4 	66.74 	79.93 	0.00
+#E25
+	4 	68.65 	83.33 	0.00
+#M16
+	4 	63.32 	90.37 	0.00
+#S17
+	4 	64.60 	90.14 	0.00
+#S18
+	4 	67.87 	85.28 	0.00
+#S19
+	4 	69.58 	83.32 	0.00
+#S20
+	4 	70.54 	80.33 	0.00
+#S21
+	4 	65.87 	80.29 	0.00
+#S22
+	4 	67.22 	81.15 	0.00
+#S23
+	4 	71.55 	85.01 	0.00
+#S24
+	4 	66.25 	79.53 	0.00
+#E25
+	4 	70.10 	83.03 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	###    Too many defects in this chip!    ###
+#S17
+	156.1 	16.02 	89.4 	5.52 	 89.4 	 5.52 	9.28 	  655 	  43
+#S18
+	150.9 	16.57 	85.8 	4.76 	 85.8 	 4.76 	9.59 	  720 	  63
+#S19
+	149.4 	18.11 	83.6 	4.42 	 83.6 	 4.42 	9.34 	  718 	  62
+#S20
+	151.4 	16.74 	81.9 	4.66 	 81.9 	 4.66 	9.66 	  758 	  73
+#S21
+	###    Too many defects in this chip!    ###
+#S22
+	145.6 	16.74 	81.6 	4.71 	 81.6 	 4.71 	9.60 	  749 	  64
+#S23
+	156.3 	15.77 	85.6 	4.54 	 85.6 	 4.54 	9.43 	  694 	  69
+#S24
+	145.2 	16.45 	80.2 	4.01 	 80.2 	 4.01 	9.17 	  733 	  67
+#E25
+	150.7 	15.06 	83.3 	5.49 	 83.3 	 5.49 	9.30 	  715 	  75
+#M16
+	152.6 	14.59 	90.4 	5.18 	 90.4 	 5.18 	8.77 	  623 	  67
+#S17
+	154.8 	14.32 	90.3 	4.69 	 90.3 	 4.69 	8.76 	  615 	  46
+#S18
+	153.0 	16.41 	85.4 	4.71 	 85.4 	 4.71 	9.01 	  669 	  47
+#S19
+	151.6 	16.67 	83.3 	4.13 	 83.3 	 4.13 	8.93 	  685 	  67
+#S20
+	149.3 	17.41 	80.5 	4.98 	 80.5 	 4.98 	8.98 	  715 	  63
+#S21
+	145.7 	16.27 	80.3 	3.85 	 80.3 	 3.85 	8.62 	  681 	  59
+#S22
+	###    Too many defects in this chip!    ###
+#S23
+	156.1 	15.82 	85.1 	4.65 	 85.1 	 4.65 	9.02 	  675 	  61
+#S24
+	###    Too many defects in this chip!    ###
+#E25
+	151.6 	15.85 	83.3 	4.97 	 83.3 	 4.97 	8.96 	  690 	  57
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  0	 15	  0	  0	  0	  0	  0	  0	  0	  0	  0	 15
+#Chip S17:	  0	  5	  0	  0	  0	  0	  0	  0	  0	  0	  0	  5
+#Chip S18:	  0	 11	  0	  0	  0	  0	  0	  0	  0	  0	  0	 11
+#Chip S19:	  0	 11	  0	  0	  0	  0	  0	  0	  0	  0	  0	 11
+#Chip S20:	  0	 10	  0	  0	  0	  0	  0	  0	  0	  0	  0	 10
+#Chip S21:	  0	 13	  0	  0	  0	  0	  0	  0	  0	  0	  0	 13
+#Chip S22:	  0	  6	  0	  0	  0	  0	  0	  0	  0	  0	  0	  6
+#Chip S23:	  6	  3	  0	  0	  0	  6	  0	  0	  0	  0	  0	  3
+#Chip S24:	  0	 10	  0	  0	  0	  0	  0	  0	  0	  0	  0	 10
+#Chip E25:	  0	  9	  0	  0	  0	  0	  0	  0	  0	  0	  0	  9
+#Chip M16:	  4	  9	  0	  0	  0	  4	  0	  0	  0	  0	  0	  9
+#Chip S17:	  3	  4	  0	  0	  0	  3	  0	  0	  0	  0	  0	  4
+#Chip S18:	  0	  5	  0	  0	  0	  0	  0	  0	  0	  0	  0	  5
+#Chip S19:	  0	  8	  0	  0	  0	  0	  0	  0	  0	  0	  0	  8
+#Chip S20:	  0	 10	  0	  0	  0	  0	  0	  0	  0	  0	  0	 10
+#Chip S21:	  0	  6	  0	  0	  0	  0	  0	  0	  0	  0	  0	  6
+#Chip S22:	  0	 18	  0	  0	  0	  0	  0	  0	  0	  0	  0	 18
+#Chip S23:	  1	  7	  0	  0	  0	  1	  0	  0	  0	  0	  0	  7
+#Chip S24:	  0	 14	  0	  0	  0	  0	  0	  0	  0	  0	  0	 14
+#Chip E25:	  0	 11	  0	  0	  0	  0	  0	  0	  0	  0	  0	 11
+#Link 0:	  6	 93	  0	  0	  0	  6	  0	  0	  0	  0	  0	 93
+#Link 1:	  8	 92	  0	  0	  0	  8	  0	  0	  0	  0	  0	 92
+#Link 2:	 14	185	  0	  0	  0	 14	  0	  0	  0	  0	  0	185
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 15
+LAST CHANNEL   : 15
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 17
+LAST CHANNEL   : 17
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 23
+LAST CHANNEL   : 23
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 27
+LAST CHANNEL   : 27
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 51
+LAST CHANNEL   : 51
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 56
+LAST CHANNEL   : 56
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 63
+LAST CHANNEL   : 63
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 78
+LAST CHANNEL   : 79
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 85
+LAST CHANNEL   : 85
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 91
+LAST CHANNEL   : 91
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 93
+LAST CHANNEL   : 94
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 116
+LAST CHANNEL   : 116
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 120
+LAST CHANNEL   : 120
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 179
+LAST CHANNEL   : 179
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 196
+LAST CHANNEL   : 196
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 211
+LAST CHANNEL   : 211
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 218
+LAST CHANNEL   : 218
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 223
+LAST CHANNEL   : 223
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 273
+LAST CHANNEL   : 273
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 277
+LAST CHANNEL   : 277
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 319
+LAST CHANNEL   : 320
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 324
+LAST CHANNEL   : 324
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 327
+LAST CHANNEL   : 327
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 344
+LAST CHANNEL   : 344
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 350
+LAST CHANNEL   : 350
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 362
+LAST CHANNEL   : 362
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 371
+LAST CHANNEL   : 371
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 379
+LAST CHANNEL   : 379
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 394
+LAST CHANNEL   : 394
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 408
+LAST CHANNEL   : 408
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 417
+LAST CHANNEL   : 417
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 449
+LAST CHANNEL   : 449
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 457
+LAST CHANNEL   : 457
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 461
+LAST CHANNEL   : 461
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 481
+LAST CHANNEL   : 481
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 485
+LAST CHANNEL   : 486
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 498
+LAST CHANNEL   : 498
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 509
+LAST CHANNEL   : 509
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 528
+LAST CHANNEL   : 528
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 544
+LAST CHANNEL   : 544
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 559
+LAST CHANNEL   : 560
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 580
+LAST CHANNEL   : 580
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 585
+LAST CHANNEL   : 585
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 592
+LAST CHANNEL   : 593
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 600
+LAST CHANNEL   : 600
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 607
+LAST CHANNEL   : 607
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 657
+LAST CHANNEL   : 657
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 659
+LAST CHANNEL   : 659
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 671
+LAST CHANNEL   : 671
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 682
+LAST CHANNEL   : 682
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 694
+LAST CHANNEL   : 694
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 697
+LAST CHANNEL   : 697
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 702
+LAST CHANNEL   : 702
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 711
+LAST CHANNEL   : 711
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 722
+LAST CHANNEL   : 722
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 725
+LAST CHANNEL   : 725
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 756
+LAST CHANNEL   : 757
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 773
+LAST CHANNEL   : 773
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 791
+LAST CHANNEL   : 791
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 796
+LAST CHANNEL   : 796
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 809
+LAST CHANNEL   : 809
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 814
+LAST CHANNEL   : 814
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 881
+LAST CHANNEL   : 881
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 900
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 902
+LAST CHANNEL   : 902
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 960
+LAST CHANNEL   : 960
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 969
+LAST CHANNEL   : 969
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 984
+LAST CHANNEL   : 984
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1028
+LAST CHANNEL   : 1028
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1031
+LAST CHANNEL   : 1031
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1036
+LAST CHANNEL   : 1036
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1053
+LAST CHANNEL   : 1053
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1055
+LAST CHANNEL   : 1055
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1069
+LAST CHANNEL   : 1069
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1072
+LAST CHANNEL   : 1072
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1078
+LAST CHANNEL   : 1078
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1086
+LAST CHANNEL   : 1086
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1123
+LAST CHANNEL   : 1123
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1163
+LAST CHANNEL   : 1163
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1165
+LAST CHANNEL   : 1165
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1171
+LAST CHANNEL   : 1171
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1190
+LAST CHANNEL   : 1191
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1223
+LAST CHANNEL   : 1224
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1239
+LAST CHANNEL   : 1239
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1263
+LAST CHANNEL   : 1263
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1285
+LAST CHANNEL   : 1285
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1312
+LAST CHANNEL   : 1312
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1314
+LAST CHANNEL   : 1314
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1315
+LAST CHANNEL   : 1315
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1321
+LAST CHANNEL   : 1321
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1370
+LAST CHANNEL   : 1370
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1374
+LAST CHANNEL   : 1374
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1376
+LAST CHANNEL   : 1376
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1382
+LAST CHANNEL   : 1382
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1383
+LAST CHANNEL   : 1383
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1391
+LAST CHANNEL   : 1391
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1394
+LAST CHANNEL   : 1394
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1406
+LAST CHANNEL   : 1406
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1412
+LAST CHANNEL   : 1412
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1421
+LAST CHANNEL   : 1421
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1454
+LAST CHANNEL   : 1454
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1476
+LAST CHANNEL   : 1476
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1482
+LAST CHANNEL   : 1482
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1484
+LAST CHANNEL   : 1484
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1512
+LAST CHANNEL   : 1512
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1536
+LAST CHANNEL   : 1536
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1559
+LAST CHANNEL   : 1560
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1628
+LAST CHANNEL   : 1628
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1630
+LAST CHANNEL   : 1630
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1664
+LAST CHANNEL   : 1664
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1675
+LAST CHANNEL   : 1675
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1692
+LAST CHANNEL   : 1692
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1697
+LAST CHANNEL   : 1697
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1706
+LAST CHANNEL   : 1706
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1713
+LAST CHANNEL   : 1713
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1755
+LAST CHANNEL   : 1755
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1769
+LAST CHANNEL   : 1769
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1805
+LAST CHANNEL   : 1805
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1810
+LAST CHANNEL   : 1810
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1822
+LAST CHANNEL   : 1822
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1849
+LAST CHANNEL   : 1849
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1854
+LAST CHANNEL   : 1854
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1859
+LAST CHANNEL   : 1859
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1881
+LAST CHANNEL   : 1881
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1884
+LAST CHANNEL   : 1884
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1887
+LAST CHANNEL   : 1887
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1904
+LAST CHANNEL   : 1904
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1954
+LAST CHANNEL   : 1954
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1974
+LAST CHANNEL   : 1974
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2019
+LAST CHANNEL   : 2019
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2030
+LAST CHANNEL   : 2030
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2037
+LAST CHANNEL   : 2037
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2046
+LAST CHANNEL   : 2046
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2050
+LAST CHANNEL   : 2051
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2063
+LAST CHANNEL   : 2064
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2067
+LAST CHANNEL   : 2067
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2073
+LAST CHANNEL   : 2073
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2076
+LAST CHANNEL   : 2076
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2078
+LAST CHANNEL   : 2078
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2080
+LAST CHANNEL   : 2080
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2083
+LAST CHANNEL   : 2083
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2103
+LAST CHANNEL   : 2104
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2108
+LAST CHANNEL   : 2108
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2117
+LAST CHANNEL   : 2117
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2133
+LAST CHANNEL   : 2133
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2145
+LAST CHANNEL   : 2145
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2149
+LAST CHANNEL   : 2150
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2176
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2179
+LAST CHANNEL   : 2179
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2221
+LAST CHANNEL   : 2221
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2241
+LAST CHANNEL   : 2241
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2244
+LAST CHANNEL   : 2244
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2266
+LAST CHANNEL   : 2266
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2268
+LAST CHANNEL   : 2268
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2272
+LAST CHANNEL   : 2272
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2308
+LAST CHANNEL   : 2308
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2312
+LAST CHANNEL   : 2312
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2314
+LAST CHANNEL   : 2314
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2316
+LAST CHANNEL   : 2316
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2318
+LAST CHANNEL   : 2319
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2353
+LAST CHANNEL   : 2353
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2366
+LAST CHANNEL   : 2366
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2385
+LAST CHANNEL   : 2385
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2389
+LAST CHANNEL   : 2389
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2394
+LAST CHANNEL   : 2394
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2417
+LAST CHANNEL   : 2418
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2428
+LAST CHANNEL   : 2428
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2436
+LAST CHANNEL   : 2436
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2442
+LAST CHANNEL   : 2442
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2448
+LAST CHANNEL   : 2448
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2456
+LAST CHANNEL   : 2456
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2481
+LAST CHANNEL   : 2481
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2488
+LAST CHANNEL   : 2488
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2495
+LAST CHANNEL   : 2495
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2497
+LAST CHANNEL   : 2497
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2499
+LAST CHANNEL   : 2499
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2524
+LAST CHANNEL   : 2524
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2552
+LAST CHANNEL   : 2552
+#
+#179 defects found affecting 199 strips
+#5 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : FAIL due to 199 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/grosin/DAQs/NewInstall/DATA/results/ABC130_M1_PXH4_old2_RC_32814_3.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32815-2
+TEST_DATE      : 13/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"15:14:55"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+18 18 16 18 15 21 15 20 15 17 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+18 18 16 18 16 21 15 20 15 17 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.40
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32815-3
+TEST_DATE      : 13/02/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"15:24:45"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	57.54 	81.81 	0.00
+#S17
+	4 	56.70 	83.48 	0.00
+#S18
+	4 	61.70 	76.79 	0.00
+#S19
+	4 	63.59 	75.75 	0.00
+#S20
+	4 	65.25 	74.96 	0.00
+#S21
+	4 	67.27 	74.13 	0.00
+#S22
+	4 	66.02 	75.70 	0.00
+#S23
+	4 	60.70 	79.23 	0.00
+#S24
+	4 	68.93 	73.13 	0.00
+#E25
+	4 	63.82 	76.93 	0.00
+#M16
+	4 	57.14 	82.00 	0.00
+#S17
+	4 	55.84 	84.41 	0.00
+#S18
+	4 	61.16 	77.10 	0.00
+#S19
+	4 	64.15 	75.60 	0.00
+#S20
+	4 	67.41 	73.50 	0.00
+#S21
+	4 	67.11 	73.60 	0.00
+#S22
+	4 	67.06 	75.21 	0.00
+#S23
+	4 	61.75 	78.02 	0.00
+#S24
+	4 	68.62 	73.18 	0.00
+#E25
+	4 	64.12 	76.67 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	140.6 	 2.06 	81.8 	5.64 	 81.8 	 5.64 	8.72 	  668 	  37
+#S17
+	141.4 	 1.78 	83.4 	6.46 	 83.4 	 6.46 	8.95 	  673 	  39
+#S18
+	139.8 	 1.73 	76.6 	5.51 	 76.6 	 5.51 	9.22 	  755 	  49
+#S19
+	140.9 	 1.61 	75.5 	5.08 	 75.5 	 5.08 	9.03 	  749 	  42
+#S20
+	141.9 	 1.87 	74.7 	5.20 	 74.7 	 5.20 	9.32 	  783 	  49
+#S21
+	142.6 	 1.70 	74.1 	4.90 	 74.1 	 4.90 	9.13 	  772 	  43
+#S22
+	143.2 	 1.79 	75.6 	4.94 	 75.6 	 4.94 	9.31 	  772 	  40
+#S23
+	141.2 	 2.04 	79.1 	5.71 	 79.1 	 5.71 	9.25 	  733 	  73
+#S24
+	143.0 	 1.64 	73.1 	4.75 	 73.1 	 4.75 	8.89 	  761 	  37
+#E25
+	141.8 	 1.32 	76.5 	5.57 	 76.5 	 5.57 	9.07 	  743 	  50
+#M16
+	140.4 	 2.13 	81.8 	5.93 	 81.8 	 5.93 	8.43 	  647 	  40
+#S17
+	141.5 	 1.61 	84.4 	4.97 	 84.4 	 4.97 	8.50 	  631 	  30
+#S18
+	139.5 	 1.76 	77.0 	5.56 	 77.0 	 5.56 	8.71 	  710 	  43
+#S19
+	140.8 	 1.57 	75.5 	5.25 	 75.5 	 5.25 	8.58 	  714 	  45
+#S20
+	142.1 	 1.71 	73.2 	5.96 	 73.2 	 5.96 	8.71 	  748 	  53
+#S21
+	142.3 	 1.68 	73.6 	4.68 	 73.6 	 4.68 	8.40 	  715 	  40
+#S22
+	143.3 	 1.64 	75.1 	4.80 	 75.1 	 4.80 	8.68 	  724 	  40
+#S23
+	141.1 	 2.00 	78.0 	5.05 	 78.0 	 5.05 	8.83 	  711 	  46
+#S24
+	143.3 	 1.47 	73.0 	5.22 	 73.0 	 5.22 	8.53 	  734 	  46
+#E25
+	141.7 	 1.35 	76.7 	5.34 	 76.7 	 5.34 	8.68 	  710 	  41
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S17:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S18:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip S19:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip S20:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S23:	  6	  1	  0	  0	  0	  6	  0	  0	  0	  0	  0	  1
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4
+#Chip M16:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S19:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip S20:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S23:	  1	  1	  0	  0	  0	  1	  0	  0	  0	  0	  0	  1
+#Chip S24:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  6	 14	  0	  0	  0	  6	  0	  0	  0	  0	  0	 14
+#Link 1:	  1	 13	  0	  0	  0	  1	  0	  0	  0	  0	  0	 13
+#Link 2:	  7	 27	  0	  0	  0	  7	  0	  0	  0	  0	  0	 27
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 135
+LAST CHANNEL   : 135
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 281
+LAST CHANNEL   : 281
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 296
+LAST CHANNEL   : 296
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 408
+LAST CHANNEL   : 408
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 455
+LAST CHANNEL   : 455
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 557
+LAST CHANNEL   : 557
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 559
+LAST CHANNEL   : 559
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 576
+LAST CHANNEL   : 576
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 772
+LAST CHANNEL   : 772
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 900
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 902
+LAST CHANNEL   : 902
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 981
+LAST CHANNEL   : 981
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1165
+LAST CHANNEL   : 1165
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1169
+LAST CHANNEL   : 1169
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1196
+LAST CHANNEL   : 1196
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1239
+LAST CHANNEL   : 1239
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1374
+LAST CHANNEL   : 1374
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1376
+LAST CHANNEL   : 1376
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1568
+LAST CHANNEL   : 1568
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1708
+LAST CHANNEL   : 1708
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1755
+LAST CHANNEL   : 1755
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1849
+LAST CHANNEL   : 1849
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1854
+LAST CHANNEL   : 1854
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1887
+LAST CHANNEL   : 1887
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2117
+LAST CHANNEL   : 2117
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2176
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2179
+LAST CHANNEL   : 2179
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2339
+LAST CHANNEL   : 2339
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2381
+LAST CHANNEL   : 2381
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2385
+LAST CHANNEL   : 2385
+#
+#30 defects found affecting 34 strips
+#5 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : FAIL due to 34 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/grosin/DAQs/NewInstall/DATA/results/ABC130_M1_PXH4_old2_RC_32815_3.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : sss
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32816-2
+TEST_DATE      : 13/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"15:46:28"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 21 20 21 18 25 17 23 18 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 21 20 21 19 25 17 24 18 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32817-2
+TEST_DATE      : 13/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"15:49:28"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 21 20 21 18 24 17 23 18 20 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+22 21 19 21 19 25 17 24 18 20 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32817-3
+TEST_DATE      : 13/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"15:57:24"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	50.88 	87.52 	0.00
+#S17
+	4 	50.90 	87.26 	0.00
+#S18
+	4 	56.19 	82.97 	0.00
+#S19
+	4 	57.91 	81.16 	0.00
+#S20
+	4 	59.91 	79.18 	0.00
+#S21
+	4 	61.73 	78.01 	0.00
+#S22
+	4 	61.19 	78.55 	0.00
+#S23
+	4 	54.86 	84.12 	0.00
+#S24
+	4 	63.75 	76.84 	0.00
+#E25
+	4 	58.30 	81.00 	0.00
+#M16
+	4 	50.84 	87.56 	0.00
+#S17
+	4 	50.05 	88.10 	0.00
+#S18
+	4 	55.55 	83.39 	0.00
+#S19
+	4 	58.59 	80.90 	0.00
+#S20
+	4 	62.12 	78.10 	0.00
+#S21
+	4 	61.44 	77.88 	0.00
+#S22
+	4 	62.12 	78.16 	0.00
+#S23
+	4 	55.80 	83.33 	0.00
+#S24
+	4 	63.07 	76.80 	0.00
+#E25
+	4 	58.32 	80.99 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	139.1 	 1.56 	87.5 	4.04 	 87.5 	 4.04 	9.02 	  645 	  25
+#S17
+	138.8 	 2.54 	87.3 	4.97 	 87.3 	 4.97 	9.13 	  655 	  28
+#S18
+	140.0 	 1.76 	83.0 	4.48 	 83.0 	 4.48 	9.43 	  712 	  31
+#S19
+	140.2 	 1.64 	81.0 	4.24 	 81.0 	 4.24 	9.15 	  707 	  28
+#S20
+	140.3 	 2.20 	79.2 	3.76 	 79.2 	 3.76 	9.49 	  750 	  29
+#S21
+	140.4 	 2.05 	78.0 	3.47 	 78.0 	 3.47 	9.13 	  732 	  25
+#S22
+	140.9 	 1.77 	78.5 	4.43 	 78.5 	 4.43 	9.35 	  745 	  32
+#S23
+	139.8 	 1.85 	84.1 	4.19 	 84.1 	 4.19 	9.30 	  691 	  57
+#S24
+	141.1 	 1.74 	76.8 	3.95 	 76.8 	 3.95 	8.95 	  729 	  30
+#E25
+	139.9 	 1.48 	80.9 	4.64 	 80.9 	 4.64 	9.18 	  710 	  37
+#M16
+	139.0 	 1.57 	87.6 	4.09 	 87.6 	 4.09 	8.66 	  619 	  23
+#S17
+	138.8 	 2.27 	88.1 	3.75 	 88.1 	 3.75 	8.70 	  617 	  20
+#S18
+	139.8 	 1.86 	83.4 	4.68 	 83.4 	 4.68 	8.90 	  668 	  28
+#S19
+	140.1 	 1.58 	80.9 	4.45 	 80.9 	 4.45 	8.70 	  673 	  29
+#S20
+	140.9 	 2.39 	78.1 	4.51 	 78.1 	 4.51 	8.84 	  708 	  35
+#S21
+	140.5 	 2.16 	77.9 	3.35 	 77.9 	 3.35 	8.47 	  680 	  26
+#S22
+	141.0 	 1.64 	78.1 	4.30 	 78.1 	 4.30 	8.75 	  702 	  33
+#S23
+	140.1 	 1.73 	83.3 	4.02 	 83.3 	 4.02 	8.97 	  674 	  39
+#S24
+	141.4 	 1.58 	76.8 	4.18 	 76.8 	 4.18 	8.58 	  699 	  31
+#E25
+	139.9 	 1.42 	81.0 	4.53 	 81.0 	 4.53 	8.80 	  681 	  31
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S20:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  6	  0	  0	  0	  0	  6	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip M16:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S23:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Link 0:	  6	  2	  0	  0	  0	  6	  0	  0	  0	  0	  0	  2
+#Link 1:	  1	  2	  0	  0	  0	  1	  0	  0	  0	  0	  0	  2
+#Link 2:	  7	  4	  0	  0	  0	  7	  0	  0	  0	  0	  0	  4
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 408
+LAST CHANNEL   : 408
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 900
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 902
+LAST CHANNEL   : 902
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1165
+LAST CHANNEL   : 1165
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2117
+LAST CHANNEL   : 2117
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2176
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2497
+LAST CHANNEL   : 2497
+#
+#7 defects found affecting 11 strips
+#5 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+#
+%TEST Rawdata
+FILENAME       : /home/grosin/DAQs/NewInstall/DATA/results/ABC130_M1_PXH4_old2_RC_32817_3.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M1_PXH4_old2
+TEST MADE BY   : lll
+LOCATION NAME  : STFC_RAL_R12
+Run number     : 32817-6
+TEST_DATE      : 13/02/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"16:06:58"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	51.19 	87.56 	0.00
+#S17
+	4 	51.12 	87.32 	0.00
+#S18
+	4 	56.53 	83.01 	0.00
+#S19
+	4 	58.48 	81.01 	0.00
+#S20
+	4 	60.37 	79.01 	0.00
+#S21
+	4 	62.21 	77.91 	0.00
+#S22
+	4 	61.41 	78.78 	0.00
+#S23
+	4 	55.03 	84.17 	0.00
+#S24
+	4 	63.95 	77.08 	0.00
+#E25
+	4 	58.57 	81.18 	0.00
+#M16
+	4 	51.09 	87.58 	0.00
+#S17
+	4 	50.10 	88.25 	0.00
+#S18
+	4 	55.93 	83.39 	0.00
+#S19
+	4 	58.94 	80.92 	0.00
+#S20
+	4 	62.42 	78.08 	0.00
+#S21
+	4 	61.88 	77.80 	0.00
+#S22
+	4 	62.35 	78.35 	0.00
+#S23
+	4 	56.01 	83.41 	0.00
+#S24
+	4 	63.50 	76.77 	0.00
+#E25
+	4 	58.42 	81.25 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	139.5 	 1.61 	87.6 	3.93 	 87.6 	 3.93 	9.01 	  643 	  25
+#S17
+	139.1 	 2.60 	87.3 	4.86 	 87.3 	 4.86 	9.09 	  651 	  24
+#S18
+	140.4 	 1.72 	83.0 	4.39 	 83.0 	 4.39 	9.42 	  710 	  31
+#S19
+	140.7 	 1.61 	81.0 	4.25 	 81.0 	 4.25 	9.13 	  705 	  30
+#S20
+	140.5 	 2.26 	79.0 	3.89 	 79.0 	 3.89 	9.53 	  755 	  31
+#S21
+	140.8 	 2.01 	77.9 	3.44 	 77.9 	 3.44 	9.20 	  739 	  22
+#S22
+	141.3 	 1.84 	78.8 	4.44 	 78.8 	 4.44 	9.38 	  745 	  32
+#S23
+	140.1 	 1.88 	84.2 	4.11 	 84.2 	 4.11 	9.28 	  690 	  56
+#S24
+	141.6 	 1.74 	77.0 	3.93 	 77.0 	 3.93 	8.94 	  727 	  30
+#E25
+	140.3 	 1.54 	81.2 	4.63 	 81.2 	 4.63 	9.22 	  711 	  34
+#M16
+	139.3 	 1.58 	87.6 	4.07 	 87.6 	 4.07 	8.72 	  623 	  23
+#S17
+	139.0 	 2.37 	88.2 	3.71 	 88.2 	 3.71 	8.71 	  617 	  20
+#S18
+	140.2 	 1.85 	83.4 	4.62 	 83.4 	 4.62 	8.90 	  668 	  31
+#S19
+	140.6 	 1.69 	80.9 	4.34 	 80.9 	 4.34 	8.71 	  674 	  30
+#S20
+	141.1 	 2.48 	78.1 	4.47 	 78.1 	 4.47 	8.85 	  710 	  30
+#S21
+	140.9 	 2.17 	77.8 	3.24 	 77.8 	 3.24 	8.49 	  682 	  25
+#S22
+	141.4 	 1.65 	78.3 	4.29 	 78.3 	 4.29 	8.74 	  699 	  34
+#S23
+	140.2 	 1.80 	83.4 	4.00 	 83.4 	 4.00 	8.91 	  670 	  38
+#S24
+	141.8 	 1.65 	76.8 	4.36 	 76.8 	 4.36 	8.58 	  701 	  36
+#E25
+	140.3 	 1.49 	81.3 	4.46 	 81.3 	 4.46 	8.79 	  678 	  30
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  6	  0	  0	  0	  0	  6	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M16:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S23:	  1	  1	  0	  0	  0	  1	  0	  0	  0	  0	  0	  1
+#Chip S24:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip E25:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Link 0:	  6	  1	  0	  0	  0	  6	  0	  0	  0	  0	  0	  1
+#Link 1:	  1	  4	  0	  0	  0	  1	  0	  0	  0	  0	  0	  4
+#Link 2:	  7	  5	  0	  0	  0	  7	  0	  0	  0	  0	  0	  5
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 900
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 902
+LAST CHANNEL   : 902
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1117
+LAST CHANNEL   : 1117
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2117
+LAST CHANNEL   : 2117
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2176
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2179
+LAST CHANNEL   : 2179
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2385
+LAST CHANNEL   : 2385
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2497
+LAST CHANNEL   : 2497
+#
+#8 defects found affecting 12 strips
+#5 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+#
+%TEST Rawdata
+FILENAME       : /home/grosin/DAQs/NewInstall/DATA/results/ABC130_M1_PXH4_old2_RC_32817_6.txt
+#
