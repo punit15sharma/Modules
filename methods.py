@@ -135,6 +135,7 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
 
     ax1 = fig.add_subplot(221)
     plt.grid(False)
+    alpha = 1.0
     for result in allResults:
         gain = []
         for i in range(len(result.chan)):
@@ -142,7 +143,8 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
                 if ((result.comm[i] not in unselections) or (unselections == [])):
                     gain.append(result.gain[i])
         #plt.hist(gain, 50, label=result.label)
-        plt.hist(gain, 50, range=(25, 175), label=result.label)
+        plt.hist(gain, 50, range=(25, 175), alpha=alpha, label=result.label)
+        alpha -= 0.25
         plt.xlabel('Gain [mV/fC]')
         plt.ylabel('Entries')
         dictOfSeries[result.label] = gain
@@ -151,6 +153,7 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
 
     ax2 = fig.add_subplot(222)
     plt.grid(False)
+    alpha = 1.0
     for result in allResults:
         innse = []
         for i in range(len(result.chan)):
@@ -158,7 +161,8 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
                 if ((result.comm[i] not in unselections) or (unselections == [])):
                     innse.append(result.innse[i])
         #plt.hist(innse, 50, label=result.label)
-        plt.hist(innse, 50, range=(200, 1300), label=result.label)
+        plt.hist(innse, 50, range=(200, 1300), alpha=alpha, label=result.label)
+        alpha -= 0.25
         plt.xlabel('Input Noise [e$^-$]')
         plt.ylabel('Entries')
         dictOfSeries[result.label] = innse
@@ -167,6 +171,7 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
 
     ax3 = fig.add_subplot(223)
     plt.grid(False)
+    alpha = 1.0
     for result in allResults:
         outnse = []
         for i in range(len(result.chan)):
@@ -174,7 +179,8 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
                 if ((result.comm[i] not in unselections) or (unselections == [])):
                     outnse.append(result.outnse[i])
         #plt.hist(outnse, 50, label=result.label)
-        plt.hist(outnse, 50, range=(0, 20), label=result.label)
+        plt.hist(outnse, 50, range=(0, 20), alpha=alpha, label=result.label)
+        alpha -= 0.25
         plt.xlabel('Output Noise [mV]')
         plt.ylabel('Entries')
         dictOfSeries[result.label] = outnse
