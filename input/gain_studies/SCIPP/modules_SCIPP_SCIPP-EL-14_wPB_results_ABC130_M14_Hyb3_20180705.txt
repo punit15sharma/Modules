@@ -1,0 +1,2158 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-2
+TEST_DATE      : 05/07/2018
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:15:09"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+20 21 20 19 21 21 19 19 21 19 -1 -1 -1 -1 -1 -1 
+#
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+21 21 20 19 21 21 20 19 21 19 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M16 Low Rise: 2.1 - using falling edge
+#
+%Comment
+COMMENT        : S17 Low Rise: 3.0 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 2.9 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 3.0 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 2.9 - using falling edge
+#
+%Comment
+COMMENT        : M16 Low Rise: 2.3 - using falling edge
+#
+%Comment
+COMMENT        : S17 Low Rise: 3.1 - using falling edge
+#
+%Comment
+COMMENT        : S20 Low Rise: 2.7 - using falling edge
+#
+%Comment
+COMMENT        : S21 Low Rise: 2.7 - using falling edge
+#
+%Comment
+COMMENT        : S24 Low Rise: 3.1 - using falling edge
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-3
+TEST_DATE      : 05/07/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:19:13"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	72.94 	73.24 	0.00
+#S17
+	4 	71.09 	76.46 	0.00
+#S18
+	4 	77.42 	84.83 	0.00
+#S19
+	4 	66.25 	86.38 	0.00
+#S20
+	4 	67.76 	85.06 	0.00
+#S21
+	4 	68.90 	78.03 	0.00
+#S22
+	4 	72.33 	84.90 	0.00
+#S23
+	4 	76.23 	88.03 	0.00
+#S24
+	4 	68.78 	86.08 	0.00
+#E25
+	4 	72.87 	78.21 	0.00
+#M16
+	4 	72.46 	73.84 	0.00
+#S17
+	4 	70.90 	76.17 	0.00
+#S18
+	4 	75.95 	84.47 	0.00
+#S19
+	4 	67.78 	86.88 	0.00
+#S20
+	4 	70.25 	85.26 	0.00
+#S21
+	4 	67.86 	77.58 	0.00
+#S22
+	4 	68.89 	85.99 	0.00
+#S23
+	4 	75.71 	87.14 	0.00
+#S24
+	4 	69.44 	85.86 	0.00
+#E25
+	4 	74.37 	77.58 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	146.3 	14.28 	73.2 	3.39 	 72.9 	14.12 	8.97 	  766 	  31
+#S17
+	147.9 	13.19 	76.5 	3.11 	 71.1 	12.80 	8.73 	  714 	  23
+#S18
+	162.7 	15.16 	84.8 	3.70 	 77.4 	14.95 	9.16 	  676 	  29
+#S19
+	153.1 	13.62 	86.4 	4.50 	 66.2 	13.16 	9.33 	  676 	  25
+#S20
+	153.1 	13.22 	85.1 	4.12 	 67.7 	11.91 	9.35 	  687 	  23
+#S21
+	147.3 	14.37 	78.0 	3.22 	 68.9 	14.01 	8.97 	  719 	  28
+#S22
+	157.5 	14.17 	84.9 	4.17 	 72.3 	13.15 	8.93 	  658 	  26
+#S23
+	164.6 	14.00 	88.0 	3.94 	 76.2 	13.56 	9.33 	  663 	  23
+#S24
+	155.4 	14.51 	86.1 	4.03 	 68.8 	13.91 	9.15 	  665 	  24
+#E25
+	151.5 	13.11 	78.2 	3.64 	 72.9 	12.95 	8.94 	  715 	  33
+#M16
+	146.5 	12.38 	73.8 	3.08 	 72.5 	11.64 	8.53 	  724 	  28
+#S17
+	147.4 	13.12 	76.2 	3.69 	 70.9 	12.79 	8.29 	  681 	  27
+#S18
+	161.0 	15.16 	84.5 	3.79 	 76.0 	15.65 	8.53 	  632 	  24
+#S19
+	155.3 	13.57 	86.9 	3.83 	 67.8 	12.88 	8.70 	  626 	  22
+#S20
+	155.8 	12.39 	85.2 	3.85 	 70.3 	12.45 	8.47 	  622 	  25
+#S21
+	145.9 	13.29 	77.6 	3.72 	 67.9 	13.14 	8.20 	  661 	  26
+#S22
+	155.3 	14.62 	86.0 	3.72 	 68.9 	13.97 	8.41 	  612 	  24
+#S23
+	163.2 	14.65 	87.1 	4.05 	 75.7 	14.42 	8.63 	  619 	  23
+#S24
+	155.9 	13.22 	85.9 	4.15 	 69.4 	12.15 	8.56 	  623 	  22
+#E25
+	152.4 	14.07 	77.6 	3.65 	 74.4 	13.65 	8.42 	  679 	  28
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M16:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Link 1:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Link 2:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 286
+LAST CHANNEL   : 286
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1405
+LAST CHANNEL   : 1405
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1804
+LAST CHANNEL   : 1804
+#
+#3 defects found affecting 3 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_RC_11_3.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-7
+TEST_DATE      : 05/07/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:21:03"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"TrimDAC (bits)"
+#N_POINTS
+5
+#POINTS
+0.00 	8.00 	16.00 	24.00 	31.00 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	2 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch16
+	2	41.0	250	 41.0	 0.22	-48.3	 9.9	 0.49	 0.06
+#Ch17
+	2	41.0	251	 41.0	 0.22	-57.3	10.2	 0.47	 0.05
+#Ch18
+	2	41.0	247	 41.0	 0.23	-53.2	10.5	 0.47	 0.05
+#Ch19
+	2	41.0	255	 41.0	 0.20	-56.1	10.0	 0.48	 0.05
+#Ch20
+	2	41.0	251	 41.0	 0.23	-55.8	10.8	 0.46	 0.05
+#Ch21
+	2	41.0	248	 41.0	 0.22	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	2	41.0	252	 41.0	 0.22	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	2	41.0	248	 41.0	 0.26	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	2	41.0	252	 41.0	 0.22	-41.1	 7.4	 -nan	 -nan
+#Ch25
+	2	41.0	256	 41.0	 0.24	-48.9	 9.5	 -nan	 -nan
+#Ch16
+	2	41.0	250	 41.0	 0.24	-47.9	 9.3	 0.49	 0.05
+#Ch17
+	2	41.0	251	 41.0	 0.22	-57.4	11.1	 0.47	 0.06
+#Ch18
+	2	41.0	247	 41.0	 0.22	-53.9	10.3	 0.47	 0.05
+#Ch19
+	2	41.0	255	 41.0	 0.21	-54.6	10.3	 0.49	 0.06
+#Ch20
+	2	41.0	251	 41.0	 0.22	-54.7	10.7	 0.47	 0.06
+#Ch21
+	2	41.0	248	 41.0	 0.22	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	2	41.0	252	 41.0	 0.25	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	2	41.0	248	 41.0	 0.25	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	2	41.0	252	 41.0	 0.21	-40.4	 8.1	 -nan	 -nan
+#Ch25
+	2	41.0	256	 41.0	 0.23	-48.7	 9.4	 -nan	 -nan
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1536
+LAST CHANNEL   : 1791
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1792
+LAST CHANNEL   : 2047
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2048
+LAST CHANNEL   : 2303
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2304
+LAST CHANNEL   : 2559
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2560
+LAST CHANNEL   : 2815
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 9
+LAST CHANNEL   : 9
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 67
+LAST CHANNEL   : 67
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 89
+LAST CHANNEL   : 89
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 97
+LAST CHANNEL   : 97
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 162
+LAST CHANNEL   : 162
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 240
+LAST CHANNEL   : 240
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 344
+LAST CHANNEL   : 344
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 350
+LAST CHANNEL   : 350
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 353
+LAST CHANNEL   : 353
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 371
+LAST CHANNEL   : 371
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 376
+LAST CHANNEL   : 376
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 395
+LAST CHANNEL   : 395
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 528
+LAST CHANNEL   : 528
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 562
+LAST CHANNEL   : 562
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 642
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 643
+LAST CHANNEL   : 643
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 644
+LAST CHANNEL   : 661
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 662
+LAST CHANNEL   : 662
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 663
+LAST CHANNEL   : 675
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 676
+LAST CHANNEL   : 676
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 677
+LAST CHANNEL   : 781
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 782
+LAST CHANNEL   : 782
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 783
+LAST CHANNEL   : 871
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 872
+LAST CHANNEL   : 872
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 873
+LAST CHANNEL   : 898
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 899
+LAST CHANNEL   : 899
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 900
+LAST CHANNEL   : 903
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 904
+LAST CHANNEL   : 904
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 905
+LAST CHANNEL   : 915
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 916
+LAST CHANNEL   : 916
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 917
+LAST CHANNEL   : 1001
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 1002
+LAST CHANNEL   : 1002
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 1003
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1024
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 1034
+LAST CHANNEL   : 1034
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 1038
+LAST CHANNEL   : 1038
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 1043
+LAST CHANNEL   : 1043
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 1078
+LAST CHANNEL   : 1078
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 1091
+LAST CHANNEL   : 1091
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 1124
+LAST CHANNEL   : 1124
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 1127
+LAST CHANNEL   : 1127
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 1141
+LAST CHANNEL   : 1141
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 1144
+LAST CHANNEL   : 1144
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4111
+LAST CHANNEL   : 4111
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4117
+LAST CHANNEL   : 4117
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4230
+LAST CHANNEL   : 4230
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4301
+LAST CHANNEL   : 4301
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4321
+LAST CHANNEL   : 4321
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4368
+LAST CHANNEL   : 4368
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4409
+LAST CHANNEL   : 4409
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4450
+LAST CHANNEL   : 4450
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4465
+LAST CHANNEL   : 4465
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4659
+LAST CHANNEL   : 4659
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4671
+LAST CHANNEL   : 4671
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4697
+LAST CHANNEL   : 4697
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 4736
+LAST CHANNEL   : 4764
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4765
+LAST CHANNEL   : 4765
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 4766
+LAST CHANNEL   : 4769
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4770
+LAST CHANNEL   : 4770
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 4771
+LAST CHANNEL   : 4784
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4785
+LAST CHANNEL   : 4785
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 4786
+LAST CHANNEL   : 4788
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4789
+LAST CHANNEL   : 4789
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 4790
+LAST CHANNEL   : 4840
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4841
+LAST CHANNEL   : 4841
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 4842
+LAST CHANNEL   : 4883
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4884
+LAST CHANNEL   : 4884
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 4885
+LAST CHANNEL   : 4904
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4905
+LAST CHANNEL   : 4905
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 4906
+LAST CHANNEL   : 5016
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 5017
+LAST CHANNEL   : 5017
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 5018
+LAST CHANNEL   : 5043
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 5044
+LAST CHANNEL   : 5044
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 5045
+LAST CHANNEL   : 5087
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 5088
+LAST CHANNEL   : 5088
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 5089
+LAST CHANNEL   : 5114
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 5115
+LAST CHANNEL   : 5115
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 5116
+LAST CHANNEL   : 5119
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 5143
+LAST CHANNEL   : 5143
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 5162
+LAST CHANNEL   : 5162
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 5169
+LAST CHANNEL   : 5169
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 5171
+LAST CHANNEL   : 5171
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 5173
+LAST CHANNEL   : 5173
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 5196
+LAST CHANNEL   : 5196
+#
+%Defect
+DEFECT NAME    : TR_OFFSET
+FIRST CHANNEL  : 5197
+LAST CHANNEL   : 5197
+#
+#95 defects found
+%Comment
+COMMENT        : L0Ch16 TR 2 step 0.71 (ideal 1.48 error 51.76%)
+#
+%Comment
+COMMENT        : L0Ch17 TR 2 step 0.68 (ideal 1.41 error 51.66%)
+#
+%Comment
+COMMENT        : L0Ch18 TR 2 step 0.69 (ideal 1.42 error 51.55%)
+#
+%Comment
+COMMENT        : L0Ch19 TR 2 step 0.71 (ideal 1.45 error 51.29%)
+#
+%Comment
+COMMENT        : L0Ch20 TR 2 step 0.68 (ideal 1.39 error 50.85%)
+#
+%Comment
+COMMENT        : L1Ch16 TR 2 step 0.71 (ideal 1.47 error 51.66%)
+#
+%Comment
+COMMENT        : L1Ch17 TR 2 step 0.68 (ideal 1.41 error 51.59%)
+#
+%Comment
+COMMENT        : L1Ch18 TR 2 step 0.69 (ideal 1.41 error 51.16%)
+#
+%Comment
+COMMENT        : L1Ch19 TR 2 step 0.71 (ideal 1.47 error 51.49%)
+#
+%Comment
+COMMENT        : L1Ch20 TR 2 step 0.69 (ideal 1.42 error 51.44%)
+#
+%Comment
+COMMENT        : FAIL due to 67 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 9 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_tr2_20180705.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-12
+TEST_DATE      : 05/07/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:24:57"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"TrimDAC (bits)"
+#N_POINTS
+5
+#POINTS
+0.00 	8.00 	16.00 	24.00 	31.00 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	4 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch16
+	4	43.0	255	 43.0	 0.28	-40.2	 7.9	 0.59	 0.05
+#Ch17
+	4	43.0	255	 43.0	 0.29	-48.1	 8.8	 0.57	 0.05
+#Ch18
+	4	43.0	254	 43.0	 0.27	-44.2	 9.0	 0.58	 0.06
+#Ch19
+	4	43.0	256	 43.0	 0.24	-46.9	 8.7	 0.59	 0.06
+#Ch20
+	4	43.0	255	 43.0	 0.26	-46.3	 9.1	 0.57	 0.06
+#Ch21
+	4	43.0	256	 43.0	 0.27	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	4	43.0	256	 43.0	 0.23	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	4	43.0	252	 43.0	 0.27	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	4	43.0	255	 43.0	 0.26	-34.6	 6.5	 -nan	 -nan
+#Ch25
+	4	43.0	256	 43.0	 0.27	-41.7	 7.5	 -nan	 -nan
+#Ch16
+	4	43.0	255	 43.0	 0.28	-40.0	 8.0	 0.60	 0.06
+#Ch17
+	4	43.0	255	 43.0	 0.25	-48.2	 9.2	 0.57	 0.06
+#Ch18
+	4	43.0	254	 43.0	 0.27	-44.4	 9.0	 0.58	 0.06
+#Ch19
+	4	43.0	256	 43.0	 0.26	-45.7	 8.9	 0.60	 0.06
+#Ch20
+	4	43.0	255	 43.0	 0.26	-45.7	 8.7	 0.57	 0.06
+#Ch21
+	4	43.0	256	 43.0	 0.27	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	4	43.0	256	 43.0	 0.27	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	4	43.0	252	 43.0	 0.27	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	4	43.0	255	 43.0	 0.26	-34.1	 6.7	 -nan	 -nan
+#Ch25
+	4	43.0	256	 43.0	 0.26	-41.6	 7.5	 -nan	 -nan
+#
+#No defects found!
+%Comment
+COMMENT        : FAIL due to 51 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 11 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_tr4_20180705.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-17
+TEST_DATE      : 05/07/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:28:50"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"TrimDAC (bits)"
+#N_POINTS
+5
+#POINTS
+0.00 	8.00 	16.00 	24.00 	31.00 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	6 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch16
+	6	47.0	256	 47.0	 0.30	-34.1	 6.7	 0.71	 0.06
+#Ch17
+	6	47.0	256	 47.0	 0.33	-41.1	 7.4	 0.68	 0.06
+#Ch18
+	6	47.0	256	 46.9	 0.31	-37.6	 7.3	 0.69	 0.06
+#Ch19
+	6	47.0	256	 47.0	 0.31	-40.0	 7.2	 0.71	 0.06
+#Ch20
+	6	47.0	256	 47.0	 0.30	-39.2	 7.3	 0.68	 0.06
+#Ch21
+	6	47.0	256	 47.0	 0.32	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	6	47.0	256	 47.0	 0.30	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	6	47.0	256	 47.0	 0.32	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	6	47.0	255	 47.0	 0.28	-29.7	 5.5	 -nan	 -nan
+#Ch25
+	6	47.0	256	 47.0	 0.31	-36.1	 6.5	 -nan	 -nan
+#Ch16
+	6	47.0	256	 47.0	 0.33	-34.1	 6.5	 0.71	 0.06
+#Ch17
+	6	47.0	256	 47.0	 0.33	-41.1	 7.5	 0.68	 0.07
+#Ch18
+	6	47.0	256	 47.0	 0.31	-37.9	 7.5	 0.69	 0.06
+#Ch19
+	6	47.0	256	 47.0	 0.31	-38.9	 7.4	 0.71	 0.07
+#Ch20
+	6	47.0	256	 47.0	 0.32	-38.6	 7.1	 0.69	 0.06
+#Ch21
+	6	47.0	256	 47.0	 0.31	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	6	47.0	256	 47.0	 0.32	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	6	47.0	256	 47.0	 0.31	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	6	47.0	255	 47.0	 0.29	-29.7	 5.8	 -nan	 -nan
+#Ch25
+	6	47.0	256	 47.0	 0.32	-35.8	 6.5	 -nan	 -nan
+#
+#No defects found!
+%Comment
+COMMENT        : FAIL due to 24 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_tr6_20180705.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-22
+TEST_DATE      : 05/07/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:33:05"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"TrimDAC (bits)"
+#N_POINTS
+5
+#POINTS
+0.00 	8.00 	16.00 	24.00 	31.00 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	8 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch16
+	8	50.0	256	 50.0	 0.36	-29.6	 5.7	 0.83	 0.06
+#Ch17
+	8	50.0	256	 49.9	 0.36	-35.6	 6.4	 0.80	 0.06
+#Ch18
+	8	50.0	256	 50.0	 0.36	-32.5	 6.4	 0.81	 0.07
+#Ch19
+	8	50.0	256	 49.9	 0.35	-34.7	 6.1	 0.83	 0.07
+#Ch20
+	8	50.0	256	 50.0	 0.32	-33.8	 6.4	 0.80	 0.07
+#Ch21
+	8	50.0	256	 50.0	 0.38	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	8	50.0	256	 50.0	 0.36	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	8	50.0	256	 50.0	 0.34	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	8	50.0	256	 50.1	 0.31	 0.0	 0.0	 -nan	 -nan
+#Ch25
+	8	50.0	256	 50.0	 0.37	 0.0	 0.0	 -nan	 -nan
+#Ch16
+	8	50.0	256	 50.0	 0.38	-29.4	 5.6	 0.84	 0.07
+#Ch17
+	8	50.0	256	 50.0	 0.37	-35.6	 6.5	 0.80	 0.07
+#Ch18
+	8	50.0	256	 50.0	 0.33	-32.8	 6.4	 0.81	 0.07
+#Ch19
+	8	50.0	256	 50.1	 0.33	-33.8	 6.2	 0.84	 0.07
+#Ch20
+	8	50.0	256	 50.0	 0.37	-33.4	 6.1	 0.81	 0.07
+#Ch21
+	8	50.0	256	 50.0	 0.37	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	8	50.0	256	 50.0	 0.35	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	8	50.0	256	 50.0	 0.33	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	8	50.0	256	 50.0	 0.35	 0.0	 0.0	 -nan	 -nan
+#Ch25
+	8	50.0	256	 50.0	 0.35	 0.0	 0.0	 -nan	 -nan
+#
+#No defects found!
+%Comment
+COMMENT        : FAIL due to 155 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 79 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_tr8_20180705.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-7
+TEST_DATE      : 05/07/2018
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:21:03"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	-1 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch16
+	8	53.0	254	  0.0	 0.00	-29.6	 5.7	 0.83	 0.06
+#Ch17
+	8	53.0	255	  0.0	 0.00	-35.6	 6.4	 0.80	 0.06
+#Ch18
+	8	53.0	256	  0.0	 0.00	-32.5	 6.4	 0.81	 0.07
+#Ch19
+	8	53.0	256	  0.0	 0.00	-34.7	 6.1	 0.83	 0.07
+#Ch20
+	8	53.0	254	  0.0	 0.00	-33.8	 6.4	 0.80	 0.07
+#Ch21
+	8	53.0	256	  0.0	 0.00	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	8	53.0	256	  0.0	 0.00	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	8	53.0	256	  0.0	 0.00	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	8	53.0	255	  0.0	 0.00	 0.0	 0.0	 -nan	 -nan
+#Ch25
+	8	53.0	256	  0.0	 0.00	 0.0	 0.0	 -nan	 -nan
+#Ch16
+	8	53.0	254	  0.0	 0.00	-29.4	 5.6	 0.84	 0.07
+#Ch17
+	8	53.0	255	  0.0	 0.00	-35.6	 6.5	 0.80	 0.07
+#Ch18
+	8	53.0	256	  0.0	 0.00	-32.8	 6.4	 0.81	 0.07
+#Ch19
+	8	53.0	256	  0.0	 0.00	-33.8	 6.2	 0.84	 0.07
+#Ch20
+	8	53.0	254	  0.0	 0.00	-33.4	 6.1	 0.81	 0.07
+#Ch21
+	8	53.0	256	  0.0	 0.00	 0.0	 0.0	 0.00	 0.00
+#Ch22
+	8	53.0	256	  0.0	 0.00	 0.0	 0.0	 0.00	 0.00
+#Ch23
+	8	53.0	256	  0.0	 0.00	 0.0	 0.0	 0.00	 0.00
+#Ch24
+	8	53.0	255	  0.0	 0.00	 0.0	 0.0	 -nan	 -nan
+#Ch25
+	8	53.0	256	  0.0	 0.00	 0.0	 0.0	 -nan	 -nan
+#
+#No defects found!
+%Comment
+COMMENT        : FAIL due to 155 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 79 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_tr-1_20180705.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-27
+TEST_DATE      : 05/07/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:42:38"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	74.21 	73.41 	0.00
+#S17
+	4 	70.86 	76.51 	0.00
+#S18
+	4 	60.29 	85.10 	0.00
+#S19
+	4 	59.30 	86.25 	0.00
+#S20
+	4 	60.39 	85.23 	0.00
+#S21
+	4 	68.83 	77.93 	0.00
+#S22
+	4 	60.99 	84.75 	0.00
+#S23
+	4 	56.90 	88.16 	0.00
+#S24
+	4 	59.25 	86.00 	0.00
+#E25
+	4 	68.63 	78.16 	0.00
+#M16
+	4 	73.65 	74.03 	0.00
+#S17
+	4 	71.04 	76.33 	0.00
+#S18
+	4 	61.08 	84.55 	0.00
+#S19
+	4 	58.43 	86.63 	0.00
+#S20
+	4 	60.51 	85.20 	0.00
+#S21
+	4 	69.34 	77.50 	0.00
+#S22
+	4 	59.59 	85.86 	0.00
+#S23
+	4 	58.22 	87.13 	0.00
+#S24
+	4 	59.67 	85.76 	0.00
+#E25
+	4 	69.17 	77.62 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	147.9 	 1.30 	73.4 	3.44 	 73.1 	10.11 	8.92 	  748 	 100
+#S17
+	147.8 	 1.49 	76.5 	3.19 	 70.3 	 7.44 	8.75 	  710 	  67
+#S18
+	145.8 	 1.43 	85.1 	3.85 	 60.3 	 4.79 	9.15 	  674 	  31
+#S19
+	146.2 	 1.50 	86.2 	4.49 	 59.4 	 5.49 	9.31 	  676 	  27
+#S20
+	146.0 	 1.38 	85.2 	4.15 	 59.4 	 9.03 	9.35 	  675 	  88
+#S21
+	147.3 	 1.37 	77.9 	3.32 	 68.8 	 4.34 	9.00 	  722 	  25
+#S22
+	146.2 	 1.53 	84.7 	4.12 	 61.0 	 5.25 	8.89 	  656 	  24
+#S23
+	145.4 	 1.59 	88.1 	4.15 	 56.9 	 5.29 	9.32 	  661 	  24
+#S24
+	145.8 	 1.55 	86.0 	4.05 	 58.8 	 7.30 	9.12 	  658 	  64
+#E25
+	147.3 	 1.41 	78.2 	3.70 	 68.6 	 4.58 	8.91 	  713 	  29
+#M16
+	148.0 	 1.26 	74.0 	3.17 	 73.7 	 3.89 	8.50 	  720 	  28
+#S17
+	147.8 	 1.47 	76.3 	3.74 	 71.0 	 4.75 	8.35 	  684 	  29
+#S18
+	146.2 	 1.39 	84.6 	3.88 	 61.1 	 4.76 	8.51 	  629 	  23
+#S19
+	145.7 	 1.42 	86.6 	3.84 	 58.4 	 4.70 	8.64 	  624 	  22
+#S20
+	146.2 	 1.36 	85.2 	3.92 	 60.5 	 4.80 	8.43 	  620 	  29
+#S21
+	147.5 	 1.38 	77.5 	3.77 	 69.3 	 4.57 	8.18 	  661 	  28
+#S22
+	146.0 	 1.42 	85.9 	3.77 	 59.6 	 4.61 	8.38 	  610 	  21
+#S23
+	145.8 	 1.37 	87.1 	4.12 	 58.2 	 5.05 	8.57 	  615 	  25
+#S24
+	146.0 	 1.42 	85.8 	4.24 	 59.7 	 5.28 	8.59 	  627 	  25
+#E25
+	147.4 	 1.44 	77.6 	3.73 	 69.2 	 4.64 	8.38 	  675 	  26
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  2	  0	  2	  0	  0	  2	  2	  0	  0	  0	  0	  0
+#Chip S17:	  1	  0	  1	  0	  0	  1	  1	  0	  0	  0	  0	  0
+#Chip S18:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S19:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S20:	  2	  0	  2	  0	  0	  2	  2	  0	  0	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  1	  0	  1	  0	  0	  1	  1	  0	  0	  0	  0	  0
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M16:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  6	  2	  6	  0	  0	  6	  6	  0	  0	  0	  0	  2
+#Link 1:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Link 2:	  6	  4	  6	  0	  0	  6	  6	  0	  0	  0	  0	  4
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 9
+LAST CHANNEL   : 9
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 97
+LAST CHANNEL   : 97
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 240
+LAST CHANNEL   : 240
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 286
+LAST CHANNEL   : 286
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 441
+LAST CHANNEL   : 441
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 528
+LAST CHANNEL   : 528
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 562
+LAST CHANNEL   : 562
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 1091
+LAST CHANNEL   : 1091
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1405
+LAST CHANNEL   : 1405
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1804
+LAST CHANNEL   : 1804
+#
+#10 defects found affecting 10 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : Channel 9 masked: DEAD
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_RC_11_27.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-30
+TEST_DATE      : 05/07/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"11:58:41"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.21 	0.50 	0.81 	1.01 	1.24 	1.51 	2.00 	3.01 	
+3.99 	6.01 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	3 	1143.70 	3.76 	-498.79
+#S17
+	3 	1135.47 	3.58 	-498.11
+#S18
+	3 	1114.21 	3.15 	-498.23
+#S19
+	3 	1094.63 	3.04 	-489.91
+#S20
+	3 	1025.62 	2.83 	-455.55
+#S21
+	3 	1104.85 	3.41 	-485.02
+#S22
+	3 	1170.43 	3.34 	-525.52
+#S23
+	3 	1110.58 	3.00 	-500.67
+#S24
+	3 	1068.29 	2.94 	-477.38
+#E25
+	3 	1108.47 	3.42 	-486.95
+#M16
+	3 	1148.14 	3.74 	-501.69
+#S17
+	3 	1133.03 	3.59 	-496.56
+#S18
+	3 	1111.69 	3.17 	-496.16
+#S19
+	3 	1095.72 	3.02 	-491.56
+#S20
+	3 	1027.92 	2.84 	-456.55
+#S21
+	3 	1097.52 	3.42 	-480.70
+#S22
+	3 	1172.90 	3.29 	-528.34
+#S23
+	3 	1105.62 	3.03 	-496.64
+#S24
+	3 	1066.42 	2.96 	-475.84
+#E25
+	3 	1098.55 	3.42 	-481.28
+#
+#Loop B - Gain, Offset, Noise at 1.51fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	185.1 	 1.59 	72.9 	3.65 	 74.7 	10.19 	9.02 	  762 	 102
+#S17
+	186.4 	 1.58 	75.7 	3.33 	 78.4 	 7.83 	8.72 	  715 	  68
+#S18
+	188.8 	 1.65 	83.2 	3.99 	 88.0 	 4.46 	9.12 	  687 	  26
+#S19
+	189.4 	 1.85 	84.6 	4.81 	 89.9 	 5.45 	9.29 	  688 	  25
+#S20
+	189.2 	 1.70 	84.1 	4.39 	 90.0 	 5.24 	9.24 	  677 	  88
+#S21
+	186.6 	 1.35 	76.9 	3.48 	 80.7 	 3.79 	9.04 	  735 	  24
+#S22
+	189.1 	 1.66 	83.2 	4.17 	 87.5 	 4.62 	8.99 	  676 	  24
+#S23
+	190.1 	 1.70 	86.6 	4.26 	 92.0 	 4.85 	9.39 	  679 	  24
+#S24
+	189.2 	 1.68 	84.6 	4.13 	 90.1 	 4.77 	9.12 	  669 	  63
+#E25
+	186.7 	 1.68 	77.1 	3.89 	 80.9 	 4.27 	8.92 	  724 	  32
+#M16
+	185.4 	 1.52 	73.5 	3.26 	 76.5 	 3.54 	8.62 	  734 	  27
+#S17
+	186.3 	 1.56 	75.4 	3.89 	 78.7 	 4.23 	8.28 	  688 	  25
+#S18
+	188.8 	 1.79 	82.7 	3.92 	 87.4 	 4.41 	8.47 	  641 	  22
+#S19
+	189.1 	 1.74 	85.0 	4.12 	 90.3 	 4.67 	8.62 	  635 	  22
+#S20
+	189.3 	 1.62 	84.0 	4.15 	 89.9 	 4.98 	8.41 	  627 	  25
+#S21
+	186.4 	 1.73 	76.4 	3.93 	 80.2 	 4.31 	8.24 	  675 	  24
+#S22
+	189.3 	 1.80 	84.3 	3.77 	 88.7 	 4.18 	8.46 	  628 	  21
+#S23
+	189.8 	 1.75 	85.5 	4.32 	 90.8 	 4.87 	8.66 	  634 	  25
+#S24
+	189.2 	 1.60 	84.2 	4.33 	 89.7 	 4.98 	8.49 	  631 	  23
+#E25
+	186.4 	 1.69 	76.4 	3.93 	 80.2 	 4.30 	8.38 	  687 	  27
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.51fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  2	  0	  2	  0	  0	  2	  2	  0	  0	  0	  0	  0
+#Chip S17:	  1	  0	  1	  0	  0	  1	  1	  0	  0	  0	  0	  0
+#Chip S18:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  2	  0	  2	  0	  0	  2	  2	  0	  2	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  1	  0	  1	  0	  0	  1	  1	  0	  1	  0	  0	  0
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M16:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  6	  1	  6	  0	  0	  6	  6	  0	  3	  0	  0	  1
+#Link 1:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Link 2:	  6	  2	  6	  0	  0	  6	  6	  0	  3	  0	  0	  2
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 9
+LAST CHANNEL   : 9
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 97
+LAST CHANNEL   : 97
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 240
+LAST CHANNEL   : 240
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 286
+LAST CHANNEL   : 286
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 528
+LAST CHANNEL   : 528
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 562
+LAST CHANNEL   : 562
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 1091
+LAST CHANNEL   : 1091
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1405
+LAST CHANNEL   : 1405
+#
+#8 defects found affecting 8 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_RC_11_30.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-40
+TEST_DATE      : 05/07/2018
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"12:24:44"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.01 	1.51 	. 	. 	. 	. 	. 	
+. 	. 	. 	. 	. 	. 	. 	. 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M16
+	4 	73.49 	78.55 	0.00
+#S17
+	4 	70.15 	81.80 	0.00
+#S18
+	4 	59.60 	90.69 	0.00
+#S19
+	4 	58.47 	92.36 	0.00
+#S20
+	4 	59.54 	91.01 	0.00
+#S21
+	4 	68.17 	83.40 	0.00
+#S22
+	4 	60.20 	90.70 	0.00
+#S23
+	4 	56.07 	94.25 	0.00
+#S24
+	4 	58.41 	92.08 	0.00
+#E25
+	4 	67.95 	83.75 	0.00
+#M16
+	4 	73.01 	79.18 	0.00
+#S17
+	4 	70.38 	81.61 	0.00
+#S18
+	4 	60.49 	90.08 	0.00
+#S19
+	4 	57.64 	92.75 	0.00
+#S20
+	4 	59.82 	90.95 	0.00
+#S21
+	4 	68.79 	82.92 	0.00
+#S22
+	4 	58.84 	91.78 	0.00
+#S23
+	4 	57.46 	93.15 	0.00
+#S24
+	4 	58.91 	91.75 	0.00
+#E25
+	4 	68.64 	83.11 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.01fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M16
+	152.3 	 1.26 	78.5 	3.55 	 72.3 	10.05 	9.05 	  709 	  93
+#S17
+	152.3 	 1.41 	81.8 	3.32 	 69.6 	 7.41 	8.81 	  669 	  62
+#S18
+	150.8 	 1.34 	90.7 	3.95 	 59.6 	 4.77 	9.27 	  640 	  21
+#S19
+	151.4 	 1.36 	92.4 	4.62 	 58.5 	 5.49 	9.45 	  640 	  17
+#S20
+	150.9 	 1.28 	91.0 	4.32 	 58.6 	 8.95 	9.52 	  644 	  83
+#S21
+	152.1 	 1.33 	83.4 	3.43 	 68.2 	 4.36 	9.07 	  680 	  18
+#S22
+	151.3 	 1.43 	90.7 	4.33 	 60.2 	 5.29 	9.02 	  622 	  17
+#S23
+	150.7 	 1.57 	94.2 	4.27 	 56.1 	 5.32 	9.45 	  627 	  19
+#S24
+	151.0 	 1.44 	92.1 	4.13 	 58.0 	 7.22 	9.26 	  624 	  58
+#E25
+	152.2 	 1.36 	83.7 	3.82 	 68.0 	 4.62 	9.02 	  674 	  26
+#M16
+	152.5 	 1.18 	79.2 	3.25 	 73.0 	 3.87 	8.63 	  682 	  22
+#S17
+	152.4 	 1.37 	81.6 	3.85 	 70.4 	 4.74 	8.40 	  644 	  22
+#S18
+	151.2 	 1.35 	90.1 	4.00 	 60.5 	 4.74 	8.60 	  597 	  16
+#S19
+	151.1 	 1.33 	92.7 	4.00 	 57.7 	 4.74 	8.75 	  590 	  17
+#S20
+	151.3 	 1.25 	90.9 	4.06 	 59.8 	 4.86 	8.52 	  587 	  22
+#S21
+	152.3 	 1.29 	82.9 	3.84 	 68.8 	 4.50 	8.24 	  622 	  19
+#S22
+	151.1 	 1.36 	91.8 	3.91 	 58.9 	 4.60 	8.43 	  574 	  17
+#S23
+	151.1 	 1.34 	93.1 	4.28 	 57.5 	 5.11 	8.64 	  580 	  19
+#S24
+	151.3 	 1.34 	91.7 	4.36 	 58.9 	 5.25 	8.62 	  588 	  17
+#E25
+	152.3 	 1.40 	83.1 	3.81 	 68.6 	 4.58 	8.51 	  640 	  21
+#
+#Loop C - Comment
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  M16  S17  S18  S19  S20  S21  S22  S23  S24  E25
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.01fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse
+#Chip M16:	  2	  0	  2	  0	  0	  2	  2	  0	  0	  0	  0	  0
+#Chip S17:	  1	  0	  1	  0	  0	  1	  1	  0	  0	  0	  0	  0
+#Chip S18:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  2	  0	  2	  0	  0	  2	  2	  0	  0	  0	  0	  0
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S23:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S24:	  1	  0	  1	  0	  0	  1	  1	  0	  0	  0	  0	  0
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M16:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S17:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S18:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S19:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S20:	  1	  2	  0	  0	  0	  1	  0	  0	  0	  0	  1	  1
+#Chip S21:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S22:	  2	  0	  0	  0	  0	  2	  0	  0	  0	  0	  0	  0
+#Chip S23:	  2	  0	  0	  0	  0	  2	  0	  0	  0	  0	  0	  0
+#Chip S24:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E25:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  6	  1	  6	  0	  0	  6	  6	  0	  0	  0	  0	  1
+#Link 1:	  5	  3	  0	  0	  0	  5	  0	  0	  0	  0	  1	  2
+#Link 2:	 11	  4	  6	  0	  0	 11	  6	  0	  0	  0	  1	  3
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 9
+LAST CHANNEL   : 9
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 97
+LAST CHANNEL   : 97
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 240
+LAST CHANNEL   : 240
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 286
+LAST CHANNEL   : 286
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 528
+LAST CHANNEL   : 528
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 562
+LAST CHANNEL   : 562
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 1091
+LAST CHANNEL   : 1091
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1405
+LAST CHANNEL   : 1405
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1804
+LAST CHANNEL   : 1804
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1868
+LAST CHANNEL   : 1868
+#
+%Defect
+DEFECT NAME    : PARTBONDED
+FIRST CHANNEL  : 1873
+LAST CHANNEL   : 1873
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2097
+LAST CHANNEL   : 2097
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2153
+LAST CHANNEL   : 2153
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2261
+LAST CHANNEL   : 2261
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2277
+LAST CHANNEL   : 2277
+#
+#15 defects found affecting 15 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : SELECT = 0
+#
+%Comment
+COMMENT        : Channel 9 masked: DEAD
+#
+#
+%TEST Rawdata
+FILENAME       : /root/DAQ/data//SCIPP-EL-14_wPB/results/ABC130_M14_Hyb3_RC_11_40.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABC130_M14_Hyb3
+TEST MADE BY   : mg
+LOCATION NAME  : SCIPP_NEXYS_01
+Run number     : 11-43
+TEST_DATE      : 05/07/2018
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+""
+#VERSION
+"3.43"
+#DUT
+"ABC130_Test"
+#TIME
+"12:31:11"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#M16
+	22.3 	0.0e+00 	0.0e+00 	 705
+#S17
+	21.0 	0.0e+00 	0.0e+00 	 670
+#S18
+	20.1 	0.0e+00 	0.0e+00 	 639
+#S19
+	13.7 	0.0e+00 	0.0e+00 	 641
+#S20
+	14.7 	0.0e+00 	0.0e+00 	 661
+#S21
+	20.2 	0.0e+00 	0.0e+00 	 681
+#S22
+	16.0 	0.0e+00 	0.0e+00 	 642
+#S23
+	17.8 	0.0e+00 	0.0e+00 	 638
+#S24
+	17.7 	0.0e+00 	0.0e+00 	 630
+#E25
+	20.6 	0.0e+00 	0.0e+00 	 687
+#X26
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X27
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X28
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X29
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X30
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X31
+	0.0 	0.0e+00 	0.0e+00 	   0
+#M16
+	22.1 	0.0e+00 	0.0e+00 	 685
+#S17
+	22.1 	0.0e+00 	0.0e+00 	 663
+#S18
+	13.8 	0.0e+00 	0.0e+00 	 623
+#S19
+	19.2 	0.0e+00 	0.0e+00 	 611
+#S20
+	19.7 	1.0e+00 	0.0e+00 	 615
+#S21
+	22.3 	1.0e+00 	0.0e+00 	 649
+#S22
+	19.0 	1.0e+00 	0.0e+00 	 603
+#S23
+	18.7 	1.0e+00 	0.0e+00 	 629
+#S24
+	19.5 	1.0e+00 	0.0e+00 	 604
+#E25
+	22.4 	1.0e+00 	0.0e+00 	 666
+#X26
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X27
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X28
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X29
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X30
+	0.0 	0.0e+00 	0.0e+00 	   0
+#X31
+	0.0 	0.0e+00 	0.0e+00 	   0
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 4608
+LAST CHANNEL   : 4735
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 4736
+LAST CHANNEL   : 4863
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 4864
+LAST CHANNEL   : 4991
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 4992
+LAST CHANNEL   : 5119
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 5120
+LAST CHANNEL   : 5247
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 5248
+LAST CHANNEL   : 5375
+#
+#6 defects found
+%Comment
+COMMENT        : FAIL due to chip X26 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X27 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X28 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X29 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X30 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X31 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X26 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X27 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X28 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X29 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X30 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to chip X31 low ENC (  0)
+#
+%Comment
+COMMENT        : FAIL due to 768 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 768 consecutive bad strips (more than 8)
+#
