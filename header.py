@@ -26,7 +26,7 @@ def setPlotStyle():
     plt.rcParams['patch.edgecolor'] = 'none'
     plt.rcParams.update({'figure.max_open_warning': 0})
 
-recption_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/bnl_reception_test/'
+recption_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/reception/'
 recption_files = [
 'ABC130_M4_H2_HCC2_RC_0_0.txt',
 'ABC130_M4_H5_HCC5_RC_0_0.txt',
@@ -53,7 +53,7 @@ recption_files = [
 'ABC130_M12_Hyb2_RC_0_0.txt',
 'ABC130_M12_Hyb6_RC_0_0.txt']
 
-production_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/production_site_results/'
+production_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/production/'
 production_files = [
 'ABC130_M4_H2_HCC2_RC_2_40.txt',
 'ABC130_M4_H5_HCC5_RC_2_40.txt',
@@ -80,6 +80,34 @@ production_files = [
 'ABC130_M12_Hyb2_RC_2_40.txt',
 'ABC130_M12_Hyb6_RC_2_40.txt']
 
+stave_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/stave/'
+stave_files = [
+'ABC130_M4_H2_HCC2_RC_236_5.txt',
+'ABC130_M4_H5_HCC5_RC_236_5.txt',
+'ABC130_M5_H3_HCC3_RC_236_5.txt',
+'ABC130_M5_H7_HCC6_RC_236_5.txt',
+'ABC130_M6_H0_HCC6_RC_236_5.txt',
+'ABC130_M6_H6_HCC12_RC_236_5.txt',
+'ABC130_M6_Hyb1_RC_236_5.txt',
+'ABC130_M6_Hyb4_RC_236_5.txt',
+'ABC130_M7_H1_HCC7_RC_236_5.txt',
+'ABC130_M7_H5_HCC11_RC_236_5.txt',
+'ABC130_M7_Hyb2_RC_236_5.txt',
+'ABC130_M7_Hyb4_RC_236_5.txt',
+# 'ABC130_M9_Hyb0_RC_236_5.txt',
+# 'ABC130_M9_Hyb6_RC_236_5.txt',
+'ABC130_M10_H1_HCC13_RC_236_5.txt',
+'ABC130_M10_H7_HCC6_RC_236_5.txt',
+'ABC130_M10_Hyb0_RC_236_5.txt',
+'ABC130_M10_Hyb7_RC_236_5.txt',
+'ABC130_M11_H3_HCC15_RC_236_5.txt',
+'ABC130_M11_H4_HCC14_RC_236_5.txt',
+'ABC130_M11_Hyb1_RC_236_5.txt',
+'ABC130_M11_Hyb7_RC_236_5.txt',
+'ABC130_M12_Hyb2_RC_236_5.txt',
+'ABC130_M12_Hyb6_RC_236_5.txt']
+
+global LBL_modules
 LBL_modules = [
 'ABC130_M11_H3_HCC15',
 'ABC130_M11_H4_HCC14',
@@ -94,6 +122,7 @@ LBL_modules = [
 'ABC130_M6_H0_HCC6',
 'ABC130_M6_H6_HCC12']
 
+global SCIPP_modules
 SCIPP_modules = [
 'ABC130_M12_Hyb2',
 'ABC130_M12_Hyb6',

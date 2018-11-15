@@ -1,6 +1,21 @@
 #!/usr/bin/env /Users/zschillaci/Software/miniconda3/envs/pyenv/bin/python
 from header import *
 
+def GetFilesBySite(files):
+    LBL_files = []
+    SCIPP_files = []
+
+    for f in files:
+        for lbl, scipp in zip(LBL_modules, SCIPP_modules):
+            if (lbl in f):
+                LBL_files.append(f)
+                break
+            if (scipp in f):
+                SCIPP_files.append(f)
+                break
+
+    return LBL_files, SCIPP_files
+
 def loadFromCsv(filename):
     with open(filename, 'r') as file:
         list = [elem for elem in csv.reader(file, delimiter='\t')]
@@ -12,11 +27,9 @@ def drawStats(series, ax):
     plt.text(0.7, 0.7, 'Std. Dev.: ' + str(round(np.std(series),2)), ha='center', va='center', transform=ax.transAxes)
 
 def drawMultiStats(dictOfSeries, ax):
-    n = 0
-    for key, val in dictOfSeries.items():
-        plt.text(0.75, 0.7 - n, "-----" + key + "-----", weight='bold', ha='center', va='center', transform=ax.transAxes)
-        plt.text(0.75, 0.6 - n, "$\mu$: " + str(round(np.mean(val), 2)) + " , $\sigma$: " + str(round(np.std(val), 2)), ha='center', va='center', transform=ax.transAxes)
-        n += 0.2
+    for n, (key, val) in enumerate(dictOfSeries.items()):
+        plt.text(0.75, 0.7 - 0.2 * n, "-----" + key + "-----", weight='bold', ha='center', va='center', transform=ax.transAxes)
+        plt.text(0.75, 0.6 - 0.2 * n, "$\mu$: " + str(round(np.mean(val), 2)) + " , $\sigma$: " + str(round(np.std(val), 2)), ha='center', va='center', transform=ax.transAxes)
 
 def getOutputNoise(gain, innse):
     return gain * innse * (1.6*10**-19) * (10**15)
@@ -65,19 +78,29 @@ class ABC130_Single_Result(object):
             if (self.comm[i] != 'OK'):
                 self.failedChannels[self.chan[i]] = self.comm[i]
         print('Failed channels: ' + str(len(self.failedChannels.keys())))
-    
-    def plot(self, selections = [], unselections = []):
+
+    def Fill(self, i, channels, selections, unselections):
+        fill = False
+        if ((self.comm[i] in selections) or (selections == [])):
+            if ((self.comm[i] not in unselections) or (unselections == [])):
+                if (len(channels) != 2):
+                    fill = True
+                else:
+                    if ((self.chan[i] >= channels[0]) and (self.chan[i] <= channels[1])):
+                        fill = True
+        return fill
+
+    def plot(self, channels = [], selections = [], unselections = []):
         fig = plt.figure("Summary - " + self.name, (12, 8))
 
         gain = []
         innse = []
         outnse = []
         for i in range(len(self.chan)):
-            if ((self.comm[i] in selections) or (selections == [])):
-                if ((self.comm[i] not in unselections) or (unselections == [])):
-                    gain.append(self.gain[i])
-                    innse.append(self.innse[i])
-                    outnse.append(self.outnse[i])
+            if self.Fill(i, channels, selections, unselections):
+                gain.append(self.gain[i])
+                innse.append(self.innse[i])
+                outnse.append(self.outnse[i])
 
         ax1 = fig.add_subplot(221)
         plt.grid(False)
@@ -102,7 +125,7 @@ class ABC130_Single_Result(object):
         plt.show()
 
 class ABC130_Site_Results(ABC130_Single_Result):
-    def __init__(self, directory, infiles, label):
+    def __init__(self, directory, infiles, label, modules = []):
         self.directory = directory
         self.name = 'Multiple'
         self.label = label
@@ -115,20 +138,33 @@ class ABC130_Site_Results(ABC130_Single_Result):
         self.outnse = []
         self.comm = []
 
+        print('----------------------')
+        print('Grouping: ' + label)
+        print('Including files: ')
         for infile in infiles:
-            indata = loadFromCsv(self.directory + infile)
-            for row in indata[1:]:
-                self.chan.append(int(row[0]))
-                self.code.append(int(row[1]))
-                gain = float(row[2])
-                self.gain.append(gain)
-                self.offset.append(float(row[3]))
-                innse = int(row[4])
-                self.innse.append(innse)
-                self.outnse.append(getOutputNoise(gain, innse))
-                self.comm.append(row[5])
+            include = False
+            if (modules == []):
+                include = True
+            else:
+                for module in modules:
+                    if (module in infile):
+                        include = True
+                        break
+            if include:
+                print(infile)
+                indata = loadFromCsv(self.directory + infile)
+                for row in indata[1:]:
+                    self.chan.append(int(row[0]))
+                    self.code.append(int(row[1]))
+                    gain = float(row[2])
+                    self.gain.append(gain)
+                    self.offset.append(float(row[3]))
+                    innse = int(row[4])
+                    self.innse.append(innse)
+                    self.outnse.append(getOutputNoise(gain, innse))
+                    self.comm.append(row[5])
 
-def plotMultiple(allResults, extension, selections = [], unselections = []):
+def plotMultiple(allResults, extension, channels = [], selections = [], unselections = []):
     fig = plt.figure("Summary", (12, 8))
 
     dictOfSeries = collections.OrderedDict()
@@ -139,10 +175,8 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
     for result in allResults:
         gain = []
         for i in range(len(result.chan)):
-            if ((result.comm[i] in selections) or (selections == [])):
-                if ((result.comm[i] not in unselections) or (unselections == [])):
-                    gain.append(result.gain[i])
-        #plt.hist(gain, 50, label=result.label)
+            if result.Fill(i, channels, selections, unselections):
+                gain.append(result.gain[i])
         plt.hist(gain, 50, range=(25, 175), alpha=alpha, label=result.label)
         alpha -= 0.25
         plt.xlabel('Gain [mV/fC]')
@@ -157,10 +191,8 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
     for result in allResults:
         innse = []
         for i in range(len(result.chan)):
-            if ((result.comm[i] in selections) or (selections == [])):
-                if ((result.comm[i] not in unselections) or (unselections == [])):
-                    innse.append(result.innse[i])
-        #plt.hist(innse, 50, label=result.label)
+             if result.Fill(i, channels, selections, unselections):
+                innse.append(result.innse[i])
         plt.hist(innse, 50, range=(200, 1300), alpha=alpha, label=result.label)
         alpha -= 0.25
         plt.xlabel('Input Noise [e$^-$]')
@@ -175,10 +207,8 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
     for result in allResults:
         outnse = []
         for i in range(len(result.chan)):
-            if ((result.comm[i] in selections) or (selections == [])):
-                if ((result.comm[i] not in unselections) or (unselections == [])):
-                    outnse.append(result.outnse[i])
-        #plt.hist(outnse, 50, label=result.label)
+            if result.Fill(i, channels, selections, unselections):
+                outnse.append(result.outnse[i])
         plt.hist(outnse, 50, range=(0, 20), alpha=alpha, label=result.label)
         alpha -= 0.25
         plt.xlabel('Output Noise [mV]')
@@ -186,7 +216,6 @@ def plotMultiple(allResults, extension, selections = [], unselections = []):
         dictOfSeries[result.label] = outnse
     drawMultiStats(dictOfSeries, ax3)
     plt.legend(loc=1)
-
 
     fname = 'ABC130_Results_Comparison-' + extension
     # if ((selections == []) and (unselections == [])):
