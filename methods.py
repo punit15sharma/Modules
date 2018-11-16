@@ -15,17 +15,17 @@ def GetFilesBySite(files):
                 break
 
     return LBL_files, SCIPP_files
-
 def loadFromCsv(filename):
     with open(filename, 'r') as file:
         list = [elem for elem in csv.reader(file, delimiter='\t')]
     return list
 
+def getAlpha(n):
+    return (1.0 - 0.25 * n)
 def drawStats(series, ax):
     plt.text(0.7, 0.9, 'Entries: ' + str(round(len(series),0)), ha='center', va='center', transform=ax.transAxes)
     plt.text(0.7, 0.8, 'Mean: ' + str(round(np.mean(series),2)), ha='center', va='center', transform=ax.transAxes)
     plt.text(0.7, 0.7, 'Std. Dev.: ' + str(round(np.std(series),2)), ha='center', va='center', transform=ax.transAxes)
-
 def drawMultiStats(dictOfSeries, ax):
     for n, (key, val) in enumerate(dictOfSeries.items()):
         plt.text(0.75, 0.7 - 0.2 * n, "-----" + key + "-----", weight='bold', ha='center', va='center', transform=ax.transAxes)
@@ -33,6 +33,7 @@ def drawMultiStats(dictOfSeries, ax):
 
 def getOutputNoise(gain, innse):
     return gain * innse * (1.6*10**-19) * (10**15)
+
 class ABC130_Single_Result(object):
     def __init__(self, directory, infile, label):
         self.directory = directory
@@ -79,7 +80,7 @@ class ABC130_Single_Result(object):
                 self.failedChannels[self.chan[i]] = self.comm[i]
         print('Failed channels: ' + str(len(self.failedChannels.keys())))
 
-    def Fill(self, i, channels, selections, unselections):
+    def Fill(self, i, channels, selections = [], unselections = []):
         fill = False
         if ((self.comm[i] in selections) or (selections == [])):
             if ((self.comm[i] not in unselections) or (unselections == [])):
@@ -123,7 +124,6 @@ class ABC130_Single_Result(object):
         plt.ylabel('Entries')
         drawStats(outnse, ax3)
         plt.show()
-
 class ABC130_Site_Results(ABC130_Single_Result):
     def __init__(self, directory, infiles, label, modules = []):
         self.directory = directory
@@ -171,50 +171,44 @@ def plotMultiple(allResults, extension, channels = [], selections = [], unselect
 
     ax1 = fig.add_subplot(221)
     plt.grid(False)
-    alpha = 1.0
-    for result in allResults:
+    for n, result in enumerate(allResults):
         gain = []
         for i in range(len(result.chan)):
             if result.Fill(i, channels, selections, unselections):
                 gain.append(result.gain[i])
-        plt.hist(gain, 50, range=(25, 175), alpha=alpha, label=result.label)
-        alpha -= 0.25
-        plt.xlabel('Gain [mV/fC]')
-        plt.ylabel('Entries')
+        plt.hist(gain, 50, range=(25, 175), alpha=getAlpha(n), label=result.label)
         dictOfSeries[result.label] = gain
     drawMultiStats(dictOfSeries, ax1)
+    plt.xlabel('Gain [mV/fC]')
+    plt.ylabel('Entries')
     plt.legend(loc=1)
 
     ax2 = fig.add_subplot(222)
     plt.grid(False)
-    alpha = 1.0
-    for result in allResults:
+    for n, result in enumerate(allResults):
         innse = []
         for i in range(len(result.chan)):
              if result.Fill(i, channels, selections, unselections):
                 innse.append(result.innse[i])
-        plt.hist(innse, 50, range=(200, 1300), alpha=alpha, label=result.label)
-        alpha -= 0.25
-        plt.xlabel('Input Noise [e$^-$]')
-        plt.ylabel('Entries')
+        plt.hist(innse, 50, range=(200, 1300), alpha=getAlpha(n), label=result.label)
         dictOfSeries[result.label] = innse
     drawMultiStats(dictOfSeries, ax2)
+    plt.xlabel('Input Noise [e$^-$]')
+    plt.ylabel('Entries')
     plt.legend(loc=1)
 
     ax3 = fig.add_subplot(223)
     plt.grid(False)
-    alpha = 1.0
-    for result in allResults:
+    for n, result in enumerate(allResults):
         outnse = []
         for i in range(len(result.chan)):
             if result.Fill(i, channels, selections, unselections):
                 outnse.append(result.outnse[i])
-        plt.hist(outnse, 50, range=(0, 20), alpha=alpha, label=result.label)
-        alpha -= 0.25
-        plt.xlabel('Output Noise [mV]')
-        plt.ylabel('Entries')
+        plt.hist(outnse, 50, range=(0, 20), alpha=getAlpha(n), label=result.label)
         dictOfSeries[result.label] = outnse
     drawMultiStats(dictOfSeries, ax3)
+    plt.xlabel('Output Noise [mV]')
+    plt.ylabel('Entries')
     plt.legend(loc=1)
 
     fname = 'ABC130_Results_Comparison-' + extension
@@ -228,4 +222,36 @@ def plotMultiple(allResults, extension, channels = [], selections = [], unselect
 
     plt.savefig(fname + '.pdf')
     plt.close()
-    
+
+def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
+    fig = plt.figure("Summary", (12, 8))
+
+    ax1 = fig.add_subplot(221)
+    plt.grid(False)
+    for n, result in enumerate(allResults):
+        plt.plot(result.chan, result.gain, 'o', alpha=getAlpha(n), label=result.label)
+    plt.xlim(channels[0], channels[1])
+    plt.xlabel('Channel')
+    plt.ylabel('Gain [mV/fC]')
+    plt.legend(loc=1)
+
+    ax2 = fig.add_subplot(222)
+    plt.grid(False)
+    for n, result in enumerate(allResults):
+        plt.plot(result.chan, result.innse, 'o', alpha=getAlpha(n), label=result.label)
+    plt.xlim(channels[0], channels[1])
+    plt.xlabel('Channel')
+    plt.ylabel('Input Noise [e$^-$]')
+    plt.legend(loc=1)
+
+    ax3 = fig.add_subplot(223)
+    plt.grid(False)
+    for n, result in enumerate(allResults):
+        plt.plot(result.chan, result.outnse, 'o', alpha=getAlpha(n), label=result.label)
+    plt.xlim(channels[0], channels[1])
+    plt.xlabel('Channel')
+    plt.ylabel('Output Noise [mV]')
+    plt.legend(loc=1)
+
+    plt.savefig('ABC130_Results_ComparisonVsChannel-' + extension + '.pdf')
+    plt.close()
