@@ -20,6 +20,22 @@ def loadFromCsv(filename):
         list = [elem for elem in csv.reader(file, delimiter='\t')]
     return list
 
+def setYlim(ylim,yticks):
+    #Set y-limits of plot based upon min. and max. of plots
+    low = ylim[0]
+    high = ylim[-1]
+    tick = abs(yticks[0][1] - yticks[0][0])
+
+    if (low == 0):
+        low -= 0.025 * tick
+    else:
+        low -= 1.05 * tick
+    if (high == 0):
+        high += 0.025 * tick
+    else:
+        high += 1.05 * tick
+
+    return low, high
 def getAlpha(n):
     return (1.0 - 0.25 * n)
 def drawStats(series, ax):
@@ -231,6 +247,8 @@ def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
     for n, result in enumerate(allResults):
         plt.plot(result.chan, result.gain, 'o', alpha=getAlpha(n), label=result.label)
     plt.xlim(channels[0], channels[1])
+    low, high = setYlim(plt.ylim(), plt.yticks())
+    plt.ylim(low, high)
     plt.xlabel('Channel')
     plt.ylabel('Gain [mV/fC]')
     plt.legend(loc=1)
@@ -240,6 +258,8 @@ def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
     for n, result in enumerate(allResults):
         plt.plot(result.chan, result.innse, 'o', alpha=getAlpha(n), label=result.label)
     plt.xlim(channels[0], channels[1])
+    low, high = setYlim(plt.ylim(), plt.yticks())
+    plt.ylim(low, high)
     plt.xlabel('Channel')
     plt.ylabel('Input Noise [e$^-$]')
     plt.legend(loc=1)
@@ -249,6 +269,8 @@ def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
     for n, result in enumerate(allResults):
         plt.plot(result.chan, result.outnse, 'o', alpha=getAlpha(n), label=result.label)
     plt.xlim(channels[0], channels[1])
+    low, high = setYlim(plt.ylim(), plt.yticks())
+    plt.ylim(low, high)
     plt.xlabel('Channel')
     plt.ylabel('Output Noise [mV]')
     plt.legend(loc=1)

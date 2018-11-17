@@ -26,33 +26,6 @@ def setPlotStyle():
     plt.rcParams['patch.edgecolor'] = 'none'
     plt.rcParams.update({'figure.max_open_warning': 0})
 
-recption_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/reception/'
-recption_files = [
-'ABC130_M4_H2_HCC2_RC_0_0.txt',
-'ABC130_M4_H5_HCC5_RC_0_0.txt',
-'ABC130_M5_H3_HCC3_RC_0_0.txt',
-'ABC130_M5_H7_HCC6_RC_0_0.txt',
-'ABC130_M6_H0_HCC6_RC_0_0.txt',
-'ABC130_M6_H6_HCC12_RC_0_0.txt',
-'ABC130_M6_Hyb1_RC_0_0.txt',
-'ABC130_M6_Hyb4_RC_0_0.txt',
-'ABC130_M7_H1_HCC7_RC_0_0.txt',
-'ABC130_M7_H5_HCC11_RC_0_0.txt',
-'ABC130_M7_Hyb2_RC_0_0.txt',
-'ABC130_M7_Hyb4_RC_0_0.txt',
-# 'ABC130_M9_Hyb0_RC_0_0.txt',
-# 'ABC130_M9_Hyb6_RC_0_0.txt',
-'ABC130_M10_H1_HCC13_RC_0_0.txt',
-'ABC130_M10_H7_HCC6_RC_0_0.txt',
-'ABC130_M10_Hyb0_RC_0_0.txt',
-'ABC130_M10_Hyb7_RC_0_0.txt',
-'ABC130_M11_H3_HCC15_RC_0_0.txt',
-'ABC130_M11_H4_HCC14_RC_0_0.txt',
-'ABC130_M11_Hyb1_RC_0_0.txt',
-'ABC130_M11_Hyb7_RC_0_0.txt',
-'ABC130_M12_Hyb2_RC_0_0.txt',
-'ABC130_M12_Hyb6_RC_0_0.txt']
-
 production_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/production/'
 production_files = [
 'ABC130_M4_H2_HCC2_RC_2_40.txt',
@@ -79,6 +52,33 @@ production_files = [
 'ABC130_M11_Hyb7_RC_2_40.txt',
 'ABC130_M12_Hyb2_RC_2_40.txt',
 'ABC130_M12_Hyb6_RC_2_40.txt']
+
+recption_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/reception/'
+recption_files = [
+'ABC130_M4_H2_HCC2_RC_0_0.txt',
+'ABC130_M4_H5_HCC5_RC_0_0.txt',
+'ABC130_M5_H3_HCC3_RC_0_0.txt',
+'ABC130_M5_H7_HCC6_RC_0_0.txt',
+'ABC130_M6_H0_HCC6_RC_0_0.txt',
+'ABC130_M6_H6_HCC12_RC_0_0.txt',
+'ABC130_M6_Hyb1_RC_0_0.txt',
+'ABC130_M6_Hyb4_RC_0_0.txt',
+'ABC130_M7_H1_HCC7_RC_0_0.txt',
+'ABC130_M7_H5_HCC11_RC_0_0.txt',
+'ABC130_M7_Hyb2_RC_0_0.txt',
+'ABC130_M7_Hyb4_RC_0_0.txt',
+# 'ABC130_M9_Hyb0_RC_0_0.txt',
+# 'ABC130_M9_Hyb6_RC_0_0.txt',
+'ABC130_M10_H1_HCC13_RC_0_0.txt',
+'ABC130_M10_H7_HCC6_RC_0_0.txt',
+'ABC130_M10_Hyb0_RC_0_0.txt',
+'ABC130_M10_Hyb7_RC_0_0.txt',
+'ABC130_M11_H3_HCC15_RC_0_0.txt',
+'ABC130_M11_H4_HCC14_RC_0_0.txt',
+'ABC130_M11_Hyb1_RC_0_0.txt',
+'ABC130_M11_Hyb7_RC_0_0.txt',
+'ABC130_M12_Hyb2_RC_0_0.txt',
+'ABC130_M12_Hyb6_RC_0_0.txt']
 
 stave_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/stave/'
 stave_files = [
