@@ -227,7 +227,8 @@ def plotMultiple(allResults, extension, channels = [], selections = [], unselect
     plt.ylabel('Entries')
     plt.legend(loc=1)
 
-    fname = 'ABC130_Results_Comparison-' + extension
+    fname = 'ABC130_Comparison-' + extension
+    
     # if ((selections == []) and (unselections == [])):
     #     fname += '-all'
     # else:
@@ -275,5 +276,5 @@ def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
     plt.ylabel('Output Noise [mV]')
     plt.legend(loc=1)
 
-    plt.savefig('ABC130_Results_ComparisonVsChannel-' + extension + '.pdf')
+    plt.savefig('ABC130_ComparisonVsChannel-' + extension + '.pdf')
     plt.close()

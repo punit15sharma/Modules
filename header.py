@@ -26,7 +26,7 @@ def setPlotStyle():
     plt.rcParams['patch.edgecolor'] = 'none'
     plt.rcParams.update({'figure.max_open_warning': 0})
 
-production_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/production/'
+production_dir = '/Users/zschillaci/BNL/Working/InnerTracker/Modules/input/Oct2018/production/'
 production_files = [
 'ABC130_M4_H2_HCC2_RC_2_40.txt',
 'ABC130_M4_H5_HCC5_RC_2_40.txt',
@@ -53,7 +53,7 @@ production_files = [
 'ABC130_M12_Hyb2_RC_2_40.txt',
 'ABC130_M12_Hyb6_RC_2_40.txt']
 
-recption_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/reception/'
+recption_dir = '/Users/zschillaci/BNL/Working/InnerTracker/Modules/input/Oct2018/reception/'
 recption_files = [
 'ABC130_M4_H2_HCC2_RC_0_0.txt',
 'ABC130_M4_H5_HCC5_RC_0_0.txt',
@@ -80,7 +80,7 @@ recption_files = [
 'ABC130_M12_Hyb2_RC_0_0.txt',
 'ABC130_M12_Hyb6_RC_0_0.txt']
 
-stave_dir = '/Users/zschillaci/BNL/Working/StaveAssembly/Modules/input/real_results/stave/'
+stave_dir = '/Users/zschillaci/BNL/Working/InnerTracker/Modules/input/Oct2018/stave/'
 stave_files = [
 'ABC130_M4_H2_HCC2_RC_236_5.txt',
 'ABC130_M4_H5_HCC5_RC_236_5.txt',
