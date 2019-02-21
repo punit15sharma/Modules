@@ -1,6 +1,19 @@
 #!/usr/bin/env /Users/zschillaci/Software/miniconda3/envs/pyenv/bin/python
 from header import *
 
+def savePlot(fname):
+    path = RESULTS_DIR + datetime.today().strftime("%Y-%m-%d")
+    if not os.path.isdir(path):
+        os.makedirs(path)
+
+    plt.savefig(path + '/' + fname + '.pdf')
+    plt.close()
+
+def loadFromCsv(filename):
+    with open(filename, 'r') as file:
+        list = [elem for elem in csv.reader(file, delimiter='\t')]
+    return list
+
 def GetFilesBySite(files):
     LBL_files = []
     SCIPP_files = []
@@ -15,10 +28,6 @@ def GetFilesBySite(files):
                 break
 
     return LBL_files, SCIPP_files
-def loadFromCsv(filename):
-    with open(filename, 'r') as file:
-        list = [elem for elem in csv.reader(file, delimiter='\t')]
-    return list
 
 def setYlim(ylim,yticks):
     #Set y-limits of plot based upon min. and max. of plots
@@ -237,8 +246,7 @@ def plotMultiple(allResults, extension, channels = [], selections = [], unselect
     #     for unselection in unselections:
     #         fname += '-!' + unselection
 
-    plt.savefig(fname + '.pdf')
-    plt.close()
+    savePlot(fname)
 
 def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
     fig = plt.figure("Summary", (12, 8))
@@ -276,5 +284,5 @@ def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
     plt.ylabel('Output Noise [mV]')
     plt.legend(loc=1)
 
-    plt.savefig('ABC130_ComparisonVsChannel-' + extension + '.pdf')
-    plt.close()
+    fname = 'ABC130_ComparisonVsChannel-' + extension
+    savePlot(fname)

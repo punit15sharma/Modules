@@ -3,7 +3,7 @@ from methods import *
 
 setPlotStyle()
 
-input_dir = '/Users/zschillaci/BNL/Working/InnerTracker/Modules/input/Feb2019/'
+in_dir = INPUT_DIR + 'Feb2019/'
 
 individual_files = [
 'ABC130_M4_H2_HCC2_RC_363_3.txt',
@@ -88,14 +88,14 @@ psupply_files = [
 
 for i in range(len(individual_files) - 1):
     if (i % 2 == 0):
-        inputs = [individual_files[i], individual_files[i + 1]]
-        individual = ABC130_Site_Results(input_dir + 'individual/', inputs, 'Individual')
+        infiles = [individual_files[i], individual_files[i + 1]]
+        individual = ABC130_Site_Results(in_dir + 'individual/', infiles, 'Individual')
 
-        inputs = [stave_files[i], stave_files[i + 1]]
-        stave = ABC130_Site_Results(input_dir + 'stave/', inputs, 'Stave')
+        infiles = [stave_files[i], stave_files[i + 1]]
+        stave = ABC130_Site_Results(in_dir + 'stave/', infiles, 'Stave')
 
-        inputs = [psupply_files[i], psupply_files[i + 1]]
-        psupply = ABC130_Site_Results(input_dir + 'psupply/', inputs, '10V')
+        infiles = [psupply_files[i], psupply_files[i + 1]]
+        psupply = ABC130_Site_Results(in_dir + 'psupply/', infiles, '10V')
 
         module = individual_files[i][:-13]
 
