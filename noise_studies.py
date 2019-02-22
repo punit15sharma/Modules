@@ -89,13 +89,13 @@ psupply_files = [
 for i in range(len(individual_files) - 1):
     if (i % 2 == 0):
         infiles = [individual_files[i], individual_files[i + 1]]
-        individual = ABC130_Site_Results(in_dir + 'individual/', infiles, 'Individual')
+        individual = MultipleTestResults(in_dir + 'individual/', infiles, 'Individual')
 
         infiles = [stave_files[i], stave_files[i + 1]]
-        stave = ABC130_Site_Results(in_dir + 'stave/', infiles, 'Stave')
+        stave = MultipleTestResults(in_dir + 'stave/', infiles, 'Stave')
 
         infiles = [psupply_files[i], psupply_files[i + 1]]
-        psupply = ABC130_Site_Results(in_dir + 'psupply/', infiles, '10V')
+        psupply = MultipleTestResults(in_dir + 'psupply/', infiles, '10V')
 
         module = individual_files[i][:-13]
 

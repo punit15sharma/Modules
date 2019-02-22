@@ -11,8 +11,8 @@ def savePlot(fname):
 
 def loadFromCsv(filename):
     with open(filename, 'r') as file:
-        list = [elem for elem in csv.reader(file, delimiter='\t')]
-    return list
+        rows = [elem for elem in csv.reader(file, delimiter='\t')]
+    return rows
 
 def GetFilesBySite(files):
     LBL_files = []
@@ -59,7 +59,7 @@ def drawMultiStats(dictOfSeries, ax):
 def getOutputNoise(gain, innse):
     return gain * innse * (1.6*10**-19) * (10**15)
 
-class ABC130_Single_Result(object):
+class SingleTestResult(object):
     def __init__(self, directory, infile, label):
         self.directory = directory
         self.infile = infile
@@ -86,9 +86,9 @@ class ABC130_Single_Result(object):
             self.outnse.append(getOutputNoise(gain, innse))
             self.comm.append(row[5])
 
-        print('-----' + self.name + '-----')
-        self.whatDoTheCodesMean()
-        self.whatChannelsFailed()
+        # print('-----' + self.name + '-----')
+        # self.whatDoTheCodesMean()
+        # self.whatChannelsFailed()
 
     def whatDoTheCodesMean(self):
         self.meaningOftheCodes = {}
@@ -105,7 +105,7 @@ class ABC130_Single_Result(object):
                 self.failedChannels[self.chan[i]] = self.comm[i]
         print('Failed channels: ' + str(len(self.failedChannels.keys())))
 
-    def Fill(self, i, channels, selections = [], unselections = []):
+    def Fill(self, i, channels = [], selections = [], unselections = []):
         fill = False
         if ((self.comm[i] in selections) or (selections == [])):
             if ((self.comm[i] not in unselections) or (unselections == [])):
@@ -116,7 +116,7 @@ class ABC130_Single_Result(object):
                         fill = True
         return fill
 
-    def plot(self, channels = [], selections = [], unselections = []):
+    def Plot(self, channels = [], selections = [], unselections = []):
         fig = plt.figure("Summary - " + self.name, (12, 8))
 
         gain = []
@@ -149,7 +149,7 @@ class ABC130_Single_Result(object):
         plt.ylabel('Entries')
         drawStats(outnse, ax3)
         plt.show()
-class ABC130_Site_Results(ABC130_Single_Result):
+class MultipleTestResults(SingleTestResult):
     def __init__(self, directory, infiles, label, modules = []):
         self.directory = directory
         self.name = 'Multiple'
@@ -189,14 +189,15 @@ class ABC130_Site_Results(ABC130_Single_Result):
                     self.outnse.append(getOutputNoise(gain, innse))
                     self.comm.append(row[5])
 
-def plotMultiple(allResults, extension, channels = [], selections = [], unselections = []):
+def plotMultiple(TestResults, extension, channels = [], selections = [], unselections = []):
     fig = plt.figure("Summary", (12, 8))
+    fig.suptitle(extension, fontsize=14)
 
     dictOfSeries = collections.OrderedDict()
 
     ax1 = fig.add_subplot(221)
     plt.grid(False)
-    for n, result in enumerate(allResults):
+    for n, result in enumerate(TestResults):
         gain = []
         for i in range(len(result.chan)):
             if result.Fill(i, channels, selections, unselections):
@@ -210,7 +211,7 @@ def plotMultiple(allResults, extension, channels = [], selections = [], unselect
 
     ax2 = fig.add_subplot(222)
     plt.grid(False)
-    for n, result in enumerate(allResults):
+    for n, result in enumerate(TestResults):
         innse = []
         for i in range(len(result.chan)):
              if result.Fill(i, channels, selections, unselections):
@@ -224,7 +225,7 @@ def plotMultiple(allResults, extension, channels = [], selections = [], unselect
 
     ax3 = fig.add_subplot(223)
     plt.grid(False)
-    for n, result in enumerate(allResults):
+    for n, result in enumerate(TestResults):
         outnse = []
         for i in range(len(result.chan)):
             if result.Fill(i, channels, selections, unselections):
@@ -238,22 +239,22 @@ def plotMultiple(allResults, extension, channels = [], selections = [], unselect
 
     fname = 'ABC130_Comparison-' + extension
     
-    # if ((selections == []) and (unselections == [])):
-    #     fname += '-all'
-    # else:
-    #     for selection in selections:
-    #         fname += '-' + selection
-    #     for unselection in unselections:
-    #         fname += '-!' + unselection
+    if (selections != []):
+        for selection in selections:
+            fname += '-' + selection
+    if (unselections != []):
+        for unselection in unselections:
+            fname += '-' + unselection
 
     savePlot(fname)
 
-def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
+def plotMultipleVsChannel(TestResults, extension, channels = [0, 2560]):
     fig = plt.figure("Summary", (12, 8))
+    fig.suptitle(extension, fontsize=14)
 
     ax1 = fig.add_subplot(221)
     plt.grid(False)
-    for n, result in enumerate(allResults):
+    for n, result in enumerate(TestResults):
         plt.plot(result.chan, result.gain, 'o', alpha=getAlpha(n), label=result.label)
     plt.xlim(channels[0], channels[1])
     low, high = setYlim(plt.ylim(), plt.yticks())
@@ -264,7 +265,7 @@ def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
 
     ax2 = fig.add_subplot(222)
     plt.grid(False)
-    for n, result in enumerate(allResults):
+    for n, result in enumerate(TestResults):
         plt.plot(result.chan, result.innse, 'o', alpha=getAlpha(n), label=result.label)
     plt.xlim(channels[0], channels[1])
     low, high = setYlim(plt.ylim(), plt.yticks())
@@ -275,7 +276,7 @@ def plotMultipleVsChannel(allResults, extension, channels = [0, 2560]):
 
     ax3 = fig.add_subplot(223)
     plt.grid(False)
-    for n, result in enumerate(allResults):
+    for n, result in enumerate(TestResults):
         plt.plot(result.chan, result.outnse, 'o', alpha=getAlpha(n), label=result.label)
     plt.xlim(channels[0], channels[1])
     low, high = setYlim(plt.ylim(), plt.yticks())

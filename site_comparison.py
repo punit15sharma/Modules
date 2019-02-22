@@ -112,23 +112,23 @@ print('Production:', str(len(production_files_SCIPP)))
 print('Reception:', str(len(recption_files_SCIPP)))
 print('Stave:', str(len(stave_files_SCIPP)))
 
-Production = ABC130_Site_Results(production_dir, production_files, "Production (All)")
-Reception = ABC130_Site_Results(recption_dir, recption_files, "Reception (All)")
-Stave = ABC130_Site_Results(stave_dir, stave_files, "Stave (All)")
+Production = MultipleTestResults(production_dir, production_files, "Production (All)")
+Reception = MultipleTestResults(recption_dir, recption_files, "Reception (All)")
+Stave = MultipleTestResults(stave_dir, stave_files, "Stave (All)")
 
 plotMultiple([Production, Reception, Stave], extension='All')
 plotMultiple([Production, Reception, Stave], extension='All-Ch1792-1920', channels=[1792, 1792 + 128])
 
-Production_LBL = ABC130_Site_Results(production_dir, production_files_LBL, "Production (LBL)")
-Reception_LBL = ABC130_Site_Results(recption_dir, recption_files_LBL, "Reception (LBL)")
-Stave_LBL = ABC130_Site_Results(stave_dir, stave_files_LBL, "Stave (LBL)")
+Production_LBL = MultipleTestResults(production_dir, production_files_LBL, "Production (LBL)")
+Reception_LBL = MultipleTestResults(recption_dir, recption_files_LBL, "Reception (LBL)")
+Stave_LBL = MultipleTestResults(stave_dir, stave_files_LBL, "Stave (LBL)")
 
 plotMultiple([Production_LBL, Reception_LBL, Stave_LBL], extension='LBL')
 plotMultiple([Production_LBL, Reception_LBL, Stave_LBL], extension='LBL-Ch1792-1920', channels=[1792, 1792 + 128])
 
-Production_SCIPP = ABC130_Site_Results(production_dir, production_files_SCIPP, "Production (SCIPP)")
-Reception_SCIPP = ABC130_Site_Results(recption_dir, recption_files_SCIPP, "Reception (SCIPP)")
-Stave_SCIPP = ABC130_Site_Results(stave_dir, stave_files_SCIPP, "Stave (SCIPP)")
+Production_SCIPP = MultipleTestResults(production_dir, production_files_SCIPP, "Production (SCIPP)")
+Reception_SCIPP = MultipleTestResults(recption_dir, recption_files_SCIPP, "Reception (SCIPP)")
+Stave_SCIPP = MultipleTestResults(stave_dir, stave_files_SCIPP, "Stave (SCIPP)")
 
 plotMultiple([Production_SCIPP, Reception_SCIPP, Stave_SCIPP], extension='SCIPP')
 plotMultiple([Production_SCIPP, Reception_SCIPP, Stave_SCIPP], extension='SCIPP-Ch1792-1920', channels=[1792, 1792 + 128])
@@ -136,9 +136,9 @@ plotMultiple([Production_SCIPP, Reception_SCIPP, Stave_SCIPP], extension='SCIPP-
 #LBL11
 LBL11 = ['ABC130_M11_H3_HCC15', 'ABC130_M11_H4_HCC14']
 
-Production_LBL11 = ABC130_Site_Results(production_dir, production_files_LBL, "Production (LBL11)", modules=LBL11)
-Reception_LBL11 = ABC130_Site_Results(recption_dir, recption_files_LBL, "Reception (LBL11)", modules=LBL11)
-Stave_LBL11 = ABC130_Site_Results(stave_dir, stave_files_LBL, "Stave (LBL11)", modules=LBL11)
+Production_LBL11 = MultipleTestResults(production_dir, production_files_LBL, "Production (LBL11)", modules=LBL11)
+Reception_LBL11 = MultipleTestResults(recption_dir, recption_files_LBL, "Reception (LBL11)", modules=LBL11)
+Stave_LBL11 = MultipleTestResults(stave_dir, stave_files_LBL, "Stave (LBL11)", modules=LBL11)
 
 plotMultiple([Production_LBL11, Reception_LBL11, Stave_LBL11], extension='LBL11')
 plotMultiple([Production_LBL11, Reception_LBL11, Stave_LBL11], extension='LBL11-Ch1792-1920', channels=[1792, 1792 + 128])

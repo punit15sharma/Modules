@@ -49,16 +49,18 @@ stave_files = [
 n = 0
 for i in range(len(files) - 3):
     if (i % 4 == 0):
+        module = files[i][:files[i].index('RC') - 1]
+        print('###--- ' + module + ' ---###')
+
         nonsingle_files = [files[i], files[i + 2]]
         single_files = [files[i + 1], files[i + 3]]
 
-        nonsingle = ABC130_Site_Results(in_dir + 'corrected/', nonsingle_files, 'Non-Single')
-        single = ABC130_Site_Results(in_dir + 'corrected/', single_files, 'Single')
-
-        module = files[i][:-13]
-
         fullstave_files = [stave_files[n], stave_files[n + 1]]
-        stave = ABC130_Site_Results(in_dir + 'stave/', fullstave_files, 'Full Stave') 
-        n += 1
+        n += 2
+
+        nonsingle = MultipleTestResults(in_dir + 'corrected/', nonsingle_files, 'Non-Single')
+        single = MultipleTestResults(in_dir + 'corrected/', single_files, 'Single')
+        stave = MultipleTestResults(in_dir + 'stave/', fullstave_files, 'Full Stave') 
 
         plotMultiple([nonsingle, single, stave], extension='SinglesComparison-' + module)
+        print('')
