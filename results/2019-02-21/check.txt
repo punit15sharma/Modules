@@ -1,0 +1,102 @@
+###--- ABC130_M6_Hyb1 ---###
+----------------------
+Grouping: Non-Single
+Including files: 
+ABC130_M6_Hyb1_RC_387_4.txt
+ABC130_M6_Hyb4_RC_387_4.txt
+----------------------
+Grouping: Single
+Including files: 
+ABC130_M6_Hyb1_RC_387_7.txt
+ABC130_M6_Hyb4_RC_387_7.txt
+----------------------
+Grouping: Full Stave
+Including files: 
+ABC130_M6_Hyb1_RC_369_3.txt
+ABC130_M6_Hyb4_RC_369_3.txt
+
+###--- ABC130_M7_H1_HCC7 ---###
+----------------------
+Grouping: Non-Single
+Including files: 
+ABC130_M7_H1_HCC7_RC_389_10.txt
+ABC130_M7_H5_HCC11_RC_389_10.txt
+----------------------
+Grouping: Single
+Including files: 
+ABC130_M7_H1_HCC7_RC_389_13.txt
+ABC130_M7_H5_HCC11_RC_389_13.txt
+----------------------
+Grouping: Full Stave
+Including files: 
+ABC130_M7_H1_HCC7_RC_369_3.txt
+ABC130_M7_H5_HCC11_RC_369_3.txt
+
+###--- ABC130_M7_Hyb2 ---###
+----------------------
+Grouping: Non-Single
+Including files: 
+ABC130_M7_Hyb2_RC_384_4.txt
+ABC130_M7_Hyb4_RC_384_4.txt
+----------------------
+Grouping: Single
+Including files: 
+ABC130_M7_Hyb2_RC_384_7.txt
+ABC130_M7_Hyb4_RC_384_7.txt
+----------------------
+Grouping: Full Stave
+Including files: 
+ABC130_M7_Hyb2_RC_369_3.txt
+ABC130_M7_Hyb4_RC_369_3.txt
+
+###--- ABC130_M9_Hyb0 ---###
+----------------------
+Grouping: Non-Single
+Including files: 
+ABC130_M9_Hyb0_RC_385_3.txt
+ABC130_M9_Hyb6_RC_385_3.txt
+----------------------
+Grouping: Single
+Including files: 
+ABC130_M9_Hyb0_RC_385_6.txt
+ABC130_M9_Hyb6_RC_385_6.txt
+----------------------
+Grouping: Full Stave
+Including files: 
+ABC130_M9_Hyb0_RC_369_3.txt
+ABC130_M9_Hyb6_RC_369_3.txt
+
+###--- ABC130_M10_H1_HCC13 ---###
+----------------------
+Grouping: Non-Single
+Including files: 
+ABC130_M10_H1_HCC13_RC_388_3.txt
+ABC130_M10_H7_HCC6_RC_388_3.txt
+----------------------
+Grouping: Single
+Including files: 
+ABC130_M10_H1_HCC13_RC_388_6.txt
+ABC130_M10_H7_HCC6_RC_388_6.txt
+----------------------
+Grouping: Full Stave
+Including files: 
+ABC130_M10_H1_HCC13_RC_369_3.txt
+ABC130_M10_H7_HCC6_RC_369_3.txt
+
+###--- ABC130_M11_Hyb1 ---###
+----------------------
+Grouping: Non-Single
+Including files: 
+ABC130_M11_Hyb1_RC_386_3.txt
+ABC130_M11_Hyb7_RC_386_3.txt
+----------------------
+Grouping: Single
+Including files: 
+ABC130_M11_Hyb1_RC_386_6.txt
+ABC130_M11_Hyb7_RC_386_6.txt
+----------------------
+Grouping: Full Stave
+Including files: 
+ABC130_M11_Hyb1_RC_369_3.txt
+ABC130_M11_Hyb7_RC_369_3.txt
+
