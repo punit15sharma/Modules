@@ -29,6 +29,9 @@ def GetFilesBySite(files):
 
     return LBL_files, SCIPP_files
 
+def getModuleName(filename):
+    return filename[:filename.index('RC') - 1]
+
 def setYlim(ylim,yticks):
     #Set y-limits of plot based upon min. and max. of plots
     low = ylim[0]
@@ -53,7 +56,7 @@ def drawStats(series, ax):
     plt.text(0.7, 0.7, 'Std. Dev.: ' + str(round(np.std(series),2)), ha='center', va='center', transform=ax.transAxes)
 def drawMultiStats(dictOfSeries, ax):
     for n, (key, val) in enumerate(dictOfSeries.items()):
-        plt.text(0.75, 0.7 - 0.2 * n, "-----" + key + "-----", weight='bold', ha='center', va='center', transform=ax.transAxes)
+        plt.text(0.75, 0.7 - 0.2 * n, key, weight='bold', ha='center', va='center', transform=ax.transAxes)
         plt.text(0.75, 0.6 - 0.2 * n, "$\mu$: " + str(round(np.mean(val), 2)) + " , $\sigma$: " + str(round(np.std(val), 2)), ha='center', va='center', transform=ax.transAxes)
 
 def getOutputNoise(gain, innse):
@@ -255,7 +258,7 @@ def plotMultipleVsChannel(TestResults, extension, channels = [0, 2560]):
     ax1 = fig.add_subplot(221)
     plt.grid(False)
     for n, result in enumerate(TestResults):
-        plt.plot(result.chan, result.gain, 'o', alpha=getAlpha(n), label=result.label)
+        plt.plot(result.chan, result.gain, 'o', alpha=getAlpha(n), label=result.label, markersize=3)
     plt.xlim(channels[0], channels[1])
     low, high = setYlim(plt.ylim(), plt.yticks())
     plt.ylim(low, high)
@@ -266,7 +269,7 @@ def plotMultipleVsChannel(TestResults, extension, channels = [0, 2560]):
     ax2 = fig.add_subplot(222)
     plt.grid(False)
     for n, result in enumerate(TestResults):
-        plt.plot(result.chan, result.innse, 'o', alpha=getAlpha(n), label=result.label)
+        plt.plot(result.chan, result.innse, 'o', alpha=getAlpha(n), label=result.label, markersize=3)
     plt.xlim(channels[0], channels[1])
     low, high = setYlim(plt.ylim(), plt.yticks())
     plt.ylim(low, high)
@@ -277,7 +280,7 @@ def plotMultipleVsChannel(TestResults, extension, channels = [0, 2560]):
     ax3 = fig.add_subplot(223)
     plt.grid(False)
     for n, result in enumerate(TestResults):
-        plt.plot(result.chan, result.outnse, 'o', alpha=getAlpha(n), label=result.label)
+        plt.plot(result.chan, result.outnse, 'o', alpha=getAlpha(n), label=result.label, markersize=3)
     plt.xlim(channels[0], channels[1])
     low, high = setYlim(plt.ylim(), plt.yticks())
     plt.ylim(low, high)
