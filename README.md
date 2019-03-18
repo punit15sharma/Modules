@@ -1,6 +1,6 @@
 # Modules
 
-Modules is a Python package for analyzing electrical tests of modules for the ITk Strips project. It can plot gain, input noise, and output noise as one-dimensional distributions or graphs versus channel number. It can overlay plots of separate electrical tests to allow for comparisons across modules, production sites, or any other specified grouping.
+Modules is a Python package for analyzing electrical tests of modules for the ITk Barrel Strip project. It can plot gain, input noise, and output noise as one-dimensional distributions or graphs versus channel number. It can overlay plots of separate electrical tests to allow for comparisons across modules, production sites, or any other specified grouping.
 
 ## Usage
 

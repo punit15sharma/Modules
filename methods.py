@@ -1,6 +1,44 @@
 #!/usr/bin/env /Users/zschillaci/Software/miniconda3/envs/pyenv/bin/python
 from header import *
 
+def loadFromCsv(filename):
+    with open(filename, 'r') as file:
+        rows = [elem for elem in csv.reader(file, delimiter='\t')]
+    return rows
+def getModuleName(filename):
+    return filename[:filename.index('RC') - 1]
+def getFilesBySite(files, site):
+    site_files = []
+
+    for infile in files:
+        for module in SITES[site]:
+            if (module in infile):
+                site_files.append(infile)
+                break
+
+    return site_files
+
+def setPlotStyle():
+    plt.style.use('ggplot')
+    plt.rcParams['lines.linewidth'] = 2.15
+    plt.rcParams['lines.markeredgewidth'] = 0.0
+    plt.rcParams['font.size'] = 10
+    plt.rcParams['axes.labelsize'] = 12
+    plt.rcParams['axes.labelweight'] = 'bold'
+    plt.rcParams['axes.facecolor'] = 'whitesmoke'
+    plt.rcParams['grid.color'] = 'black'
+    plt.rcParams['grid.linestyle'] = '--'
+    plt.rcParams['grid.linewidth'] = '0.25'
+    plt.rcParams['grid.alpha'] = '0.25'
+    plt.rcParams['xtick.labelsize'] = 10
+    plt.rcParams['ytick.labelsize'] = 10
+    plt.rcParams['legend.fontsize'] = 10
+    plt.rcParams['legend.frameon'] = False
+    plt.rcParams['figure.titlesize'] = 'large'
+    plt.rcParams['figure.titleweight'] = 'bold'
+    plt.rcParams['axes.edgecolor'] = 'black'
+    plt.rcParams['patch.edgecolor'] = 'none'
+    plt.rcParams.update({'figure.max_open_warning': 0})
 def savePlot(fname):
     path = RESULTS_DIR + datetime.today().strftime("%Y-%m-%d")
     if not os.path.isdir(path):
@@ -8,30 +46,6 @@ def savePlot(fname):
 
     plt.savefig(path + '/' + fname + '.pdf')
     plt.close()
-
-def loadFromCsv(filename):
-    with open(filename, 'r') as file:
-        rows = [elem for elem in csv.reader(file, delimiter='\t')]
-    return rows
-
-def GetFilesBySite(files):
-    LBL_files = []
-    SCIPP_files = []
-
-    for f in files:
-        for lbl, scipp in zip(LBL_modules, SCIPP_modules):
-            if (lbl in f):
-                LBL_files.append(f)
-                break
-            if (scipp in f):
-                SCIPP_files.append(f)
-                break
-
-    return LBL_files, SCIPP_files
-
-def getModuleName(filename):
-    return filename[:filename.index('RC') - 1]
-
 def setYlim(ylim,yticks):
     #Set y-limits of plot based upon min. and max. of plots
     low = ylim[0]
@@ -60,7 +74,7 @@ def drawMultiStats(dictOfSeries, ax):
         plt.text(0.75, 0.6 - 0.2 * n, "$\mu$: " + str(round(np.mean(val), 2)) + " , $\sigma$: " + str(round(np.std(val), 2)), ha='center', va='center', transform=ax.transAxes)
 
 def getOutputNoise(gain, innse):
-    return gain * innse * (1.6*10**-19) * (10**15)
+    return (gain * innse * (1.6*10**-19) * (10**15))
 
 class SingleTestResult(object):
     def __init__(self, directory, infile, label):

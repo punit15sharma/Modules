@@ -96,11 +96,14 @@ print('Production:', str(len(production_files)))
 print('Reception:', str(len(recption_files)))
 print('Stave:', str(len(stave_files)))
 
-production_files_LBL, production_files_SCIPP = GetFilesBySite(production_files)
+production_files_LBL = getFilesBySite(production_files, site='LBL')
+production_files_SCIPP = getFilesBySite(production_files, site='SCIPP')
 
-recption_files_LBL, recption_files_SCIPP = GetFilesBySite(recption_files)
+recption_files_LBL = getFilesBySite(recption_files, site='LBL')
+recption_files_SCIPP = getFilesBySite(recption_files, site='SCIPP')
 
-stave_files_LBL, stave_files_SCIPP = GetFilesBySite(stave_files)
+stave_files_LBL = getFilesBySite(stave_files, site='LBL')
+stave_files_SCIPP = getFilesBySite(stave_files, site='SCIPP')
 
 print('--- LBL --- ')
 print('Production:', str(len(production_files_LBL)))
