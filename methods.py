@@ -103,9 +103,21 @@ class SingleTestResult(object):
             self.outnse.append(getOutputNoise(gain, innse))
             self.comm.append(row[5])
 
-        # print('-----' + self.name + '-----')
-        # self.whatDoTheCodesMean()
-        # self.whatChannelsFailed()
+        self.dump()
+
+    def dump(self):
+        print('----------' + self.label + '----------')
+        print('')
+        print('Including files: ')
+        if (type(self.infile) is not list):
+            print(self.infile)
+        else:
+            for infile in self.infile:
+                print(infile)
+        print('')
+        self.whatChannelsFailed()
+        print('-----------------------------------')
+        print('')
 
     def whatDoTheCodesMean(self):
         self.meaningOftheCodes = {}
@@ -120,7 +132,11 @@ class SingleTestResult(object):
         for i in range(len(self.comm)):
             if (self.comm[i] != 'OK'):
                 self.failedChannels[self.chan[i]] = self.comm[i]
-        print('Failed channels: ' + str(len(self.failedChannels.keys())))
+        fail = len(self.failedChannels)
+        total = len(self.comm)
+        print('Failed channels: ' + str(fail))
+        print('Total channels: ' + str(total))
+        print('Efficiency: ' + str((1 - fail / total) * 100) + ' %')
 
     def Fill(self, i, channels = [], selections = [], unselections = []):
         fill = False
@@ -169,7 +185,8 @@ class SingleTestResult(object):
 class MultipleTestResults(SingleTestResult):
     def __init__(self, directory, infiles, label, modules = []):
         self.directory = directory
-        self.name = 'Multiple'
+        self.infile = []
+        self.name = label
         self.label = label
 
         self.chan = []
@@ -180,9 +197,6 @@ class MultipleTestResults(SingleTestResult):
         self.outnse = []
         self.comm = []
 
-        print('----------------------')
-        print('Grouping: ' + label)
-        print('Including files: ')
         for infile in infiles:
             include = False
             if (modules == []):
@@ -193,7 +207,7 @@ class MultipleTestResults(SingleTestResult):
                         include = True
                         break
             if include:
-                print(infile)
+                self.infile.append(infile)
                 indata = loadFromCsv(self.directory + infile)
                 for row in indata[1:]:
                     self.chan.append(int(row[0]))
@@ -205,6 +219,8 @@ class MultipleTestResults(SingleTestResult):
                     self.innse.append(innse)
                     self.outnse.append(getOutputNoise(gain, innse))
                     self.comm.append(row[5])
+
+        self.dump()
 
 def plotMultiple(TestResults, extension, channels = [], selections = [], unselections = []):
     fig = plt.figure("Summary", (12, 8))
