@@ -132,27 +132,27 @@ class SingleTestResult(object):
     def whatDoTheCodesMean(self):
         self.meaningOftheCodes = {}
         for i in range(len(self.code)):
-            if (self.code[i] not in list(self.meaningOftheCodes.keys())):
+            if (self.code[i] not in self.meaningOftheCodes):
                 self.meaningOftheCodes[self.code[i]] = self.comm[i]
         self.meaningOftheCodes = collections.OrderedDict(sorted(self.meaningOftheCodes.items(), key=lambda t: t[0]))
         print(self.meaningOftheCodes)
 
     def whatChannelsFailed(self):
-        self.badChannels = collections.OrderedDict()
-        self.deadChannels = collections.OrderedDict()
+        self.badChannels = []
+        self.deadChannels = []
 
         consecutive_bad, max_consecutive_bad = 0, 0
         consecutive_dead, max_consecutive_dead = 0, 0
         for i in range(len(self.comm)):
             if (self.comm[i] in ALL_BAD_CODES):
-                self.badChannels[self.chan[i]] = self.comm[i]
+                self.badChannels.append(self.chan[i])
               
                 consecutive_bad += 1
                 if (consecutive_bad > max_consecutive_bad):
                     max_consecutive_bad = consecutive_bad
 
                 if (self.comm[i] in FAILURE_CODES):
-                    self.deadChannels[self.chan[i]] = self.comm[i]
+                    self.deadChannels.append(self.chan[i])
 
                     consecutive_dead += 1
                     if (consecutive_dead > max_consecutive_dead):

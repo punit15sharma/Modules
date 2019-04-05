@@ -44,7 +44,9 @@ bnl_reception_files = [
     'ABC130_BNL_25_1_RC_2866_54.txt',
     'ABC130_BNL_25_2_RC_2866_54.txt',
     'ABC130_BNL_26_1_RC_2868_47.txt',
-    'ABC130_BNL_26_2_RC_2868_47.txt'
+    'ABC130_BNL_26_2_RC_2868_47.txt',
+    'ABC130_BNL_27_1_RC_2873_47.txt',
+    'ABC130_BNL_27_2_RC_2873_47.txt'
 ]
 
 setPlotStyle()

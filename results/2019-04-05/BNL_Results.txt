@@ -17,14 +17,14 @@ ABC130_M11_H4_HCC14_RC_0_0.txt
 
 ----- BAD (NOT-OK) CHANNELS -----
 Max consecutive bad (not-OK) channels: 8
-Failed channels: 297
+Failed channels: 324
 Total channels: 30720
-Efficiency: 99.033203125 %
+Efficiency: 98.9453125 %
 ----- DEAD CHANNELS -----
 Max consecutive dead channels: 2
-Failed channels: 36
+Failed channels: 37
 Total channels: 30720
-Efficiency: 99.8828125 %
+Efficiency: 99.87955729166667 %
 -----------------------------------
 
 ----------Reception (SCIPP)----------
@@ -44,9 +44,9 @@ ABC130_M12_Hyb6_RC_0_0.txt
 
 ----- BAD (NOT-OK) CHANNELS -----
 Max consecutive bad (not-OK) channels: 6
-Failed channels: 289
+Failed channels: 309
 Total channels: 25600
-Efficiency: 98.87109375 %
+Efficiency: 98.79296875 %
 ----- DEAD CHANNELS -----
 Max consecutive dead channels: 1
 Failed channels: 30
@@ -57,7 +57,7 @@ Efficiency: 99.8828125 %
 ----------Reception (BNL)----------
 
 Including files: 
-Num. of files: 14
+Num. of files: 16
 ABC130_BNL_20_1_RC_2799_56.txt
 ABC130_BNL_20_2_RC_2799_56.txt
 ABC130_BNL_21_1_RC_2858_47.txt
@@ -72,17 +72,19 @@ ABC130_BNL_25_1_RC_2866_54.txt
 ABC130_BNL_25_2_RC_2866_54.txt
 ABC130_BNL_26_1_RC_2868_47.txt
 ABC130_BNL_26_2_RC_2868_47.txt
+ABC130_BNL_27_1_RC_2873_47.txt
+ABC130_BNL_27_2_RC_2873_47.txt
 
 ----- BAD (NOT-OK) CHANNELS -----
 Max consecutive bad (not-OK) channels: 124
-Failed channels: 710
-Total channels: 35840
-Efficiency: 98.01897321428571 %
+Failed channels: 823
+Total channels: 40960
+Efficiency: 97.99072265625 %
 ----- DEAD CHANNELS -----
-Max consecutive dead channels: 2
-Failed channels: 47
-Total channels: 35840
-Efficiency: 99.86886160714286 %
+Max consecutive dead channels: 4
+Failed channels: 57
+Total channels: 40960
+Efficiency: 99.86083984375 %
 -----------------------------------
 
 ----------ABC130_BNL_20----------
@@ -170,9 +172,9 @@ ABC130_BNL_24_2_RC_2857_47.txt
 
 ----- BAD (NOT-OK) CHANNELS -----
 Max consecutive bad (not-OK) channels: 3
-Failed channels: 45
+Failed channels: 46
 Total channels: 5120
-Efficiency: 99.12109375 %
+Efficiency: 99.1015625 %
 ----- DEAD CHANNELS -----
 Max consecutive dead channels: 2
 Failed channels: 9
@@ -189,9 +191,9 @@ ABC130_BNL_25_2_RC_2866_54.txt
 
 ----- BAD (NOT-OK) CHANNELS -----
 Max consecutive bad (not-OK) channels: 10
-Failed channels: 280
+Failed channels: 295
 Total channels: 5120
-Efficiency: 94.53125 %
+Efficiency: 94.23828125 %
 ----- DEAD CHANNELS -----
 Max consecutive dead channels: 2
 Failed channels: 8
@@ -216,5 +218,24 @@ Max consecutive dead channels: 1
 Failed channels: 7
 Total channels: 5120
 Efficiency: 99.86328125 %
+-----------------------------------
+
+----------ABC130_BNL_27----------
+
+Including files: 
+Num. of files: 2
+ABC130_BNL_27_1_RC_2873_47.txt
+ABC130_BNL_27_2_RC_2873_47.txt
+
+----- BAD (NOT-OK) CHANNELS -----
+Max consecutive bad (not-OK) channels: 8
+Failed channels: 35
+Total channels: 5120
+Efficiency: 99.31640625 %
+----- DEAD CHANNELS -----
+Max consecutive dead channels: 4
+Failed channels: 10
+Total channels: 5120
+Efficiency: 99.8046875 %
 -----------------------------------
 
