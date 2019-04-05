@@ -63,7 +63,7 @@ def setYlim(ylim,yticks):
 
     return low, high
 def getAlpha(n):
-    return (1.0 - 0.25 * n)
+    return np.max([(1.0 - 0.1 * n), 0.05])
 def drawStats(series, ax):
     plt.text(0.7, 0.9, 'Entries: ' + str(round(len(series),0)), ha='center', va='center', transform=ax.transAxes)
     plt.text(0.7, 0.8, 'Mean: ' + str(round(np.mean(series),2)), ha='center', va='center', transform=ax.transAxes)
@@ -75,6 +75,15 @@ def drawMultiStats(dictOfSeries, ax):
 
 def getOutputNoise(gain, innse):
     return (gain * innse * (1.6*10**-19) * (10**15))
+def getEfficiency(failures, total, printOut=True):
+    num = len(failures)
+    den = len(total)
+    eff = 100 * (1 - num / den)
+    if printOut:
+        print('Failed channels: ' + str(num))
+        print('Total channels: ' + str(den))
+        print('Efficiency: ' + str(eff) + ' %')
+    return eff
 
 class SingleTestResult(object):
     def __init__(self, directory, infile, label):
@@ -112,6 +121,7 @@ class SingleTestResult(object):
         if (type(self.infile) is not list):
             print(self.infile)
         else:
+            print('Num. of files: ' + str(len(self.infile)))
             for infile in self.infile:
                 print(infile)
         print('')
@@ -128,17 +138,41 @@ class SingleTestResult(object):
         print(self.meaningOftheCodes)
 
     def whatChannelsFailed(self):
-        self.failedChannels = collections.OrderedDict()
-        for i in range(len(self.comm)):
-            if (self.comm[i] != 'OK'):
-                self.failedChannels[self.chan[i]] = self.comm[i]
-        fail = len(self.failedChannels)
-        total = len(self.comm)
-        print('Failed channels: ' + str(fail))
-        print('Total channels: ' + str(total))
-        print('Efficiency: ' + str((1 - fail / total) * 100) + ' %')
+        self.badChannels = collections.OrderedDict()
+        self.deadChannels = collections.OrderedDict()
 
-    def Fill(self, i, channels = [], selections = [], unselections = []):
+        consecutive_bad, max_consecutive_bad = 0, 0
+        consecutive_dead, max_consecutive_dead = 0, 0
+        for i in range(len(self.comm)):
+            if (self.comm[i] in ALL_BAD_CODES):
+                self.badChannels[self.chan[i]] = self.comm[i]
+              
+                consecutive_bad += 1
+                if (consecutive_bad > max_consecutive_bad):
+                    max_consecutive_bad = consecutive_bad
+
+                if (self.comm[i] in FAILURE_CODES):
+                    self.deadChannels[self.chan[i]] = self.comm[i]
+
+                    consecutive_dead += 1
+                    if (consecutive_dead > max_consecutive_dead):
+                        max_consecutive_dead = consecutive_dead
+                else:
+                    consecutive_dead = 0
+
+            else:
+                consecutive_bad = 0
+                consecutive_dead = 0
+
+        print('----- BAD (NOT-OK) CHANNELS -----')
+        print('Max consecutive bad (not-OK) channels: ' + str(max_consecutive_bad))
+        getEfficiency(self.badChannels, self.comm)
+
+        print('----- DEAD CHANNELS -----')
+        print('Max consecutive dead channels: ' + str(max_consecutive_dead))
+        getEfficiency(self.deadChannels, self.comm)
+
+    def Fill(self, i, channels=[], selections=[], unselections=[]):
         fill = False
         if ((self.comm[i] in selections) or (selections == [])):
             if ((self.comm[i] not in unselections) or (unselections == [])):
@@ -149,7 +183,12 @@ class SingleTestResult(object):
                         fill = True
         return fill
 
-    def Plot(self, channels = [], selections = [], unselections = []):
+    def Plot(self, **kwargs):
+      
+        channels = ([] if ('channels' not in kwargs) else kwargs['channels'])
+        selections = ([] if ('selections' not in kwargs) else kwargs['selections'])
+        unselections = ([] if ('unselections' not in kwargs) else kwargs['unselections'])
+      
         fig = plt.figure("Summary - " + self.name, (12, 8))
 
         gain = []
@@ -222,7 +261,13 @@ class MultipleTestResults(SingleTestResult):
 
         self.dump()
 
-def plotMultiple(TestResults, extension, channels = [], selections = [], unselections = []):
+def plotMultiple(TestResults, extension, **kwargs):
+
+    channels = ([] if ('channels' not in kwargs) else kwargs['channels'])
+    selections = ([] if ('selections' not in kwargs) else kwargs['selections'])
+    unselections = ([] if ('unselections' not in kwargs) else kwargs['unselections'])
+    annotate = (True if ('annotate' not in kwargs) else kwargs['annotate'])
+
     fig = plt.figure("Summary", (12, 8))
     fig.suptitle(extension, fontsize=14)
 
@@ -237,7 +282,8 @@ def plotMultiple(TestResults, extension, channels = [], selections = [], unselec
                 gain.append(result.gain[i])
         plt.hist(gain, 50, range=(25, 175), alpha=getAlpha(n), label=result.label)
         dictOfSeries[result.label] = gain
-    drawMultiStats(dictOfSeries, ax1)
+    if annotate:
+        drawMultiStats(dictOfSeries, ax1)
     plt.xlabel('Gain [mV/fC]')
     plt.ylabel('Entries')
     plt.legend(loc=1)
@@ -251,7 +297,8 @@ def plotMultiple(TestResults, extension, channels = [], selections = [], unselec
                 innse.append(result.innse[i])
         plt.hist(innse, 50, range=(200, 1300), alpha=getAlpha(n), label=result.label)
         dictOfSeries[result.label] = innse
-    drawMultiStats(dictOfSeries, ax2)
+    if annotate:
+        drawMultiStats(dictOfSeries, ax2)
     plt.xlabel('Input Noise [e$^-$]')
     plt.ylabel('Entries')
     plt.legend(loc=1)
@@ -265,7 +312,8 @@ def plotMultiple(TestResults, extension, channels = [], selections = [], unselec
                 outnse.append(result.outnse[i])
         plt.hist(outnse, 50, range=(0, 20), alpha=getAlpha(n), label=result.label)
         dictOfSeries[result.label] = outnse
-    drawMultiStats(dictOfSeries, ax3)
+    if annotate:
+       drawMultiStats(dictOfSeries, ax3)
     plt.xlabel('Output Noise [mV]')
     plt.ylabel('Entries')
     plt.legend(loc=1)
@@ -280,8 +328,7 @@ def plotMultiple(TestResults, extension, channels = [], selections = [], unselec
             fname += '-' + unselection
 
     savePlot(fname)
-
-def plotMultipleVsChannel(TestResults, extension, channels = [0, 2560]):
+def plotMultipleVsChannel(TestResults, extension, channels=[0, 2560]):
     fig = plt.figure("Summary", (12, 8))
     fig.suptitle(extension, fontsize=14)
 
